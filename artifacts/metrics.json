@@ -1,0 +1,20 @@
+{
+    "roc_auc": 0.6578,
+    "precision": 0.2607,
+    "recall": 0.8149,
+    "f1_score": 0.395,
+    "decision_threshold": 0.35,
+    "confusion_matrix": [
+        [
+            844,
+            1086
+        ],
+        [
+            87,
+            383
+        ]
+    ],
+    "train_samples": 9600,
+    "test_samples": 2400,
+    "features_count": 36
+}
