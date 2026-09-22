@@ -1,7 +1,6 @@
 """
 Configuration Module for FinTrust ML Pipeline
 ==============================================
-MENTOR NOTE FOR INTERNS:
 In production Machine Learning systems, hardcoding column names, file paths,
 hyperparameters, and business rules across multiple scripts leads to bugs,
 silent failures, and configuration drift.
