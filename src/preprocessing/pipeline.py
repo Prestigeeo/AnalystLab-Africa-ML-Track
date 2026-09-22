@@ -20,12 +20,18 @@ Key Principles Demonstrated Here:
    the exact same mathematical transformations execute deterministically anywhere.
 """
 
+import sys
 import logging
 from typing import Tuple, Optional
 from pathlib import Path
 import pandas as pd
 import numpy as np
 import joblib
+
+# Ensure project root is in sys.path when running file directly
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.compose import ColumnTransformer

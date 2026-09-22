@@ -16,10 +16,17 @@ This module implements a comprehensive DataValidator that executes 6 key checks:
 6. Numeric boundary and range checks
 """
 
+import sys
+from pathlib import Path
 import logging
 from typing import Tuple, List, Optional
 import pandas as pd
 import numpy as np
+
+# Ensure project root is in sys.path when running file directly
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.config import SCHEMA, FeatureSchema
 from src.validation.schema import ValidationErrorItem, ValidationReport

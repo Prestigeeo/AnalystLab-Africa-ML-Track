@@ -17,6 +17,13 @@ from fastapi import FastAPI, HTTPException, status
 from fastapi.responses import JSONResponse
 import pandas as pd
 
+import sys
+from pathlib import Path
+# Ensure project root is in sys.path when running file directly
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from src.config import PATHS, MODEL_CONFIG
 from src.api.schemas import (
     TransactionRequest,

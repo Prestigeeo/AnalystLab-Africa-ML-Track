@@ -36,6 +36,12 @@ from sklearn.metrics import (
     confusion_matrix
 )
 
+# Ensure project root is in sys.path when running file directly
+import sys
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from src.config import PATHS, SCHEMA, MODEL_CONFIG
 from src.validation.validator import DataValidator
 from src.preprocessing.pipeline import FinTrustDataPreprocessor
