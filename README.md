@@ -24,7 +24,7 @@ This repository translates the Week 1 architectural design into a fully reproduc
 8. [Assumptions & Known Limitations](#-assumptions--known-limitations)
 9. [REST API Microservice (Advanced Component)](#-rest-api-microservice-advanced-component)
 10. [Git / GitHub Management (Part G)](#-git--github-management-part-g)
-11. [Mentor Walkthrough Guide](#-mentor-walkthrough-guide)
+
 
 ---
 
