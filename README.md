@@ -99,7 +99,6 @@ ANALYSTLAB ML WEEK 2 LAB/
 │   └── intern_walkthrough.ipynb    # Interactive step-by-step notebook for intern mentoring
 │
 └── docs/                           # Detailed Technical Documentation
-    ├── MENTOR_GUIDE.md             # Complete mentor teaching script & intern discussion prompts
     ├── DATA_DICTIONARY.md          # Full attribute definitions and schemas
     └── TEST_REPORT.md              # Test -> Expected -> Actual -> Status matrix
 ```
