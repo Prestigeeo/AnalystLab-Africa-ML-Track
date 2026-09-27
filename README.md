@@ -281,10 +281,3 @@ python main.py --serve
 
 ---
 
-## 👥 Mentor Walkthrough Guide
-
-A dedicated teaching playbook for ML mentors is available at [`docs/MENTOR_GUIDE.md`](docs/MENTOR_GUIDE.md). It contains:
-- Step-by-step teaching scripts for each section
-- Socratic discussion prompts for interns
-- Common intern pitfalls (data leakage, silent type coercion, unseen categories)
-- Hands-on coding exercises and challenges
