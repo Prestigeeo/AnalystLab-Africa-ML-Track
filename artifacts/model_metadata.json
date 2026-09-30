@@ -1,0 +1,35 @@
+{
+    "model_name": "FinTrust Enriched Random Forest Risk Classifier",
+    "model_family": "RandomForestClassifier",
+    "version": "2.0.0-week3",
+    "author": "FinTrust MLE Track",
+    "dataset_version": "enriched_v1_customer_joined",
+    "train_samples": 9600,
+    "test_samples": 2400,
+    "features_count": 60,
+    "classification_threshold": 0.35,
+    "metrics": {
+        "roc_auc": 0.6649,
+        "precision": 0.2513,
+        "recall": 0.8362,
+        "f1_score": 0.3864,
+        "brier_score": 0.1994,
+        "decision_threshold": 0.35,
+        "confusion_matrix": [
+            [
+                759,
+                1171
+            ],
+            [
+                77,
+                393
+            ]
+        ]
+    },
+    "baseline_comparison": {
+        "baseline_model": "LogisticRegression",
+        "baseline_roc_auc": 0.6693,
+        "baseline_f1": 0.373,
+        "improvement_roc_auc": -0.0044
+    }
+}
