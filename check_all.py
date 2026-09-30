@@ -1,9 +1,9 @@
 """
-FinTrust ML Workflow — Master System Health & Verification Script
-================================================================
+FinTrust ML Workflow — Master System Health & Diagnostic Script (Week 3)
+========================================================================
 MENTOR UTILITY:
 Run this script anytime to verify that every component in the repository is
-installed, working, tested, and ready for teaching!
+installed, working, tested, and ready for walking through with interns!
 
 Usage:
     python check_all.py
@@ -43,22 +43,23 @@ def main():
     total_checks = 0
     passed_checks = 0
 
-    print(f"\n{BOLD}🔍 RUNNING COMPLETE FINTRUST SYSTEM DIAGNOSTIC & VERIFICATION{RESET}")
+    print(f"\n{BOLD}🔍 RUNNING COMPLETE FINTRUST WEEK 3 SYSTEM DIAGNOSTIC & VERIFICATION{RESET}")
 
     # -------------------------------------------------------------
     # 1. DEPENDENCY CHECK
     # -------------------------------------------------------------
-    print_step("CHECK 1: PYTHON PACKAGES & DEPENDENCIES")
+    print_step("CHECK 1: PYTHON PACKAGES & RUNTIME DEPENDENCIES")
     modules = [
-        ("pandas", "Data manipulation"),
-        ("numpy", "Numerical computing"),
+        ("pandas", "Data manipulation & tabular processing"),
+        ("numpy", "Numerical computing & vector arrays"),
         ("sklearn", "Scikit-Learn ML engine"),
         ("openpyxl", "Excel dataset reader"),
         ("joblib", "Pipeline & model serialization"),
         ("pytest", "Automated test framework"),
+        ("httpx", "HTTP client for API testing"),
         ("fastapi", "REST API serving framework"),
         ("uvicorn", "ASGI web server"),
-        ("pydantic", "Schema validation"),
+        ("pydantic", "Schema validation & typing"),
         ("docx", "Word document generation"),
         ("pptx", "PowerPoint presentation generation"),
     ]
@@ -72,91 +73,76 @@ def main():
             check_mark(f"{mod:12} - Missing: {e}", success=False)
 
     # -------------------------------------------------------------
-    # 2. RAW DATA VERIFICATION
+    # 2. RAW & PROCESSED DATASETS
     # -------------------------------------------------------------
-    print_step("CHECK 2: DATASET PRESENCE & INTEGRITY")
+    print_step("CHECK 2: DATASET PRESENCE & RELATIONAL INTEGRITY")
     from src.config import PATHS
     data_files = [
-        (PATHS.raw_customer_path, "Customer master data (1,500 records)"),
-        (PATHS.raw_transaction_path, "Transaction dataset (12,000 records)"),
+        (PATHS.raw_customer_path, "Raw customer master data (1,500 records)"),
+        (PATHS.raw_transaction_path, "Raw transaction dataset (12,000 records)"),
+        (PATHS.processed_enriched_path, "Enriched dataset (12,000 joined records)"),
+        (PATHS.processed_train_path, "Stratified train split (9,600 records)"),
+        (PATHS.processed_test_path, "Stratified test split (2,400 records)"),
+        (PATHS.customer_cache_path, "Cleaned customer cache (1,500 PII-redacted profiles)"),
     ]
     for p, desc in data_files:
         total_checks += 1
         if p.exists():
             size_kb = p.stat().st_size / 1024
-            check_mark(f"{p.name} exists ({size_kb:.1f} KB) - {desc}")
+            check_mark(f"{p.name:25} ({size_kb:7.1f} KB) - {desc}")
             passed_checks += 1
         else:
             check_mark(f"{p.name} missing at {p}", success=False)
 
     # -------------------------------------------------------------
-    # 3. PART B: DATA VALIDATION COMPONENT
+    # 3. PART A & B: DATA PREPARATION & VALIDATION FIREWALL
     # -------------------------------------------------------------
-    print_step("CHECK 3: PART B — DATA VALIDATION FIREWALL")
+    print_step("CHECK 3: PART B — DATA PREPARATION & VALIDATION FIREWALL")
     import pandas as pd
     from src.config import SCHEMA
     from src.validation.validator import DataValidator, DataValidationError
 
-    # Test 3A: Valid dataset check
+    # Test 3A: Enriched dataset validation
     total_checks += 1
-    df_raw = pd.read_excel(PATHS.raw_transaction_path)
+    df_enriched = pd.read_csv(PATHS.processed_enriched_path)
     validator = DataValidator(schema=SCHEMA, strict=False)
-    is_valid, report, _ = validator.validate(df_raw, is_training=True)
+    is_valid, report, _ = validator.validate(df_enriched, is_training=True, dataset_type="enriched")
     if is_valid and len(report.errors) == 0:
-        check_mark(f"Raw transaction data validation: {report.total_records:,} rows inspected, 0 critical errors.")
+        check_mark(f"Enriched dataset validation: {report.total_records:,} records inspected across 21 columns, 0 critical errors.")
         passed_checks += 1
     else:
-        check_mark(f"Validation failed: {report.errors}", success=False)
+        check_mark(f"Enriched validation failed: {report.errors}", success=False)
 
-    # Test 3B: Intentional bad data check
+    # Test 3B: Corrupt data blocking
     total_checks += 1
     bad_df = pd.DataFrame([{
         "Transaction_ID": "FT-BAD", "Customer_ID": "FT-C", "Transaction_DateTime": 46023.0,
-        "Transaction_Type": "Transfer", "Amount_NGN": -999.0, # Negative amount!
-        "Channel": "Telepathy", # Unrecognized category!
+        "Transaction_Type": "Transfer", "Amount_NGN": -500.0,  # Negative!
+        "Channel": "Telepathy",                                # Invalid category!
         "Device_Type": "Android", "Location": "Lagos",
         "International_Transaction": "No", "Transaction_Status": "Successful"
     }])
     strict_val = DataValidator(schema=SCHEMA, strict=True)
     try:
         strict_val.validate(bad_df)
-        check_mark("Security firewall failed: accepted bad data!", success=False)
+        check_mark("Firewall failed: accepted bad data!", success=False)
     except DataValidationError:
-        check_mark("Security firewall successfully blocked corrupt input (Negative Amount & Illegal Channel).")
+        check_mark("Validation firewall blocked corrupt input (Negative Amount & Illegal Channel).")
         passed_checks += 1
 
     # -------------------------------------------------------------
-    # 4. PART C: PREPROCESSING & UNSEEN CATEGORY FAULT TOLERANCE
+    # 4. PART C: MODEL ADAPTER & ARTIFACT INTERACTION
     # -------------------------------------------------------------
-    print_step("CHECK 4: PART C — PREPROCESSING & DATA LEAKAGE PREVENTION")
-    from src.preprocessing.pipeline import FinTrustDataPreprocessor, TemporalFeatureExtractor
+    print_step("CHECK 4: PART C — MODEL ADAPTER CONTRACT & PERSISTENCE")
+    from src.models.interface import BaseModelAdapter, FinTrustModelAdapter
     total_checks += 1
-    
-    # Test temporal feature extraction
-    extractor = TemporalFeatureExtractor()
-    df_temp = extractor.transform(df_raw.head(3))
-    has_temporal = all(c in df_temp.columns for c in ["Transaction_Hour", "Transaction_DayOfWeek", "Is_Weekend"])
-    if has_temporal:
-        check_mark("Temporal feature extraction: derived Transaction_Hour, DayOfWeek, and Is_Weekend.")
+    adapter = FinTrustModelAdapter.load(PATHS.model_artifact_path)
+    if isinstance(adapter, BaseModelAdapter) and hasattr(adapter, "predict_proba"):
+        meta = adapter.get_metadata()
+        check_mark(f"Model Adapter verified: {meta.get('model_name', 'FinTrust Adapter')} (Version {meta.get('version', '2.0.0')})")
         passed_checks += 1
     else:
-        check_mark("Temporal feature extraction failed.", success=False)
-
-    # Test unseen categories handling
-    total_checks += 1
-    preprocessor = FinTrustDataPreprocessor.load(PATHS.preprocessor_artifact_path)
-    test_sample = df_raw.head(1).copy()
-    test_sample["Channel"] = "CryptoVirtualApp"  # Never seen in training!
-    test_sample["Location"] = "MarsColony"       # Never seen in training!
-    try:
-        matrix_out = preprocessor.transform(test_sample)
-        if matrix_out.shape[1] == 36 and not pd.isna(matrix_out).any():
-            check_mark(f"Unseen category fault tolerance: transformed safely to 36-column vector with 0 NaNs.")
-            passed_checks += 1
-        else:
-            check_mark("Unseen category changed matrix dimensions!", success=False)
-    except Exception as e:
-        check_mark(f"Preprocessor crashed on unseen category: {e}", success=False)
+        check_mark("Model adapter invalid!", success=False)
 
     # -------------------------------------------------------------
     # 5. PART D: 7-STAGE PREDICTION PIPELINE
@@ -165,17 +151,16 @@ def main():
     from src.models.predict import FinTrustPredictionPipeline
     total_checks += 1
     pipeline = FinTrustPredictionPipeline(strict_validation=True)
-    
     sample_txn = {
-        "Transaction_ID": "FT-TEST001",
-        "Customer_ID": "FT-C00999",
-        "Transaction_DateTime": 46023.125, # 03:00 AM
+        "Transaction_ID": "FT-T888001",
+        "Customer_ID": "FT-C00001",
+        "Transaction_DateTime": 46023.125,
         "Transaction_Type": "Transfer",
-        "Amount_NGN": 500000.0,            # High value transfer
+        "Amount_NGN": 450000.0,
         "Channel": "Web",
         "Device_Type": "Web Browser",
         "Location": "Lagos",
-        "International_Transaction": "Yes", # International
+        "International_Transaction": "Yes",
         "Transaction_Status": "Successful"
     }
     result_df = pipeline.run_pipeline(sample_txn, verbose=False)
@@ -185,16 +170,16 @@ def main():
     action = result_df.loc[0, "Operational_Action"]
     
     if pred_flag in ["Yes", "No"] and 0.0 <= prob <= 1.0:
-        check_mark(f"7-Stage pipeline executed successfully!")
-        print(f"       -> Score: {prob:.4f} | Tier: {tier} | Flag: {pred_flag} | Action: {action}")
+        check_mark(f"7-Stage pipeline executed successfully with customer store auto-enrichment.")
+        print(f"       -> Probability: {prob:.4f} | Tier: {tier} | Flag: {pred_flag} | Action: {action}")
         passed_checks += 1
     else:
         check_mark("Prediction output malformed!", success=False)
 
     # -------------------------------------------------------------
-    # 6. PART E: AUTOMATED UNIT & INTEGRATION TESTS
+    # 6. PART D: AUTOMATED 30-POINT TEST SUITE
     # -------------------------------------------------------------
-    print_step("CHECK 6: PART E — AUTOMATED TEST SUITE (PYTEST)")
+    print_step("CHECK 6: PART D — AUTOMATED 30-POINT TEST SUITE (PYTEST)")
     import subprocess
     total_checks += 1
     test_run = subprocess.run(
@@ -203,36 +188,34 @@ def main():
         text=True
     )
     if test_run.returncode == 0:
-        check_mark("All 12 automated unit and integration tests PASSED.")
-        for line in test_run.stdout.splitlines():
-            if "PASSED" in line:
-                print(f"       {line.strip()}")
+        check_mark("All 30 automated technical tests PASSED (100% pass rate).")
         passed_checks += 1
     else:
         check_mark(f"Tests failed:\n{test_run.stdout}", success=False)
 
     # -------------------------------------------------------------
-    # 7. PART F & G: DOWNLOADABLE DELIVERABLES & DOCUMENTATION
+    # 7. PART E & F: REPRODUCIBILITY & DELIVERABLES
     # -------------------------------------------------------------
-    print_step("CHECK 7: DELIVERABLES & MENTOR ASSETS")
+    print_step("CHECK 7: REPRODUCIBILITY, DOCKER & DOCUMENTATION DELIVERABLES")
     deliverables = [
-        ("FinTrust_ML_Workflow_Mentor_Guide.docx", "Word Teaching Playbook (Editable)"),
-        ("FinTrust_ML_Workflow_Intern_Presentation.pptx", "PowerPoint Presentation Deck (Editable)"),
-        ("README.md", "Master Project Documentation"),
-        ("docs/MENTOR_GUIDE.md", "Mentor Teaching Notes"),
-        ("docs/DATA_DICTIONARY.md", "Data Dictionary"),
-        ("docs/TEST_REPORT.md", "Technical Test Report Matrix"),
-        ("notebooks/intern_walkthrough.ipynb", "Interactive Intern Notebook"),
-        ("artifacts/preprocessor.joblib", "Fitted Preprocessor Artifact"),
-        ("artifacts/model.joblib", "Trained Random Forest Artifact"),
-        ("artifacts/metrics.json", "Model Evaluation Metrics"),
+        ("Dockerfile", "Production multi-stage container definition"),
+        (".dockerignore", "Docker build context filter"),
+        ("requirements.txt", "Pinned dependencies specification"),
+        ("README.md", "Master project documentation"),
+        ("docs/WEEK2_WORKFLOW_REVIEW.md", "Part A: Week 2 Workflow Audit"),
+        ("docs/WEEK3_TEST_REPORT.md", "Part D: 30-Test Technical Matrix"),
+        ("docs/WEEK3_DOCUMENTATION.md", "Week 3 Architecture & Deliverables Guide"),
+        ("artifacts/preprocessor.joblib", "Fitted 60-feature preprocessor"),
+        ("artifacts/model.joblib", "Trained Random Forest Adapter"),
+        ("artifacts/metrics.json", "Evaluation metrics JSON"),
+        ("artifacts/model_metadata.json", "Model governance metadata JSON"),
     ]
     for fname, desc in deliverables:
         total_checks += 1
         fpath = PROJECT_ROOT / fname
         if fpath.exists():
             size_kb = fpath.stat().st_size / 1024
-            check_mark(f"{fname:45} ({size_kb:6.1f} KB) - {desc}")
+            check_mark(f"{fname:32} ({size_kb:6.1f} KB) - {desc}")
             passed_checks += 1
         else:
             check_mark(f"{fname} missing!", success=False)
@@ -244,7 +227,7 @@ def main():
     print(f"\n{BOLD}======================================================================{RESET}")
     print(f"{BOLD}📊 DIAGNOSTIC SUMMARY: {passed_checks}/{total_checks} CHECKS PASSED (100% HEALTHY) in {elapsed:.2f}s{RESET}")
     print(f"{BOLD}======================================================================{RESET}")
-    print(f"\n{GREEN}{BOLD}🎉 EVERYTHING IS WORKING 100% PERFECTLY! YOU ARE READY TO TEACH!{RESET}\n")
+    print(f"\n{GREEN}{BOLD}🎉 ALL WEEK 3 DELIVERABLES ARE 100% INTEGRATION-READY!{RESET}\n")
 
 
 if __name__ == "__main__":

@@ -1,283 +1,312 @@
-# FinTrust ML Workflow — Initial Implementation (Week 2)
-### 
-### Machine Learning Engineering Track | FinTrust Banking Case Study
+# FinTrust ML Workflow — Integration-Ready Development (Week 3)
+### Machine Learning Engineering Track | FinTrust Digital Banking Case Study
 
 [![Python](https://img.shields.io/badge/Python-3.14%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.9.1-orange.svg)](https://scikit-learn.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.141-green.svg)](https://fastapi.tiangolo.com/)
-[![Tests](https://img.shields.io/badge/Tests-12%20Passed-brightgreen.svg)](tests/)
+[![Tests](https://img.shields.io/badge/Tests-30%20Passed%20(100%25)-brightgreen.svg)](tests/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](Dockerfile)
+[![Status](https://img.shields.io/badge/Status-Integration--Ready-success.svg)](docs/WEEK3_DOCUMENTATION.md)
 
-An end-to-end, production-grade Machine Learning Engineering workflow designed for **FinTrust** to detect and score transactions requiring manual risk review (`Risk_Review_Flag`).
+An enterprise-grade, reproducible Machine Learning Engineering system designed for **FinTrust** to detect high-risk banking transactions requiring automated triage and fraud investigation (`Risk_Review_Flag`).
 
-This repository translates the Week 1 architectural design into a fully reproducible, modular Python implementation covering **Data Validation**, **Reproducible Preprocessing**, **Model Inference**, **Automated Technical Testing**, and **Microservice Serving**.
+Week 3 elevates the Week 2 baseline prototype into a **production-grade, multi-table, integration-ready platform** featuring **Relational Data Preparation & PII Redaction**, **Standardized Model Adapter Interfaces**, **30 Automated Technical Tests**, **FastAPI Microservice Serving**, **Docker Containerization**, and **Downloadable Mentor Guides**.
 
 ---
 
 ## 📑 Table of Contents
-1. [Project Overview & Architecture](#-project-overview--architecture)
-2. [Repository Structure (Part A)](#-repository-structure-part-a)
-3. [Data Validation Component (Part B)](#-data-validation-component-part-b)
-4. [Preprocessing Workflow (Part C)](#-preprocessing-workflow-part-c)
-5. [The 7-Stage Prediction Pipeline (Part D)](#-the-7-stage-prediction-pipeline-part-d)
-6. [Technical Testing Suite (Part E)](#-technical-testing-suite-part-e)
-7. [Installation & Execution (Part F)](#-installation--execution-part-f)
-8. [Assumptions & Known Limitations](#-assumptions--known-limitations)
-9. [REST API Microservice (Advanced Component)](#-rest-api-microservice-advanced-component)
-10. [Git / GitHub Management (Part G)](#-git--github-management-part-g)
-
+1. [Project Overview & 7-Stage Architecture](#-project-overview--7-stage-architecture)
+2. [Repository Structure](#-repository-structure)
+3. [Part A — Review of Week 2 Workflow (Audit & Gap Analysis)](#-part-a--review-of-week-2-workflow)
+4. [Part B — Complete ML Pipeline & Relational Data Preparation](#-part-b--complete-ml-pipeline--data-preparation)
+5. [Part C — Model Integration & The Adapter Pattern](#-part-c--model-integration--the-adapter-pattern)
+6. [Part D — 30-Point Technical Testing Matrix](#-part-d--30-point-technical-testing-matrix)
+7. [Part E — FastAPI Real-Time & Batch Microservice](#-part-e--fastapi-real-time--batch-microservice)
+8. [Part F — Reproducibility, Docker & Execution Guide](#-part-f--reproducibility-docker--execution-guide)
+9. [Deliverables & Mentor Teaching Assets](#-deliverables--mentor-teaching-assets)
 
 ---
 
-## 🏛 Project Overview & Architecture
+## 🏛 Project Overview & 7-Stage Architecture
 
-FinTrust processes thousands of transactions daily. To mitigate fraud and protect customer accounts, suspicious transactions must be flagged for manual compliance review.
+FinTrust processes millions of transactions. Suspicious events must be detected in real time while minimizing false positives for legitimate clients.
 
 ```mermaid
 flowchart LR
-    Data[1. Ingest Data] --> Val[2. Validate Schema]
-    Val --> Pre[3. Temporal & Impute]
-    Pre --> Feat[4. Encode & Scale]
-    Feat --> Model[5. Model Inference]
-    Model --> Dec[6. Decision Logic]
-    Dec --> Out[7. Structured Output]
+    A["1. Ingestion & Auto-Enrichment"] --> B["2. Validation Firewall"]
+    B --> C["3. Temporal Extraction & Impute"]
+    C --> D["4. Encoding & Scaling (60 Features)"]
+    D --> E["5. Model Inference (Adapter)"]
+    E --> F["6. Decision Logic & Risk Tiers"]
+    F --> G["7. Output & Audit Logging"]
 ```
 
-### Key Engineering Principles:
-- **Zero Monolithic Scripts:** Modular architecture separates configuration, validation, preprocessing, and inference.
-- **Defensive Data Contracts:** All incoming payloads are validated at system boundaries.
-- **Strict Leakage Prevention:** Feature transformers are fitted *only* on training data and frozen via `joblib`.
-- **Traceability:** Intermediate data structures can be inspected at every stage.
+### Enterprise Architectural Highlights:
+- **Multi-Table Relational Enrichment:** Merges 1,500 customer demographic profiles with 12,000 transaction records on `Customer_ID` with 100% match rate.
+- **NDPR/GDPR Data Privacy:** Completely redacts `Customer_Name` PII before caching or model consumption.
+- **Model Adapter Pattern (Part C):** Decouples model implementations from serving via `BaseModelAdapter`, allowing internal and external Data Science models to plug in interchangeably.
+- **Customer Feature Store Lookup:** If incoming API transactions contain only raw transaction fields, the pipeline automatically looks up customer attributes from the customer cache.
+- **Calibrated Risk Tiers:** Translates raw probabilities into actionable operations actions: **Low** (Auto-Approve), **Medium** (SMS OTP Verification), and **High** (Immediate Payment Hold).
 
 ---
 
-## 📂 Repository Structure (Part A)
+## 📂 Repository Structure
 
 ```
 ANALYSTLAB ML WEEK 2 LAB/
-├── .gitignore                      # Excludes venvs, caches, checkpoints, and OS files
-├── README.md                       # Master documentation & execution guide
-├── requirements.txt                # Frozen dependency specifications
-├── main.py                         # Unified CLI runner (--train, --predict-sample, --test, --serve)
+├── Dockerfile                                      # Multi-stage production container definition
+├── .dockerignore                                   # Build context exclusion filter
+├── README.md                                       # Master project documentation
+├── requirements.txt                                # Pinned dependencies specification
+├── main.py                                         # Unified CLI entry point
+├── check_all.py                                    # Master 34-check system diagnostic script
 │
-├── data/                           # Data directory (Raw and Processed)
+├── FinTrust_ML_Workflow_Week3_Mentor_Guide.docx     # Editable Word Playbook for Mentors
+├── FinTrust_ML_Workflow_Week3_Intern_Presentation.pptx # Editable PowerPoint Presentation Deck
+│
+├── data/
 │   ├── raw/
-│   │   ├── FinTrust_Customer_Data.xlsx     # 1,500 customer records
-│   │   └── FinTrust_Transaction_Data.xlsx  # 12,000 transaction records
-│   └── processed/                  # Cached processed datasets
+│   │   ├── FinTrust_Customer_Data.xlsx             # Raw customer master data (1,500 records)
+│   │   └── FinTrust_Transaction_Data.xlsx          # Raw transaction dataset (12,000 records)
+│   └── processed/
+│       ├── fintrust_enriched.csv                   # Enriched master dataset (12,000 records)
+│       ├── fintrust_train.csv                      # Stratified train split (9,600 records)
+│       ├── fintrust_test.csv                       # Stratified test split (2,400 records)
+│       ├── customers_cleaned.csv                   # Clean customer feature cache (PII redacted)
+│       └── scored_batch_output.csv                 # Scored batch output
 │
-├── src/                            # Source code modules
+├── src/
 │   ├── __init__.py
-│   ├── config.py                   # Centralized paths, schemas, and hyperparameters
-│   ├── validation/                 # Part B: Data validation
+│   ├── config.py                                   # Centralized paths, FeatureSchema & thresholds
+│   ├── data/                                       # Part B: Multi-table data preparation
 │   │   ├── __init__.py
-│   │   ├── schema.py               # Validation result dataclasses and error types
-│   │   └── validator.py            # DataValidator rule engine
-│   ├── preprocessing/              # Part C: Preprocessing workflow
+│   │   └── prepare.py                              # DataPreparator (PII redaction & left join)
+│   ├── validation/                                 # Part B: Data validation firewall
 │   │   ├── __init__.py
-│   │   └── pipeline.py             # Temporal extractor & Scikit-Learn ColumnTransformer
-│   ├── models/                     # Part D: Model & inference
+│   │   ├── schema.py                               # Validation report dataclasses
+│   │   └── validator.py                            # DataValidator (6 strict checks)
+│   ├── preprocessing/                              # Part B: Feature pipeline
 │   │   ├── __init__.py
-│   │   ├── train.py                # Model training, evaluation, and artifact saving
-│   │   └── predict.py              # 7-stage prediction engine
-│   └── api/                        # Optional Advanced Component: REST Service
+│   │   └── pipeline.py                             # Temporal extractor & 60-feature ColumnTransformer
+│   ├── models/                                     # Part C: Model adapter & training
+│   │   ├── __init__.py
+│   │   ├── interface.py                            # BaseModelAdapter, FinTrustAdapter, ExternalAdapter
+│   │   ├── train.py                                # Baseline vs Production Random Forest training
+│   │   └── predict.py                              # 7-stage prediction engine with auto-enrichment
+│   └── api/                                        # Part E: FastAPI prediction service
 │       ├── __init__.py
-│       ├── schemas.py              # Pydantic request/response models
-│       └── app.py                  # FastAPI microservice
+│       ├── schemas.py                              # Pydantic schemas (single, enriched, batch)
+│       └── app.py                                  # Lifespan-managed FastAPI microservice
 │
-├── tests/                          # Part E: Technical tests (pytest)
+├── tests/                                          # Part D: 30-Point Technical Test Suite
 │   ├── __init__.py
-│   ├── test_validation.py          # 6 tests for validation rules (Part B)
-│   ├── test_preprocessing.py       # 3 tests for feature extraction and leakage prevention (Part C)
-│   └── test_prediction.py          # 3 tests for end-to-end prediction & determinism (Part D)
+│   ├── test_validation.py                          # 7 validation unit tests
+│   ├── test_preprocessing.py                       # 3 preprocessing & leakage tests
+│   ├── test_model_integration.py                   # 5 model adapter & interface tests
+│   ├── test_prediction.py                          # 6 end-to-end 7-stage & reproducibility tests
+│   ├── test_data_preparation.py                    # 3 join integrity & PII redaction tests
+│   └── test_api.py                                 # 6 FastAPI HTTP endpoint tests
 │
-├── artifacts/                      # Serialized ML artifacts
-│   ├── preprocessor.joblib         # Fitted Scikit-Learn ColumnTransformer
-│   ├── model.joblib                # Fitted Random Forest Classifier
-│   └── metrics.json                # Model test performance metrics
+├── artifacts/                                      # Serialized ML artifacts
+│   ├── preprocessor.joblib                         # Fitted 60-feature ColumnTransformer
+│   ├── model.joblib                                # Trained FinTrustModelAdapter
+│   ├── metrics.json                                # Test evaluation metrics
+│   └── model_metadata.json                         # Model governance & audit metadata
 │
-├── notebooks/                      # Mentorship & Walkthrough
-│   └── intern_walkthrough.ipynb    # Interactive step-by-step notebook for intern mentoring
+├── notebooks/                                      # Interactive Walkthroughs
+│   └── walkthrough.ipynb                           # Step-by-step intern walkthrough
 │
-└── docs/                           # Detailed Technical Documentation
-    ├── DATA_DICTIONARY.md          # Full attribute definitions and schemas
-    └── TEST_REPORT.md              # Test -> Expected -> Actual -> Status matrix
+└── docs/                                           # Technical Reports & Review
+    ├── WEEK2_WORKFLOW_REVIEW.md                    # Part A: Formal Week 2 audit & gap analysis
+    ├── WEEK3_TEST_REPORT.md                        # Part D: 30-test matrix & execution logs
+    ├── WEEK3_DOCUMENTATION.md                      # Week 3 Architecture & Deliverables Guide
+    ├── MENTOR_GUIDE.md                             # Mentor teaching notes
+    └── DATA_DICTIONARY.md                          # Full attribute definitions
 ```
 
 ---
 
-## 🛡 Data Validation Component (Part B)
+## 🔍 Part A — Review of Week 2 Workflow
 
-Located in `src/validation/validator.py`, the `DataValidator` tests for:
-1. **Empty Datasets:** Rejects 0-row DataFrames immediately with `EMPTY_DATASET`.
-2. **Missing Expected Columns & Unexpected Columns:** Checks for required attributes; flags missing mandatory fields as critical errors and extra fields as non-blocking warnings.
-3. **Data Types & Numeric Integrity:** Ensures numeric columns like `Amount_NGN` are strictly valid floats/ints, catching string inputs.
-4. **Missing Values (Nulls):** Differentiates between critical primary keys (`Transaction_ID`, `Customer_ID`), which are rejected, and feature columns (`Device_Type`, `Location`), which are flagged for downstream imputation.
-5. **Unexpected Categories:** Validates categorical fields (`Channel`, `Transaction_Type`, `Location`, etc.) against allowed domain values.
-6. **Numeric Boundaries:** Catches negative or non-positive amounts (`Amount_NGN <= 0`) and extreme outliers.
-
-### What Happens When Invalid Data is Detected:
-- **Strict Mode (`strict=True`):** Used during online API inference. The validator raises a `DataValidationError` with a complete `ValidationReport`, returning an HTTP 422 payload to the client.
-- **Lenient Mode (`strict=False`):** Used during batch processing. Non-critical warnings (e.g. missing `Device_Type`) are logged and forwarded to imputers, while corrupt records are separated into a quarantine report.
+A formal review was conducted in [`docs/WEEK2_WORKFLOW_REVIEW.md`](docs/WEEK2_WORKFLOW_REVIEW.md) identifying:
+1. **Incomplete Components:** Single-table isolation (ignored customer profile context), absence of a standardized model adapter interface, and lack of customer profile validation rules.
+2. **Technical Weaknesses:** Plaintext PII (`Customer_Name`) stored in data files, tight coupling of inference code to a single model class, and deprecated FastAPI startup handlers.
+3. **Testing Gaps:** Missing tests for customer demographic domains, model adapter contract adherence, and deterministic random seed reproducibility.
+4. **Reproducibility Issues:** Lack of containerization specifications (`Dockerfile`) for cross-platform Linux/Docker deployments.
 
 ---
 
-## ⚙ Preprocessing Workflow (Part C)
+## 🛠 Part B — Complete ML Pipeline & Relational Data Preparation
 
-Located in `src/preprocessing/pipeline.py`, the preprocessing workflow guarantees **mathematical reproducibility** and **leakage prevention**:
+Located in `src/data/prepare.py` and `src/preprocessing/pipeline.py`:
 
-1. **Temporal Feature Extraction:** Custom transformer `TemporalFeatureExtractor` converts timestamps into:
-   - `Transaction_Hour`: Cyclical fraud signal (0 to 23).
-   - `Transaction_DayOfWeek`: Day indicator (0 to 6).
-   - `Is_Weekend`: Binary flag (0 or 1).
-2. **Missing-Value Handling:**
-   - Numerical columns: Median imputation (`SimpleImputer(strategy='median')`).
-   - Categorical columns: Constant imputation (`SimpleImputer(strategy='constant', fill_value='Missing')`).
-3. **Categorical Encoding:**
-   - `OneHotEncoder(handle_unknown='ignore', sparse_output=False)`: Protects production systems against crashing when unobserved categories appear.
-4. **Numerical Scaling:**
-   - `StandardScaler()` centers and scales transaction amounts and engineered features.
-5. **Serialization:**
-   - Preprocessor is fitted strictly on `X_train` and saved to `artifacts/preprocessor.joblib`.
-
----
-
-## 🚀 The 7-Stage Prediction Pipeline (Part D)
-
-Located in `src/models/predict.py`, the `FinTrustPredictionPipeline` orchestrates data movement:
-
-$$\text{Data} \longrightarrow \text{Validation} \longrightarrow \text{Preprocessing} \longrightarrow \text{Feature Preparation} \longrightarrow \text{Model} \longrightarrow \text{Prediction} \longrightarrow \text{Output}$$
-
-### Stage Breakdown:
-- **Stage 1 (Data Ingestion):** Accepts JSON, Dict, or Pandas DataFrame.
-- **Stage 2 (Data Validation):** Enforces data contract via `DataValidator`.
-- **Stage 3 (Preprocessing):** Extracts temporal signals and handles missing values.
-- **Stage 4 (Feature Preparation):** Transforms inputs into the fixed 36-dimensional feature vector.
-- **Stage 5 (Model Inference):** Evaluates `RandomForestClassifier.predict_proba()` to obtain continuous fraud probabilities.
-- **Stage 6 (Prediction & Decision Logic):** Applies tuned decision threshold (`0.35`) and assigns risk tiers:
-  - **Low Risk** ($< 0.30$): Auto-approve.
-  - **Medium Risk** ($0.30 - 0.70$): Secondary verification (SMS OTP).
-  - **High Risk** ($\ge 0.70$): Immediate hold for compliance review.
-- **Stage 7 (Output Generation):** Generates structured payload with audit timestamp and operational recommendation.
+1. **Relational Enrichment:** Left-joins `FinTrust_Transaction_Data.xlsx` (12,000 rows) with `FinTrust_Customer_Data.xlsx` (1,500 rows) on `Customer_ID`.
+2. **PII Redaction:** Drops `Customer_Name` in compliance with NDPR/GDPR privacy regulations.
+3. **Data Validation Firewall (`src/validation/validator.py`):** Executes 6 checks across both transaction and customer dimensions:
+   - Empty dataset rejection
+   - Column schema validation
+   - Type integrity
+   - Missing value thresholding
+   - Categorical domain constraints
+   - Numeric boundaries (`Amount > 0`, `18 <= Age <= 100`, `Tenure >= 0`, `0 <= Digital_Score <= 100`).
+4. **Feature Engineering & Leakage Protection:**
+   - Temporal signals derived: `Transaction_Hour`, `Transaction_DayOfWeek`, `Is_Weekend`.
+   - Scalers and imputers fitted **strictly on training set** and frozen into a 60-dimensional feature pipeline.
 
 ---
 
-## 🧪 Technical Testing Suite (Part E)
+## 🔌 Part C — Model Integration & The Adapter Pattern
 
-The test suite contains **12 automated tests** executed via `pytest`:
+Located in `src/models/interface.py`:
+
+```mermaid
+classDiagram
+    class BaseModelAdapter {
+        <<Abstract>>
+        +predict(X) np.ndarray
+        +predict_proba(X) np.ndarray
+        +get_feature_importances() dict
+        +get_metadata() dict
+        +save(filepath)
+        +load(filepath)
+    }
+    class FinTrustModelAdapter {
+        +estimator
+        +classification_threshold
+        +metadata
+        +predict(X)
+        +predict_proba(X)
+    }
+    class ExternalModelAdapter {
+        +model
+        +author_name
+        +version
+        +predict(X)
+        +predict_proba(X)
+    }
+    BaseModelAdapter <|-- FinTrustModelAdapter
+    BaseModelAdapter <|-- ExternalModelAdapter
+```
+
+### Model Comparison Results:
+| Metric | Baseline (Logistic Regression) | Production (Random Forest) |
+|---|---|---|
+| **ROC-AUC Score** | 0.6693 | **0.6649** |
+| **Recall (Fraud Detection Rate)** | 88.72% | **83.62%** |
+| **Precision** | 22.40% | **25.13%** |
+| **F1-Score** | 0.3578 | **0.3864** |
+| **Brier Score Calibration** | 0.2104 | **0.1994** |
+
+---
+
+## 🧪 Part D — 30-Point Technical Testing Matrix
+
+The automated test suite in `tests/` contains **30 tests** covering all 9 required testing dimensions:
 
 ```bash
 ./venv/bin/pytest tests/ -v
 ```
 
-### Test Summary Matrix:
-| Test ID | Test Category | Description | Expected Result | Status |
-| :--- | :--- | :--- | :--- | :-: |
-| `test_valid_input` | Validation | Valid transaction payload | Passes with `action='PROCEED'` | **PASS** |
-| `test_missing_values` | Validation | Missing Device_Type & missing ID | Warning for Device, Error for ID | **PASS** |
-| `test_unexpected_category` | Validation | Channel = 'Telepathy' | Rejects with `UNEXPECTED_CATEGORY` | **PASS** |
-| `test_incorrect_data_type` | Validation | Amount = 'twenty_thousand_naira' | Rejects with `INCORRECT_DATA_TYPE` | **PASS** |
-| `test_empty_dataset` | Validation | 0-row DataFrame | Rejects with `EMPTY_DATASET` | **PASS** |
-| `test_negative_amount` | Validation | Amount = -2500.00 | Rejects with `OUT_OF_RANGE` | **PASS** |
-| `test_temporal_features` | Preprocessing | Datetime conversion & hours | Derives hour, day of week, weekend | **PASS** |
-| `test_unseen_categories` | Preprocessing | Channel = 'VirtualReality' | Transforms safely with zero NaNs | **PASS** |
-| `test_missing_imputation` | Preprocessing | Nulls in numeric & categorical | Imputes all NaNs cleanly | **PASS** |
-| `test_pipeline_prediction` | Integration | End-to-end single transaction | Generates risk probability & tier | **PASS** |
-| `test_pipeline_rejection` | Integration | Corrupt input to pipeline | Validation fails at Stage 2 | **PASS** |
-| `test_reproducibility` | Integration | Repeated scoring on same data | Identical probabilities ($\ge 6$ d.p.) | **PASS** |
+| Dimension | Tests Implemented | Result |
+|---|---|:---:|
+| **1. Valid Input** | `test_valid_input`, `test_end_to_end_valid_prediction` | **PASSED** |
+| **2. Missing Values** | `test_missing_values_warning_and_error`, `test_missing_value_imputation` | **PASSED** |
+| **3. Unexpected Categories** | `test_unexpected_category`, `test_unexpected_customer_category`, `test_unseen_categories_handling` | **PASSED** |
+| **4. Invalid Data Types** | `test_incorrect_data_type` | **PASSED** |
+| **5. Empty Input** | `test_empty_dataset` | **PASSED** |
+| **6. Model Loading** | `test_model_loading` | **PASSED** |
+| **7. Prediction Generation** | `test_prediction_generation`, `test_end_to_end_valid_prediction` | **PASSED** |
+| **8. Output Format** | `test_output_format`, `test_end_to_end_output_format` | **PASSED** |
+| **9. Reproducibility** | `test_end_to_end_reproducibility` | **PASSED** |
+| **+ Data Join & PII** | `test_data_preparation_execution`, `test_pii_redaction`, `test_join_completeness` | **PASSED** |
+| **+ Model Adapter** | `test_external_model_adapter_compatibility`, `test_model_metadata_audit` | **PASSED** |
+| **+ FastAPI Endpoints** | `test_health_endpoint`, `test_model_metadata_endpoint`, `test_predict_endpoint_auto_enrichment`, `test_predict_enriched_endpoint`, `test_predict_batch_endpoint`, `test_predict_invalid_input_validation` | **PASSED** |
 
-*For complete details, see [docs/TEST_REPORT.md](docs/TEST_REPORT.md).*
+*See full details in [`docs/WEEK3_TEST_REPORT.md`](docs/WEEK3_TEST_REPORT.md).*
 
 ---
 
-## 💻 Installation & Execution (Part F)
+## 🌐 Part E — FastAPI Real-Time & Batch Microservice
 
-### Prerequisites:
-- Python 3.10+ (Tested on Python 3.14 macOS arm64)
-- Virtual environment tool (`venv`)
+Launch the prediction service:
+```bash
+python main.py --serve
+```
+- **Base URL:** `http://127.0.0.1:8000`
+- **Interactive Swagger Documentation:** `http://127.0.0.1:8000/docs`
 
-### 1. Setup Virtual Environment:
+### Exposed Endpoints:
+- `GET /health`: Liveness & model readiness health check.
+- `GET /model/metadata`: Model governance metadata, version, and evaluation metrics.
+- `POST /predict`: Real-time transaction scoring with customer cache auto-enrichment.
+- `POST /predict/enriched`: Scoring with client-supplied customer demographics.
+- `POST /predict/batch`: High-throughput batch scoring.
+
+---
+
+## 💻 Part F — Reproducibility, Docker & Execution Guide
+
+### 1. Installation:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Train Model & Export Artifacts:
+### 2. Multi-Table Data Preparation:
+```bash
+python main.py --prepare-data
+```
+
+### 3. Model Training & Adapter Export:
 ```bash
 python main.py --train
 ```
-*Output: Serializes `preprocessor.joblib`, `model.joblib`, and `metrics.json` into `artifacts/`.*
 
-### 3. Run Sample 7-Stage Prediction Walkthrough:
+### 4. 7-Stage Sample Prediction Walkthrough:
 ```bash
 python main.py --predict-sample
 ```
 
-### 4. Run Technical Test Suite:
+### 5. Batch CSV Scoring:
+```bash
+python main.py --predict-batch data/processed/fintrust_test.csv
+```
+
+### 6. Run 30 Automated Technical Tests:
 ```bash
 python main.py --test
-# OR
-pytest tests/ -v
 ```
 
-### 5. Validate Raw Dataset:
+### 7. Master System Diagnostic (One-Click Check):
 ```bash
-python main.py --validate
+python check_all.py
 ```
 
----
-
-## 🌐 REST API Microservice (Advanced Component)
-
-To serve real-time predictions, launch the FastAPI microservice:
+### 8. Docker Deployment:
 ```bash
-python main.py --serve
-```
-- **Service URL:** `http://127.0.0.1:8000`
-- **Interactive OpenAPI/Swagger Docs:** `http://127.0.0.1:8000/docs`
+# Build Docker image
+docker build -t fintrust-ml:week3 .
 
-### Example Request (`POST /predict`):
-```json
-{
-  "Transaction_ID": "FT-T100001",
-  "Customer_ID": "FT-C00234",
-  "Transaction_DateTime": 46023.15,
-  "Transaction_Type": "Transfer",
-  "Amount_NGN": 450000.0,
-  "Channel": "Web",
-  "Device_Type": "Web Browser",
-  "Location": "Lagos",
-  "International_Transaction": "Yes",
-  "Transaction_Status": "Successful"
-}
-```
-
-### Example Response:
-```json
-{
-  "Transaction_ID": "FT-T100001",
-  "Customer_ID": "FT-C00234",
-  "Predicted_Risk_Flag": "Yes",
-  "Risk_Probability": 0.7622,
-  "Risk_Tier": "High",
-  "Operational_Action": "Immediate Review / Payment Hold",
-  "Scored_At": "2026-09-22T00:40:28.342008+00:00"
-}
+# Run container
+docker run -p 8000:8000 fintrust-ml:week3
 ```
 
 ---
 
-## 📌 Assumptions & Known Limitations
+## 📦 Deliverables & Mentor Teaching Assets
 
-### Assumptions:
-1. **Excel Serial Timestamps:** Raw transaction timestamps are formatted as standard Excel serial dates (days since 1899-12-30). The pipeline automatically converts these to UTC datetime.
-2. **Operational Threshold:** In fraud detection, missing fraud (False Negative) is significantly more expensive than investigating a false alarm (False Positive). We use an operational threshold of **0.35** rather than the arbitrary 0.50 default.
-3. **Missing Categoricals:** Missing values in `Device_Type` and `Location` (0.8% of records) are treated as an informative missing state (`'Missing'`).
-
-### Known Limitations:
-1. **Single-Table Baseline:** The initial model is trained on transaction-level attributes. Customer profile attributes (`Age`, `Income_Band`, `Digital_Engagement_Score`) from `FinTrust_Customer_Data.xlsx` are ready to be joined in Week 3.
-2. **Model Complexity:** We utilized a tuned `RandomForestClassifier` with balanced class weights as an interpretable baseline. Future iterations may explore gradient boosting (XGBoost/LightGBM) with hyperparameter tuning.
-3. **Data Drift:** The current implementation validates schemas and categories, but does not yet monitor continuous distribution drift (e.g. Kolmogorov-Smirnov / Wasserstein tests).
-
----
-
+| Deliverable | File Path | Description |
+|---|---|---|
+| **1. Updated Repository** | Entire workspace | Modular, enterprise-grade ML codebase |
+| **2. Integrated ML Pipeline** | `src/models/predict.py` | 7-stage prediction engine with auto-enrichment |
+| **3. Preprocessing Components** | `src/preprocessing/pipeline.py` | 60-feature ColumnTransformer & temporal extractor |
+| **4. Model Integration** | `src/models/interface.py` | BaseModelAdapter, FinTrustAdapter, ExternalAdapter |
+| **5. Technical Tests** | `tests/` (30 Tests) | 100% passing test matrix mapped to all criteria |
+| **6. API / Service** | `src/api/app.py` | Modern lifespan-managed FastAPI microservice |
+| **7. Master README** | `README.md` | Comprehensive system and execution manual |
+| **8. Requirements File** | `requirements.txt` | Complete pinned dependency manifest |
+| **9. Reproducibility Evidence** | `Dockerfile`, `check_all.py` | Container spec and 34-check master diagnostic |
+| **10. Week 3 Documentation** | `docs/WEEK3_DOCUMENTATION.md` | Architecture and technical specification |
+| **+ Word Playbook** | `FinTrust_ML_Workflow_Week3_Mentor_Guide.docx` | Downloadable & editable Word teaching playbook |
+| **+ Presentation Deck** | `FinTrust_ML_Workflow_Week3_Intern_Presentation.pptx` | Downloadable & editable 11-slide PowerPoint deck |
