@@ -1,12 +1,13 @@
 """
-Configuration Module for FinTrust ML Pipeline
-==============================================
-In production Machine Learning systems, hardcoding column names, file paths,
-hyperparameters, and business rules across multiple scripts leads to bugs,
-silent failures, and configuration drift.
-
-We centralize all project configurations here in `config.py` using Python standard
-dataclasses and pathlib.Path for cross-platform compatibility (macOS/Linux/Windows).
+Configuration Module for FinTrust ML Pipeline (Week 3: Integration-Ready)
+========================================================================
+MENTOR NOTE FOR INTERNS:
+In Week 3, we transition from transaction-only modeling to an INTEGRATION-READY
+multi-table banking architecture. We centralize:
+1. File paths for raw, intermediate, and enriched processed data.
+2. Unified Feature Schema supporting both transaction attributes AND customer master attributes.
+3. Domain boundary rules and valid categorical levels for rigorous validation.
+4. Operational decision thresholds for fraud risk triage.
 """
 
 from pathlib import Path
@@ -30,40 +31,48 @@ ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 
 @dataclass(frozen=True)
 class PathConfig:
-    """Paths to raw data files, processed data files, and saved model artifacts."""
+    """Paths to raw data files, processed datasets, and serialized model artifacts."""
     raw_customer_path: Path = RAW_DATA_DIR / "FinTrust_Customer_Data.xlsx"
     raw_transaction_path: Path = RAW_DATA_DIR / "FinTrust_Transaction_Data.xlsx"
-    processed_train_path: Path = PROCESSED_DATA_DIR / "fintrust_train_processed.csv"
-    processed_test_path: Path = PROCESSED_DATA_DIR / "fintrust_test_processed.csv"
+    
+    # Week 3 Enriched Data Paths
+    processed_enriched_path: Path = PROCESSED_DATA_DIR / "fintrust_enriched.csv"
+    processed_train_path: Path = PROCESSED_DATA_DIR / "fintrust_train.csv"
+    processed_test_path: Path = PROCESSED_DATA_DIR / "fintrust_test.csv"
+    customer_cache_path: Path = PROCESSED_DATA_DIR / "customers_cleaned.csv"
+    
+    # Model Artifacts
     preprocessor_artifact_path: Path = ARTIFACTS_DIR / "preprocessor.joblib"
     model_artifact_path: Path = ARTIFACTS_DIR / "model.joblib"
     metrics_path: Path = ARTIFACTS_DIR / "metrics.json"
+    metadata_path: Path = ARTIFACTS_DIR / "model_metadata.json"
 
 
 @dataclass(frozen=True)
 class FeatureSchema:
     """
-    Data contract defining expected columns, types, and categorical levels.
-    This acts as the single source of truth for Validation, Preprocessing, and Inference.
+    Unified Data Contract for FinTrust Transactions and Customer Profiles.
+    Serves as the single source of truth across Data Preparation, Validation,
+    Preprocessing, and Serving.
     """
-    # Identifiers (needed for tracking/auditing, but excluded from model training)
+    # Identifiers
     id_columns: List[str] = field(default_factory=lambda: [
         "Transaction_ID",
         "Customer_ID",
     ])
 
-    # Temporal feature (used for temporal feature engineering)
+    # Temporal feature
     datetime_column: str = "Transaction_DateTime"
 
-    # Target variable for fraud/risk review classification
+    # Target variable for fraud / risk review classification
     target_column: str = "Risk_Review_Flag"
     target_mapping: Dict[str, int] = field(default_factory=lambda: {
         "No": 0,
         "Yes": 1
     })
 
-    # Numerical features directly from transaction data
-    numerical_features: List[str] = field(default_factory=lambda: [
+    # Transaction-level numerical features
+    transaction_numerical_features: List[str] = field(default_factory=lambda: [
         "Amount_NGN",
     ])
 
@@ -74,8 +83,15 @@ class FeatureSchema:
         "Is_Weekend",
     ])
 
-    # Categorical features in transaction data
-    categorical_features: List[str] = field(default_factory=lambda: [
+    # Customer profile numerical features (Week 3 Enrichment)
+    customer_numerical_features: List[str] = field(default_factory=lambda: [
+        "Age",
+        "Tenure_Months",
+        "Digital_Engagement_Score",
+    ])
+
+    # Transaction-level categorical features
+    transaction_categorical_features: List[str] = field(default_factory=lambda: [
         "Transaction_Type",
         "Channel",
         "Device_Type",
@@ -84,7 +100,26 @@ class FeatureSchema:
         "Transaction_Status",
     ])
 
-    # Allowed categories for strict domain validation
+    # Customer profile categorical features (Week 3 Enrichment)
+    customer_categorical_features: List[str] = field(default_factory=lambda: [
+        "Gender",
+        "Customer_Segment",
+        "Account_Type",
+        "Monthly_Income_Band",
+        "Preferred_Channel",
+        "Account_Status",
+    ])
+
+    # Full combined feature lists
+    @property
+    def numerical_features(self) -> List[str]:
+        return self.transaction_numerical_features + self.customer_numerical_features
+
+    @property
+    def categorical_features(self) -> List[str]:
+        return self.transaction_categorical_features + self.customer_categorical_features
+
+    # Allowed transaction categorical domains
     valid_transaction_types: Set[str] = field(default_factory=lambda: {
         "Transfer", "Card Purchase", "Bill Payment", "Cash Withdrawal", "Deposit", "Airtime/Data"
     })
@@ -104,9 +139,34 @@ class FeatureSchema:
         "Successful", "Failed", "Reversed", "Pending"
     })
 
+    # Allowed customer profile categorical domains (Week 3 Enrichment)
+    valid_genders: Set[str] = field(default_factory=lambda: {
+        "Male", "Female", "Prefer not to say"
+    })
+    valid_customer_segments: Set[str] = field(default_factory=lambda: {
+        "Everyday", "Premium", "Student", "SME"
+    })
+    valid_account_types: Set[str] = field(default_factory=lambda: {
+        "Savings", "Current", "Premium"
+    })
+    valid_income_bands: Set[str] = field(default_factory=lambda: {
+        "Below 100k", "100k-249k", "250k-499k", "500k-999k", "1m+"
+    })
+    valid_preferred_channels: Set[str] = field(default_factory=lambda: {
+        "Mobile App", "Web", "USSD"
+    })
+    valid_account_statuses: Set[str] = field(default_factory=lambda: {
+        "Active", "Dormant", "Restricted"
+    })
+
     # Numeric boundary rules
     min_amount_ngn: float = 0.01
-    max_amount_ngn: float = 50_000_000.0  # Reasonable upper boundary for single transaction
+    max_amount_ngn: float = 50_000_000.0
+    min_age: float = 18.0
+    max_age: float = 100.0
+    min_digital_score: float = 0.0
+    max_digital_score: float = 100.0
+    min_tenure_months: float = 0.0
 
 
 @dataclass(frozen=True)
@@ -115,12 +175,10 @@ class ModelConfig:
     test_size: float = 0.2
     random_state: int = 42
     
-    # In fraud detection, false negatives (missing actual fraud) are usually much
-    # more costly than false positives (flagging a safe transaction for manual review).
-    # Setting an operational threshold allows tuning precision vs. recall tradeoff.
+    # Operational classification threshold tuned for fraud recall
     classification_threshold: float = 0.35
     
-    # Risk tiers for downstream banking ops
+    # Banking risk triage tiers
     low_risk_threshold: float = 0.30
     high_risk_threshold: float = 0.70
 

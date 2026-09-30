@@ -1,0 +1,1501 @@
+Customer_ID,Age,Gender,City,Customer_Segment,Account_Type,Tenure_Months,Digital_Engagement_Score,Monthly_Income_Band,Preferred_Channel,Account_Status
+FT-C00001,56,Male,Lagos,Premium,Savings,55,84.9,500k-999k,Mobile App,Active
+FT-C00002,46,Male,Kano,Everyday,Current,79,50.7,500k-999k,Mobile App,Active
+FT-C00003,32,Female,Port Harcourt,Everyday,Savings,43,56.1,1m+,Mobile App,Active
+FT-C00004,60,Female,Benin City,Premium,Premium,44,54.0,500k-999k,Mobile App,Dormant
+FT-C00005,25,Male,Kaduna,Premium,Savings,68,85.1,500k-999k,Mobile App,Active
+FT-C00006,38,Male,Lagos,Everyday,Savings,33,36.6,500k-999k,Mobile App,Active
+FT-C00007,56,Male,Kaduna,Everyday,Savings,24,97.5,Below 100k,Mobile App,Active
+FT-C00008,36,Female,Lagos,SME,Savings,36,62.5,100k-249k,USSD,Active
+FT-C00009,40,Male,Lagos,Everyday,Premium,10,79.1,500k-999k,Web,Active
+FT-C00010,28,Male,Lagos,Everyday,Savings,20,77.5,250k-499k,Mobile App,Active
+FT-C00011,28,Male,Abuja,Premium,Savings,75,70.7,Below 100k,Web,Dormant
+FT-C00012,41,Male,Ibadan,Everyday,Savings,12,57.2,100k-249k,Web,Active
+FT-C00013,53,Female,Lagos,Everyday,Savings,62,90.4,100k-249k,Mobile App,Dormant
+FT-C00014,57,Female,Lagos,Everyday,Savings,18,58.7,250k-499k,Web,Active
+FT-C00015,41,Male,Kaduna,Student,Current,94,54.8,500k-999k,Mobile App,Active
+FT-C00016,20,Male,Benin City,Premium,Savings,63,83.8,1m+,Web,Active
+FT-C00017,39,Male,Benin City,Premium,Premium,84,70.6,500k-999k,Mobile App,Active
+FT-C00018,19,Male,Enugu,SME,Savings,25,92.4,500k-999k,Mobile App,Active
+FT-C00019,41,Male,Kano,Student,Savings,12,66.9,250k-499k,Mobile App,Active
+FT-C00020,61,Male,Lagos,Everyday,Current,21,56.3,100k-249k,USSD,Active
+FT-C00021,47,Female,Abuja,Everyday,Current,25,72.9,100k-249k,Web,Active
+FT-C00022,55,Male,Kano,Premium,Savings,11,59.9,250k-499k,Mobile App,Active
+FT-C00023,19,Female,Lagos,Student,Current,64,56.8,Below 100k,Mobile App,Dormant
+FT-C00024,38,Female,Ibadan,Premium,Savings,73,83.0,250k-499k,Mobile App,Active
+FT-C00025,50,Prefer not to say,Lagos,Premium,Savings,50,100.0,250k-499k,Mobile App,Active
+FT-C00026,29,Female,Lagos,Everyday,Premium,62,63.6,100k-249k,Mobile App,Active
+FT-C00027,39,Female,Port Harcourt,Everyday,Savings,89,50.5,1m+,Mobile App,Active
+FT-C00028,61,Female,Ibadan,Everyday,Savings,96,65.2,250k-499k,USSD,Active
+FT-C00029,42,Male,Port Harcourt,Everyday,Current,49,77.3,100k-249k,Web,Active
+FT-C00030,44,Female,Ibadan,Everyday,Premium,14,72.6,250k-499k,Mobile App,Active
+FT-C00031,59,Female,Lagos,Premium,Savings,1,89.5,250k-499k,Mobile App,Active
+FT-C00032,45,Female,Lagos,Premium,Savings,81,80.0,100k-249k,USSD,Active
+FT-C00033,33,Female,Enugu,Everyday,Savings,25,48.1,Below 100k,Web,Active
+FT-C00034,32,Female,Ibadan,Premium,Premium,59,59.1,250k-499k,Web,Active
+FT-C00035,64,Female,Lagos,Premium,Premium,72,43.1,1m+,USSD,Active
+FT-C00036,61,Male,Benin City,Everyday,Savings,69,88.6,250k-499k,Web,Active
+FT-C00037,20,Female,Lagos,Premium,Savings,5,32.1,500k-999k,Mobile App,Dormant
+FT-C00038,54,Female,Abuja,Student,Savings,19,44.9,500k-999k,Mobile App,Dormant
+FT-C00039,24,Female,Lagos,Student,Current,23,58.8,Below 100k,USSD,Active
+FT-C00040,38,Female,Kano,Premium,Current,9,78.2,250k-499k,Mobile App,Active
+FT-C00041,26,Male,Ibadan,Premium,Current,94,58.6,100k-249k,Mobile App,Restricted
+FT-C00042,56,Male,Lagos,Everyday,Premium,50,61.4,100k-249k,Mobile App,Active
+FT-C00043,35,Female,Enugu,Everyday,Savings,16,61.8,250k-499k,Web,Active
+FT-C00044,21,Female,Abuja,Everyday,Savings,33,71.1,500k-999k,USSD,Active
+FT-C00045,42,Female,Lagos,SME,Savings,2,46.0,Below 100k,Mobile App,Active
+FT-C00046,31,Male,Lagos,Everyday,Savings,14,51.0,1m+,Mobile App,Active
+FT-C00047,26,Male,Lagos,Everyday,Savings,1,98.3,500k-999k,USSD,Active
+FT-C00048,43,Male,Lagos,SME,Savings,90,75.2,1m+,Mobile App,Active
+FT-C00049,19,Female,Port Harcourt,SME,Current,58,81.7,100k-249k,Mobile App,Active
+FT-C00050,37,Male,Benin City,Student,Premium,89,69.0,1m+,USSD,Active
+FT-C00051,45,Female,Port Harcourt,Everyday,Savings,16,65.5,100k-249k,Mobile App,Active
+FT-C00052,64,Female,Lagos,Everyday,Savings,79,76.2,Below 100k,Mobile App,Restricted
+FT-C00053,24,Female,Lagos,Everyday,Savings,90,81.1,500k-999k,Web,Active
+FT-C00054,61,Female,Lagos,Everyday,Current,47,83.2,250k-499k,Mobile App,Active
+FT-C00055,25,Male,Abuja,Everyday,Current,44,65.7,250k-499k,USSD,Active
+FT-C00056,64,Male,Kano,Premium,Savings,80,85.2,250k-499k,Mobile App,Active
+FT-C00057,52,Female,Lagos,SME,Savings,14,23.6,Below 100k,Mobile App,Active
+FT-C00058,31,Male,Kano,Everyday,Savings,93,84.1,250k-499k,Mobile App,Active
+FT-C00059,34,Prefer not to say,Enugu,Student,Savings,24,60.3,100k-249k,Mobile App,Active
+FT-C00060,53,Male,Abuja,Premium,Savings,55,78.0,250k-499k,Web,Dormant
+FT-C00061,57,Male,Benin City,Everyday,Current,15,56.3,100k-249k,Web,Active
+FT-C00062,21,Male,Port Harcourt,Premium,Premium,83,44.1,1m+,USSD,Active
+FT-C00063,19,Prefer not to say,Ibadan,Everyday,Savings,72,74.1,250k-499k,Mobile App,Active
+FT-C00064,23,Male,Port Harcourt,Everyday,Current,34,41.0,500k-999k,Web,Active
+FT-C00065,59,Female,Abuja,Student,Premium,2,60.8,1m+,Mobile App,Active
+FT-C00066,21,Female,Lagos,Everyday,Savings,27,53.4,250k-499k,Web,Active
+FT-C00067,46,Male,Lagos,SME,Savings,74,64.8,Below 100k,Web,Active
+FT-C00068,35,Female,Lagos,Everyday,Premium,87,82.3,Below 100k,Mobile App,Active
+FT-C00069,43,Male,Port Harcourt,Premium,Savings,72,59.2,250k-499k,Mobile App,Active
+FT-C00070,61,Female,Lagos,Everyday,Premium,92,73.7,100k-249k,Mobile App,Active
+FT-C00071,51,Female,Enugu,Everyday,Premium,23,81.3,250k-499k,Mobile App,Active
+FT-C00072,27,Female,Kano,Everyday,Current,68,57.1,100k-249k,USSD,Active
+FT-C00073,53,Female,Abuja,Premium,Current,14,57.3,100k-249k,Mobile App,Active
+FT-C00074,31,Male,Lagos,Student,Current,63,92.6,250k-499k,Mobile App,Active
+FT-C00075,48,Male,Enugu,SME,Current,93,66.6,1m+,Mobile App,Active
+FT-C00076,65,Male,Benin City,Premium,Savings,65,77.2,250k-499k,Web,Active
+FT-C00077,32,Male,Kano,Student,Savings,68,77.0,1m+,Mobile App,Active
+FT-C00078,25,Female,Lagos,Student,Savings,63,46.4,1m+,Mobile App,Active
+FT-C00079,31,Male,Abuja,Student,Current,96,54.3,100k-249k,Mobile App,Active
+FT-C00080,40,Male,Lagos,Premium,Savings,90,74.8,100k-249k,Web,Active
+FT-C00081,57,Male,Lagos,Premium,Savings,81,30.8,500k-999k,Mobile App,Active
+FT-C00082,38,Female,Kano,Student,Savings,87,64.2,500k-999k,Web,Active
+FT-C00083,33,Male,Kano,Everyday,Current,64,52.4,250k-499k,Mobile App,Active
+FT-C00084,62,Male,Port Harcourt,Student,Premium,32,88.0,1m+,Mobile App,Active
+FT-C00085,35,Prefer not to say,Enugu,Premium,Premium,79,74.2,Below 100k,Mobile App,Dormant
+FT-C00086,64,Male,Port Harcourt,Everyday,Savings,13,89.4,100k-249k,Mobile App,Active
+FT-C00087,41,Female,Abuja,Everyday,Premium,66,67.3,250k-499k,Mobile App,Active
+FT-C00088,43,Male,Abuja,Everyday,Current,19,65.9,250k-499k,Mobile App,Dormant
+FT-C00089,42,Male,Kaduna,Premium,Savings,24,62.5,Below 100k,Mobile App,Active
+FT-C00090,62,Female,Lagos,Student,Savings,88,58.9,100k-249k,Mobile App,Active
+FT-C00091,58,Male,Kaduna,Everyday,Savings,11,100.0,Below 100k,Mobile App,Active
+FT-C00092,46,Male,Benin City,Student,Premium,59,82.5,250k-499k,USSD,Active
+FT-C00093,32,Female,Lagos,SME,Savings,86,48.8,500k-999k,Mobile App,Active
+FT-C00094,62,Female,Port Harcourt,Everyday,Savings,15,100.0,500k-999k,Web,Dormant
+FT-C00095,18,Female,Enugu,SME,Current,10,60.7,250k-499k,Web,Active
+FT-C00096,42,Female,Port Harcourt,SME,Savings,41,73.8,250k-499k,Mobile App,Active
+FT-C00097,24,Female,Enugu,Student,Savings,27,84.9,250k-499k,Web,Active
+FT-C00098,26,Male,Kaduna,Student,Current,60,40.3,Below 100k,Mobile App,Active
+FT-C00099,41,Female,Abuja,SME,Savings,73,53.1,100k-249k,Mobile App,Active
+FT-C00100,18,Female,Abuja,Premium,Current,52,97.7,100k-249k,Mobile App,Active
+FT-C00101,61,Male,Kaduna,Everyday,Savings,28,64.0,500k-999k,Mobile App,Active
+FT-C00102,25,Male,Ibadan,Student,Current,65,86.0,1m+,Mobile App,Active
+FT-C00103,41,Female,Lagos,Premium,Current,17,59.8,250k-499k,Mobile App,Active
+FT-C00104,28,Female,Lagos,Premium,Savings,95,66.3,250k-499k,Mobile App,Active
+FT-C00105,34,Female,Port Harcourt,Everyday,Savings,44,100.0,Below 100k,Mobile App,Active
+FT-C00106,25,Male,Kaduna,Student,Current,10,75.9,250k-499k,Mobile App,Active
+FT-C00107,52,Female,Benin City,Everyday,Current,63,61.8,250k-499k,Mobile App,Dormant
+FT-C00108,52,Male,Ibadan,SME,Current,93,55.7,100k-249k,Mobile App,Active
+FT-C00109,50,Male,Lagos,Everyday,Premium,82,57.3,100k-249k,Mobile App,Active
+FT-C00110,22,Female,Lagos,Everyday,Savings,47,90.3,500k-999k,Mobile App,Active
+FT-C00111,59,Male,Enugu,Everyday,Savings,38,81.8,500k-999k,Mobile App,Active
+FT-C00112,56,Prefer not to say,Lagos,Everyday,Premium,70,47.3,500k-999k,USSD,Active
+FT-C00113,58,Female,Lagos,Student,Savings,76,69.6,500k-999k,Web,Active
+FT-C00114,45,Male,Lagos,SME,Savings,53,66.8,1m+,Mobile App,Active
+FT-C00115,24,Male,Ibadan,Student,Savings,78,73.7,100k-249k,Web,Active
+FT-C00116,26,Male,Kaduna,Everyday,Savings,44,57.1,Below 100k,Mobile App,Dormant
+FT-C00117,25,Male,Lagos,Everyday,Savings,74,87.8,100k-249k,Mobile App,Active
+FT-C00118,29,Male,Abuja,Student,Premium,54,68.0,Below 100k,USSD,Active
+FT-C00119,51,Male,Ibadan,SME,Savings,20,74.7,250k-499k,Mobile App,Dormant
+FT-C00120,50,Male,Kaduna,Premium,Savings,79,53.9,250k-499k,USSD,Active
+FT-C00121,65,Male,Lagos,Premium,Premium,31,54.8,250k-499k,Mobile App,Active
+FT-C00122,40,Male,Port Harcourt,Everyday,Premium,7,100.0,100k-249k,Mobile App,Active
+FT-C00123,41,Male,Abuja,SME,Savings,58,100.0,500k-999k,Mobile App,Active
+FT-C00124,54,Female,Enugu,Premium,Savings,10,66.7,Below 100k,Mobile App,Active
+FT-C00125,52,Female,Abuja,Everyday,Current,10,95.6,100k-249k,Mobile App,Active
+FT-C00126,61,Female,Lagos,Everyday,Current,39,89.8,250k-499k,Mobile App,Active
+FT-C00127,57,Female,Ibadan,SME,Current,28,56.7,500k-999k,Web,Active
+FT-C00128,39,Female,Kano,Everyday,Premium,30,55.0,100k-249k,Mobile App,Active
+FT-C00129,44,Male,Lagos,Everyday,Current,37,80.0,Below 100k,Mobile App,Active
+FT-C00130,52,Female,Benin City,Premium,Savings,67,72.7,250k-499k,Mobile App,Active
+FT-C00131,18,Male,Lagos,Everyday,Current,43,60.8,Below 100k,USSD,Active
+FT-C00132,52,Female,Port Harcourt,Everyday,Savings,79,81.0,Below 100k,Mobile App,Active
+FT-C00133,54,Male,Abuja,Student,Current,85,42.0,250k-499k,Mobile App,Active
+FT-C00134,64,Male,Kano,SME,Current,52,70.1,100k-249k,USSD,Active
+FT-C00135,31,Female,Abuja,Student,Savings,56,45.7,100k-249k,Mobile App,Dormant
+FT-C00136,20,Male,Enugu,SME,Savings,76,46.3,250k-499k,Mobile App,Active
+FT-C00137,18,Female,Kano,Premium,Savings,68,55.3,1m+,Web,Active
+FT-C00138,22,Male,Ibadan,Student,Savings,9,74.5,1m+,Web,Active
+FT-C00139,43,Female,Benin City,Everyday,Current,92,55.8,100k-249k,Mobile App,Active
+FT-C00140,31,Male,Kano,Student,Savings,23,46.1,100k-249k,Mobile App,Active
+FT-C00141,56,Female,Lagos,SME,Current,63,76.6,100k-249k,Web,Dormant
+FT-C00142,44,Male,Abuja,Everyday,Savings,61,94.9,100k-249k,Mobile App,Active
+FT-C00143,26,Male,Kaduna,Everyday,Current,40,79.5,250k-499k,USSD,Active
+FT-C00144,32,Female,Lagos,Premium,Current,44,100.0,250k-499k,Mobile App,Active
+FT-C00145,32,Female,Kano,Everyday,Current,86,93.4,250k-499k,Mobile App,Active
+FT-C00146,43,Female,Kaduna,Everyday,Savings,24,59.2,100k-249k,Mobile App,Active
+FT-C00147,59,Female,Lagos,Student,Premium,51,79.4,100k-249k,Web,Active
+FT-C00148,30,Male,Ibadan,SME,Savings,58,66.4,250k-499k,USSD,Active
+FT-C00149,49,Female,Abuja,Everyday,Savings,90,87.1,100k-249k,Web,Active
+FT-C00150,56,Female,Port Harcourt,Everyday,Savings,94,66.3,250k-499k,USSD,Active
+FT-C00151,49,Female,Lagos,Everyday,Savings,33,53.8,250k-499k,Mobile App,Active
+FT-C00152,21,Male,Lagos,SME,Premium,16,92.7,250k-499k,Mobile App,Dormant
+FT-C00153,47,Female,Ibadan,Premium,Savings,22,73.7,250k-499k,Web,Active
+FT-C00154,54,Female,Benin City,Everyday,Current,57,56.1,250k-499k,USSD,Active
+FT-C00155,40,Female,Kano,Premium,Current,62,59.0,100k-249k,Web,Active
+FT-C00156,56,Female,Port Harcourt,Everyday,Savings,82,55.9,Below 100k,Web,Active
+FT-C00157,62,Male,Lagos,Premium,Current,71,50.0,250k-499k,Mobile App,Active
+FT-C00158,32,Female,Ibadan,SME,Savings,90,59.4,100k-249k,Mobile App,Active
+FT-C00159,60,Female,Lagos,Premium,Savings,72,74.7,250k-499k,USSD,Active
+FT-C00160,46,Male,Enugu,Student,Savings,70,69.2,500k-999k,Mobile App,Active
+FT-C00161,53,Male,Benin City,Everyday,Premium,30,60.1,1m+,Mobile App,Active
+FT-C00162,30,Female,Kano,Student,Premium,23,94.9,1m+,Web,Active
+FT-C00163,49,Male,Kaduna,Student,Savings,32,31.8,Below 100k,Mobile App,Dormant
+FT-C00164,24,Male,Lagos,Everyday,Savings,86,73.5,1m+,Web,Active
+FT-C00165,39,Female,Kano,Premium,Current,57,65.4,250k-499k,Mobile App,Active
+FT-C00166,45,Male,Lagos,Everyday,Savings,9,50.5,250k-499k,Web,Dormant
+FT-C00167,19,Male,Enugu,Student,Premium,31,74.6,Below 100k,Mobile App,Active
+FT-C00168,59,Female,Lagos,Everyday,Savings,71,64.0,500k-999k,Mobile App,Active
+FT-C00169,62,Female,Kano,SME,Savings,9,90.4,Below 100k,Mobile App,Active
+FT-C00170,23,Female,Enugu,Everyday,Current,13,83.6,500k-999k,Mobile App,Active
+FT-C00171,45,Male,Lagos,Student,Savings,58,100.0,Below 100k,Mobile App,Active
+FT-C00172,45,Prefer not to say,Abuja,Student,Premium,3,59.3,250k-499k,Mobile App,Dormant
+FT-C00173,61,Male,Kano,Student,Premium,35,93.1,100k-249k,Mobile App,Active
+FT-C00174,61,Female,Abuja,Everyday,Savings,21,47.0,100k-249k,Mobile App,Active
+FT-C00175,37,Male,Lagos,Premium,Savings,64,66.0,Below 100k,Mobile App,Active
+FT-C00176,47,Male,Lagos,Student,Premium,95,59.6,100k-249k,Mobile App,Active
+FT-C00177,28,Female,Lagos,Everyday,Premium,52,78.8,Below 100k,Web,Active
+FT-C00178,45,Female,Benin City,Everyday,Savings,34,78.4,250k-499k,Mobile App,Active
+FT-C00179,42,Male,Port Harcourt,Premium,Current,96,51.8,250k-499k,USSD,Active
+FT-C00180,56,Female,Lagos,Premium,Savings,35,79.8,500k-999k,Web,Active
+FT-C00181,50,Male,Abuja,Everyday,Savings,15,61.2,250k-499k,Web,Active
+FT-C00182,18,Female,Abuja,Everyday,Premium,96,53.3,Below 100k,Web,Active
+FT-C00183,44,Female,Lagos,Everyday,Savings,6,67.8,100k-249k,Mobile App,Active
+FT-C00184,30,Female,Abuja,Student,Premium,85,41.4,100k-249k,Web,Active
+FT-C00185,58,Female,Lagos,Premium,Savings,32,84.8,1m+,Mobile App,Active
+FT-C00186,20,Male,Abuja,Student,Current,52,67.0,500k-999k,USSD,Dormant
+FT-C00187,56,Female,Kano,SME,Savings,83,67.4,100k-249k,USSD,Active
+FT-C00188,23,Male,Lagos,Premium,Savings,28,66.4,Below 100k,Mobile App,Active
+FT-C00189,25,Male,Ibadan,Everyday,Current,95,97.6,500k-999k,Mobile App,Active
+FT-C00190,44,Male,Port Harcourt,Everyday,Savings,85,95.3,500k-999k,Mobile App,Active
+FT-C00191,26,Female,Port Harcourt,Everyday,Savings,64,92.3,500k-999k,Web,Active
+FT-C00192,54,Male,Ibadan,SME,Savings,79,66.5,500k-999k,Mobile App,Active
+FT-C00193,50,Male,Port Harcourt,Premium,Savings,78,47.9,250k-499k,Mobile App,Dormant
+FT-C00194,59,Female,Enugu,Everyday,Current,19,67.7,Below 100k,Mobile App,Active
+FT-C00195,61,Female,Ibadan,Everyday,Savings,15,73.7,250k-499k,Mobile App,Active
+FT-C00196,41,Male,Port Harcourt,Premium,Savings,6,82.6,250k-499k,USSD,Active
+FT-C00197,32,Male,Benin City,Premium,Savings,73,73.6,250k-499k,Web,Active
+FT-C00198,49,Female,Ibadan,Everyday,Savings,84,49.5,250k-499k,Mobile App,Active
+FT-C00199,49,Male,Lagos,SME,Savings,38,58.4,100k-249k,Mobile App,Active
+FT-C00200,41,Male,Lagos,Premium,Savings,26,56.7,100k-249k,Mobile App,Active
+FT-C00201,58,Male,Lagos,Everyday,Savings,82,77.7,100k-249k,Mobile App,Active
+FT-C00202,29,Male,Enugu,SME,Current,92,78.1,Below 100k,Web,Active
+FT-C00203,56,Male,Kano,Everyday,Current,51,80.5,100k-249k,Mobile App,Active
+FT-C00204,19,Female,Kaduna,SME,Savings,73,73.4,500k-999k,Mobile App,Active
+FT-C00205,20,Female,Ibadan,SME,Savings,96,30.9,500k-999k,USSD,Active
+FT-C00206,54,Female,Abuja,Student,Savings,53,36.9,100k-249k,USSD,Active
+FT-C00207,34,Male,Lagos,Student,Savings,56,65.5,250k-499k,Mobile App,Active
+FT-C00208,19,Male,Ibadan,Everyday,Savings,59,69.8,Below 100k,Mobile App,Active
+FT-C00209,19,Female,Port Harcourt,SME,Savings,70,90.6,250k-499k,Mobile App,Active
+FT-C00210,45,Male,Kaduna,Premium,Savings,78,69.4,100k-249k,Web,Active
+FT-C00211,40,Male,Lagos,Student,Savings,92,50.4,100k-249k,USSD,Active
+FT-C00212,54,Male,Port Harcourt,SME,Savings,58,79.9,500k-999k,Mobile App,Active
+FT-C00213,49,Female,Ibadan,SME,Savings,88,67.7,250k-499k,Mobile App,Active
+FT-C00214,50,Male,Ibadan,Student,Savings,13,60.8,Below 100k,USSD,Active
+FT-C00215,18,Female,Port Harcourt,Everyday,Savings,43,38.9,100k-249k,Web,Active
+FT-C00216,36,Female,Kano,SME,Savings,76,69.5,250k-499k,USSD,Active
+FT-C00217,19,Female,Lagos,Premium,Savings,51,72.1,100k-249k,Mobile App,Active
+FT-C00218,61,Female,Kano,SME,Savings,19,50.1,500k-999k,Mobile App,Active
+FT-C00219,43,Female,Ibadan,Student,Savings,21,81.4,250k-499k,Mobile App,Active
+FT-C00220,49,Male,Enugu,Everyday,Savings,91,79.8,250k-499k,Mobile App,Active
+FT-C00221,23,Female,Benin City,Everyday,Savings,83,68.9,250k-499k,Mobile App,Active
+FT-C00222,49,Male,Lagos,Premium,Savings,24,68.2,100k-249k,Mobile App,Dormant
+FT-C00223,21,Female,Lagos,Student,Savings,26,85.0,100k-249k,Mobile App,Active
+FT-C00224,28,Male,Kaduna,Everyday,Current,45,74.6,100k-249k,USSD,Active
+FT-C00225,34,Male,Port Harcourt,Premium,Savings,28,55.4,250k-499k,Mobile App,Active
+FT-C00226,55,Female,Enugu,Everyday,Savings,82,64.4,100k-249k,Web,Active
+FT-C00227,41,Female,Lagos,Student,Premium,29,78.0,500k-999k,Mobile App,Dormant
+FT-C00228,22,Female,Ibadan,Premium,Savings,17,31.4,100k-249k,Web,Active
+FT-C00229,51,Male,Benin City,Everyday,Savings,68,51.2,Below 100k,Mobile App,Active
+FT-C00230,23,Male,Kaduna,Everyday,Premium,44,80.3,Below 100k,Web,Active
+FT-C00231,39,Female,Lagos,Everyday,Current,61,89.8,Below 100k,Mobile App,Active
+FT-C00232,28,Male,Kano,Premium,Savings,93,86.4,100k-249k,Mobile App,Restricted
+FT-C00233,65,Female,Port Harcourt,Everyday,Savings,68,84.1,100k-249k,Web,Active
+FT-C00234,33,Female,Lagos,Everyday,Savings,74,70.3,Below 100k,Mobile App,Active
+FT-C00235,50,Male,Ibadan,SME,Savings,25,49.5,250k-499k,Mobile App,Active
+FT-C00236,26,Female,Ibadan,SME,Savings,95,64.5,250k-499k,USSD,Active
+FT-C00237,23,Male,Kaduna,Everyday,Savings,67,32.1,Below 100k,USSD,Active
+FT-C00238,33,Female,Port Harcourt,SME,Savings,2,91.4,250k-499k,Mobile App,Active
+FT-C00239,46,Prefer not to say,Lagos,Everyday,Premium,89,53.3,500k-999k,Mobile App,Active
+FT-C00240,20,Female,Lagos,Premium,Premium,49,58.4,1m+,Mobile App,Dormant
+FT-C00241,37,Female,Abuja,Premium,Savings,70,87.1,250k-499k,Mobile App,Active
+FT-C00242,53,Male,Lagos,Everyday,Current,26,38.9,100k-249k,USSD,Active
+FT-C00243,36,Female,Kano,Everyday,Savings,72,46.6,250k-499k,Mobile App,Active
+FT-C00244,43,Prefer not to say,Abuja,Everyday,Premium,27,72.8,250k-499k,Mobile App,Active
+FT-C00245,20,Male,Kaduna,Everyday,Savings,89,77.4,100k-249k,USSD,Active
+FT-C00246,36,Male,Kaduna,Student,Savings,18,66.7,500k-999k,Mobile App,Active
+FT-C00247,37,Male,Ibadan,Everyday,Savings,54,67.3,100k-249k,Web,Active
+FT-C00248,49,Male,Enugu,Everyday,Savings,1,90.8,1m+,Mobile App,Active
+FT-C00249,24,Male,Kano,Everyday,Savings,61,79.5,250k-499k,Mobile App,Active
+FT-C00250,58,Male,Port Harcourt,Everyday,Current,3,77.0,250k-499k,Mobile App,Active
+FT-C00251,50,Male,Lagos,Premium,Current,68,82.0,250k-499k,Mobile App,Active
+FT-C00252,57,Female,Abuja,Everyday,Savings,41,62.6,250k-499k,Mobile App,Active
+FT-C00253,56,Female,Port Harcourt,SME,Savings,37,100.0,250k-499k,Mobile App,Active
+FT-C00254,35,Male,Enugu,Everyday,Savings,51,26.5,500k-999k,Mobile App,Active
+FT-C00255,57,Female,Abuja,Everyday,Premium,15,94.2,250k-499k,Mobile App,Active
+FT-C00256,18,Male,Enugu,Student,Premium,8,84.2,500k-999k,Mobile App,Active
+FT-C00257,28,Female,Ibadan,Everyday,Premium,38,72.5,500k-999k,Mobile App,Active
+FT-C00258,45,Female,Lagos,Premium,Premium,83,69.4,1m+,Mobile App,Active
+FT-C00259,42,Male,Kaduna,Student,Savings,56,65.2,250k-499k,Web,Active
+FT-C00260,40,Male,Port Harcourt,Everyday,Savings,47,87.9,250k-499k,Mobile App,Active
+FT-C00261,48,Female,Abuja,Everyday,Savings,90,67.3,Below 100k,Mobile App,Dormant
+FT-C00262,47,Male,Ibadan,Everyday,Premium,10,54.9,250k-499k,Web,Active
+FT-C00263,59,Male,Lagos,Everyday,Savings,78,84.2,100k-249k,Mobile App,Active
+FT-C00264,52,Female,Ibadan,Everyday,Savings,49,96.5,100k-249k,Web,Active
+FT-C00265,24,Male,Port Harcourt,Everyday,Current,41,33.3,100k-249k,Web,Active
+FT-C00266,33,Female,Abuja,Everyday,Savings,83,100.0,500k-999k,Mobile App,Active
+FT-C00267,43,Female,Kaduna,Premium,Savings,30,49.3,500k-999k,Mobile App,Active
+FT-C00268,65,Prefer not to say,Port Harcourt,Student,Current,5,50.7,250k-499k,USSD,Active
+FT-C00269,19,Female,Lagos,Premium,Savings,95,45.6,250k-499k,Mobile App,Active
+FT-C00270,18,Male,Abuja,Everyday,Savings,71,68.0,250k-499k,Web,Active
+FT-C00271,65,Male,Enugu,Everyday,Current,83,45.0,250k-499k,Mobile App,Active
+FT-C00272,29,Female,Lagos,SME,Current,31,47.2,100k-249k,Mobile App,Active
+FT-C00273,22,Male,Lagos,Premium,Premium,52,55.6,100k-249k,Mobile App,Active
+FT-C00274,54,Male,Lagos,SME,Savings,88,70.5,100k-249k,Mobile App,Active
+FT-C00275,49,Female,Lagos,Everyday,Savings,23,72.2,250k-499k,Mobile App,Active
+FT-C00276,26,Male,Benin City,Premium,Current,48,90.3,250k-499k,Web,Active
+FT-C00277,58,Male,Kano,Premium,Savings,40,89.9,100k-249k,USSD,Active
+FT-C00278,52,Male,Abuja,Everyday,Savings,6,86.4,1m+,Web,Active
+FT-C00279,36,Male,Ibadan,Premium,Current,38,63.3,Below 100k,Mobile App,Active
+FT-C00280,65,Female,Abuja,Premium,Savings,41,34.9,100k-249k,USSD,Active
+FT-C00281,33,Male,Kaduna,Everyday,Savings,27,34.5,100k-249k,Web,Active
+FT-C00282,20,Male,Kaduna,Everyday,Savings,75,86.3,Below 100k,USSD,Active
+FT-C00283,37,Male,Abuja,Student,Savings,69,83.2,100k-249k,Mobile App,Dormant
+FT-C00284,41,Male,Benin City,SME,Savings,57,56.9,100k-249k,Web,Active
+FT-C00285,50,Male,Kano,Everyday,Savings,17,42.1,250k-499k,Mobile App,Active
+FT-C00286,41,Male,Lagos,Everyday,Current,71,49.2,100k-249k,Mobile App,Active
+FT-C00287,28,Male,Lagos,Everyday,Premium,91,71.1,250k-499k,USSD,Active
+FT-C00288,25,Male,Abuja,Student,Savings,47,71.2,250k-499k,Mobile App,Active
+FT-C00289,53,Male,Kano,Everyday,Savings,79,86.8,Below 100k,Mobile App,Active
+FT-C00290,55,Male,Kaduna,SME,Savings,13,59.9,500k-999k,USSD,Active
+FT-C00291,57,Male,Kano,Everyday,Savings,11,63.6,Below 100k,Mobile App,Active
+FT-C00292,37,Female,Benin City,Everyday,Current,90,88.3,500k-999k,USSD,Active
+FT-C00293,52,Female,Ibadan,Premium,Current,86,29.7,1m+,Web,Active
+FT-C00294,65,Female,Benin City,Student,Current,92,73.7,100k-249k,Mobile App,Active
+FT-C00295,42,Male,Kano,Premium,Savings,24,62.0,1m+,Mobile App,Restricted
+FT-C00296,52,Male,Abuja,Everyday,Savings,93,80.8,500k-999k,Web,Active
+FT-C00297,42,Male,Port Harcourt,SME,Savings,73,77.2,1m+,Mobile App,Active
+FT-C00298,46,Female,Benin City,Everyday,Savings,4,55.5,250k-499k,USSD,Active
+FT-C00299,35,Male,Lagos,SME,Current,46,58.9,100k-249k,USSD,Active
+FT-C00300,63,Female,Benin City,Everyday,Premium,18,26.6,500k-999k,Mobile App,Active
+FT-C00301,35,Female,Lagos,Student,Savings,43,81.5,100k-249k,Mobile App,Dormant
+FT-C00302,19,Male,Port Harcourt,Premium,Current,80,72.3,100k-249k,USSD,Active
+FT-C00303,52,Male,Benin City,Everyday,Savings,33,93.2,100k-249k,Mobile App,Active
+FT-C00304,33,Female,Lagos,SME,Savings,93,60.8,100k-249k,Mobile App,Active
+FT-C00305,58,Female,Lagos,Everyday,Savings,10,84.5,250k-499k,Web,Active
+FT-C00306,53,Female,Abuja,Everyday,Savings,73,48.7,250k-499k,USSD,Active
+FT-C00307,50,Female,Enugu,Premium,Savings,59,19.3,1m+,Web,Active
+FT-C00308,21,Male,Lagos,Everyday,Current,31,66.3,Below 100k,Mobile App,Active
+FT-C00309,50,Female,Enugu,Premium,Premium,28,57.8,1m+,Web,Active
+FT-C00310,31,Male,Lagos,Everyday,Savings,60,49.1,1m+,Web,Active
+FT-C00311,38,Male,Kaduna,Everyday,Savings,3,84.2,Below 100k,USSD,Active
+FT-C00312,65,Female,Kaduna,Everyday,Premium,55,89.7,100k-249k,USSD,Restricted
+FT-C00313,37,Female,Port Harcourt,Everyday,Current,14,69.9,500k-999k,Mobile App,Active
+FT-C00314,25,Female,Port Harcourt,Everyday,Current,58,64.7,250k-499k,Web,Active
+FT-C00315,24,Female,Abuja,Student,Savings,89,69.1,500k-999k,USSD,Dormant
+FT-C00316,20,Female,Ibadan,SME,Premium,15,56.2,250k-499k,Mobile App,Active
+FT-C00317,34,Male,Lagos,Student,Savings,2,78.1,250k-499k,Mobile App,Active
+FT-C00318,50,Female,Lagos,Everyday,Current,24,40.3,Below 100k,USSD,Active
+FT-C00319,65,Male,Lagos,Everyday,Savings,78,48.7,250k-499k,Mobile App,Dormant
+FT-C00320,29,Female,Abuja,Everyday,Current,64,53.8,Below 100k,Mobile App,Active
+FT-C00321,39,Male,Lagos,Everyday,Savings,71,77.7,250k-499k,Mobile App,Active
+FT-C00322,39,Male,Ibadan,Premium,Savings,24,62.6,500k-999k,Mobile App,Active
+FT-C00323,63,Male,Kaduna,Everyday,Savings,27,92.5,250k-499k,Mobile App,Active
+FT-C00324,47,Male,Abuja,Everyday,Savings,37,82.5,1m+,Mobile App,Active
+FT-C00325,55,Male,Port Harcourt,SME,Current,94,53.6,100k-249k,USSD,Active
+FT-C00326,55,Male,Abuja,Premium,Premium,91,79.4,500k-999k,Web,Active
+FT-C00327,62,Male,Benin City,Everyday,Premium,39,60.7,250k-499k,Web,Active
+FT-C00328,25,Male,Enugu,Everyday,Savings,63,76.5,1m+,Mobile App,Active
+FT-C00329,44,Female,Enugu,Everyday,Current,79,83.3,250k-499k,Web,Active
+FT-C00330,44,Female,Kaduna,SME,Current,26,88.1,Below 100k,Web,Active
+FT-C00331,51,Male,Lagos,Everyday,Savings,65,71.6,1m+,Web,Active
+FT-C00332,38,Male,Benin City,Everyday,Savings,4,96.8,250k-499k,Mobile App,Active
+FT-C00333,47,Male,Kano,Everyday,Current,29,75.9,Below 100k,Mobile App,Active
+FT-C00334,50,Male,Lagos,Premium,Premium,1,70.4,250k-499k,Web,Dormant
+FT-C00335,45,Prefer not to say,Kaduna,Everyday,Current,50,62.6,500k-999k,Web,Active
+FT-C00336,64,Female,Lagos,Student,Savings,86,56.6,250k-499k,Web,Active
+FT-C00337,50,Female,Ibadan,Student,Savings,11,75.6,100k-249k,Mobile App,Active
+FT-C00338,22,Female,Lagos,Student,Savings,74,69.8,500k-999k,Mobile App,Active
+FT-C00339,65,Female,Abuja,Everyday,Current,59,72.7,500k-999k,Web,Dormant
+FT-C00340,36,Male,Kano,Student,Current,62,76.7,250k-499k,Mobile App,Active
+FT-C00341,21,Female,Port Harcourt,Premium,Savings,81,72.6,Below 100k,Web,Active
+FT-C00342,52,Male,Abuja,Everyday,Premium,36,100.0,100k-249k,USSD,Active
+FT-C00343,34,Female,Lagos,Premium,Savings,56,58.5,500k-999k,Web,Active
+FT-C00344,61,Male,Benin City,Everyday,Premium,90,75.8,500k-999k,Mobile App,Active
+FT-C00345,45,Male,Lagos,Everyday,Savings,21,63.9,100k-249k,Mobile App,Active
+FT-C00346,47,Female,Abuja,Student,Savings,13,23.7,100k-249k,Web,Active
+FT-C00347,46,Male,Enugu,Everyday,Savings,9,64.5,Below 100k,USSD,Active
+FT-C00348,63,Female,Benin City,Premium,Savings,11,51.1,250k-499k,Mobile App,Active
+FT-C00349,23,Female,Abuja,Everyday,Savings,75,66.8,Below 100k,Mobile App,Active
+FT-C00350,52,Female,Kano,SME,Savings,70,67.5,Below 100k,Mobile App,Active
+FT-C00351,58,Female,Benin City,SME,Savings,1,74.9,Below 100k,Web,Active
+FT-C00352,54,Female,Enugu,SME,Current,70,58.5,250k-499k,Web,Active
+FT-C00353,41,Male,Port Harcourt,Everyday,Savings,77,60.7,100k-249k,USSD,Active
+FT-C00354,46,Male,Lagos,Everyday,Savings,86,80.6,100k-249k,Mobile App,Active
+FT-C00355,63,Male,Lagos,Premium,Savings,56,53.4,1m+,Web,Active
+FT-C00356,48,Female,Lagos,Everyday,Current,31,34.9,100k-249k,Mobile App,Active
+FT-C00357,52,Male,Port Harcourt,Everyday,Savings,86,70.8,100k-249k,Mobile App,Active
+FT-C00358,50,Female,Lagos,Premium,Premium,37,87.3,1m+,Web,Active
+FT-C00359,38,Female,Ibadan,Premium,Current,47,80.4,100k-249k,Mobile App,Active
+FT-C00360,49,Male,Abuja,SME,Savings,91,71.2,250k-499k,Mobile App,Active
+FT-C00361,40,Female,Lagos,Everyday,Savings,78,90.5,Below 100k,Web,Active
+FT-C00362,50,Male,Enugu,Everyday,Savings,47,87.5,500k-999k,Mobile App,Active
+FT-C00363,20,Male,Abuja,Everyday,Savings,69,62.0,100k-249k,Mobile App,Active
+FT-C00364,35,Female,Lagos,SME,Premium,58,72.5,500k-999k,Mobile App,Active
+FT-C00365,42,Female,Benin City,Student,Premium,36,73.2,100k-249k,Mobile App,Active
+FT-C00366,59,Female,Lagos,Student,Savings,32,66.4,100k-249k,USSD,Dormant
+FT-C00367,48,Male,Kano,SME,Savings,64,88.4,500k-999k,Mobile App,Active
+FT-C00368,20,Female,Kano,Premium,Current,71,65.3,1m+,Web,Active
+FT-C00369,57,Female,Abuja,Everyday,Current,42,59.0,Below 100k,Mobile App,Active
+FT-C00370,63,Female,Benin City,Everyday,Savings,48,21.4,500k-999k,Mobile App,Active
+FT-C00371,41,Male,Port Harcourt,Premium,Savings,74,53.6,100k-249k,Mobile App,Active
+FT-C00372,49,Female,Abuja,Everyday,Savings,81,44.3,250k-499k,USSD,Active
+FT-C00373,64,Female,Lagos,Everyday,Current,30,67.3,100k-249k,Mobile App,Active
+FT-C00374,39,Male,Lagos,SME,Savings,21,45.4,250k-499k,Web,Active
+FT-C00375,40,Male,Kaduna,SME,Savings,60,79.0,100k-249k,Mobile App,Active
+FT-C00376,19,Female,Abuja,Student,Premium,13,88.0,100k-249k,USSD,Active
+FT-C00377,44,Female,Port Harcourt,Student,Current,1,67.4,Below 100k,Web,Active
+FT-C00378,59,Female,Port Harcourt,Student,Premium,65,50.3,Below 100k,Web,Active
+FT-C00379,19,Male,Port Harcourt,Everyday,Savings,33,73.2,1m+,USSD,Dormant
+FT-C00380,43,Female,Lagos,Everyday,Savings,38,100.0,1m+,Web,Active
+FT-C00381,34,Male,Abuja,Student,Premium,25,96.5,500k-999k,Web,Dormant
+FT-C00382,57,Male,Kano,Student,Savings,26,42.7,100k-249k,Mobile App,Active
+FT-C00383,50,Male,Lagos,Everyday,Savings,77,42.0,100k-249k,Mobile App,Active
+FT-C00384,26,Female,Lagos,SME,Savings,59,37.4,500k-999k,Mobile App,Active
+FT-C00385,60,Male,Lagos,Everyday,Savings,92,47.5,1m+,Mobile App,Active
+FT-C00386,65,Male,Abuja,Everyday,Savings,33,72.5,100k-249k,Mobile App,Active
+FT-C00387,56,Male,Enugu,Student,Premium,41,58.0,500k-999k,Mobile App,Restricted
+FT-C00388,46,Female,Lagos,Everyday,Premium,30,52.9,1m+,Mobile App,Active
+FT-C00389,59,Prefer not to say,Lagos,Everyday,Premium,57,86.7,500k-999k,Web,Active
+FT-C00390,43,Female,Lagos,Everyday,Savings,49,77.5,100k-249k,Mobile App,Active
+FT-C00391,52,Female,Kano,Student,Savings,48,37.3,Below 100k,USSD,Active
+FT-C00392,42,Female,Ibadan,Everyday,Savings,72,85.7,250k-499k,USSD,Active
+FT-C00393,41,Male,Abuja,Premium,Premium,49,77.1,250k-499k,USSD,Active
+FT-C00394,30,Female,Kano,Premium,Savings,47,77.5,100k-249k,Mobile App,Active
+FT-C00395,24,Female,Ibadan,Everyday,Current,56,57.7,100k-249k,Mobile App,Dormant
+FT-C00396,53,Female,Enugu,SME,Current,65,64.6,500k-999k,USSD,Active
+FT-C00397,62,Female,Benin City,Everyday,Savings,12,32.5,250k-499k,USSD,Active
+FT-C00398,37,Male,Lagos,SME,Savings,69,83.6,100k-249k,Web,Active
+FT-C00399,18,Male,Lagos,Premium,Premium,88,50.0,250k-499k,Mobile App,Active
+FT-C00400,25,Female,Lagos,SME,Premium,6,52.3,250k-499k,Mobile App,Active
+FT-C00401,63,Female,Lagos,Everyday,Savings,89,52.1,500k-999k,Web,Active
+FT-C00402,33,Male,Kaduna,Premium,Savings,65,100.0,Below 100k,Mobile App,Active
+FT-C00403,31,Female,Abuja,Everyday,Premium,25,56.0,500k-999k,Web,Active
+FT-C00404,29,Female,Lagos,Everyday,Savings,1,85.0,250k-499k,Web,Active
+FT-C00405,40,Prefer not to say,Kano,Premium,Savings,32,67.6,Below 100k,Web,Active
+FT-C00406,32,Male,Port Harcourt,Everyday,Savings,3,53.1,500k-999k,Mobile App,Active
+FT-C00407,45,Female,Lagos,Premium,Savings,49,49.8,100k-249k,Mobile App,Active
+FT-C00408,51,Male,Abuja,Everyday,Savings,19,56.7,100k-249k,USSD,Active
+FT-C00409,19,Female,Abuja,Everyday,Savings,60,66.7,100k-249k,Mobile App,Active
+FT-C00410,49,Male,Kano,Student,Savings,29,78.8,100k-249k,Web,Active
+FT-C00411,40,Female,Lagos,Everyday,Savings,50,59.5,100k-249k,Web,Active
+FT-C00412,39,Female,Lagos,Premium,Premium,2,58.8,500k-999k,Web,Active
+FT-C00413,42,Female,Port Harcourt,Premium,Current,73,52.1,Below 100k,Web,Active
+FT-C00414,39,Male,Lagos,SME,Current,56,46.5,1m+,Mobile App,Active
+FT-C00415,39,Male,Ibadan,Everyday,Current,17,45.0,250k-499k,Mobile App,Active
+FT-C00416,59,Female,Abuja,Student,Savings,60,85.8,100k-249k,Mobile App,Active
+FT-C00417,23,Female,Abuja,SME,Savings,36,58.5,Below 100k,Mobile App,Active
+FT-C00418,32,Male,Kaduna,Student,Premium,61,60.1,250k-499k,Mobile App,Active
+FT-C00419,60,Female,Ibadan,Premium,Savings,17,56.0,250k-499k,Mobile App,Active
+FT-C00420,54,Female,Lagos,Premium,Savings,49,62.3,Below 100k,USSD,Active
+FT-C00421,50,Male,Port Harcourt,Student,Current,76,74.7,100k-249k,Mobile App,Active
+FT-C00422,25,Female,Kano,Premium,Savings,60,59.2,500k-999k,Mobile App,Dormant
+FT-C00423,61,Male,Kano,Everyday,Savings,20,71.3,Below 100k,Mobile App,Active
+FT-C00424,61,Prefer not to say,Lagos,Everyday,Premium,50,93.5,500k-999k,Web,Active
+FT-C00425,22,Female,Kaduna,Student,Premium,3,53.2,250k-499k,Mobile App,Active
+FT-C00426,56,Female,Abuja,Everyday,Savings,43,60.1,100k-249k,Mobile App,Active
+FT-C00427,21,Female,Lagos,Student,Premium,57,79.5,100k-249k,Mobile App,Active
+FT-C00428,23,Male,Lagos,Everyday,Current,50,95.0,Below 100k,Web,Active
+FT-C00429,62,Male,Lagos,Premium,Current,68,45.6,500k-999k,USSD,Active
+FT-C00430,49,Male,Benin City,Everyday,Savings,81,37.4,Below 100k,USSD,Active
+FT-C00431,47,Female,Lagos,Everyday,Savings,50,68.0,100k-249k,Mobile App,Active
+FT-C00432,64,Male,Lagos,SME,Current,37,66.1,250k-499k,Web,Active
+FT-C00433,52,Male,Benin City,SME,Premium,46,80.6,100k-249k,Mobile App,Active
+FT-C00434,57,Male,Abuja,Premium,Current,42,77.9,250k-499k,Mobile App,Active
+FT-C00435,33,Male,Lagos,Everyday,Savings,15,67.4,500k-999k,Mobile App,Active
+FT-C00436,30,Male,Lagos,Student,Savings,33,86.9,250k-499k,Mobile App,Active
+FT-C00437,59,Male,Lagos,Premium,Current,80,55.7,1m+,Web,Dormant
+FT-C00438,47,Male,Lagos,Premium,Savings,11,71.8,500k-999k,Mobile App,Active
+FT-C00439,36,Female,Ibadan,Everyday,Savings,20,46.1,100k-249k,Mobile App,Active
+FT-C00440,34,Female,Lagos,Premium,Savings,24,67.2,100k-249k,Mobile App,Active
+FT-C00441,36,Male,Lagos,Student,Savings,64,41.7,100k-249k,Mobile App,Active
+FT-C00442,45,Female,Kano,SME,Current,80,47.9,250k-499k,Web,Active
+FT-C00443,43,Male,Ibadan,Everyday,Current,94,98.8,100k-249k,Web,Active
+FT-C00444,54,Prefer not to say,Abuja,Student,Savings,65,35.2,1m+,Web,Active
+FT-C00445,43,Male,Port Harcourt,Premium,Savings,88,64.1,250k-499k,Mobile App,Active
+FT-C00446,40,Female,Lagos,Everyday,Current,88,82.9,100k-249k,Mobile App,Active
+FT-C00447,26,Female,Abuja,Everyday,Savings,73,100.0,250k-499k,Mobile App,Active
+FT-C00448,29,Female,Port Harcourt,Everyday,Savings,86,71.2,100k-249k,USSD,Active
+FT-C00449,18,Male,Abuja,Everyday,Premium,76,72.2,500k-999k,USSD,Active
+FT-C00450,18,Male,Enugu,Everyday,Savings,17,68.7,250k-499k,Web,Active
+FT-C00451,64,Male,Lagos,Student,Premium,89,87.0,Below 100k,Mobile App,Active
+FT-C00452,51,Female,Kano,Student,Savings,92,75.8,Below 100k,Mobile App,Active
+FT-C00453,49,Male,Lagos,Premium,Savings,61,57.6,500k-999k,Mobile App,Dormant
+FT-C00454,65,Male,Benin City,SME,Savings,15,88.1,250k-499k,USSD,Active
+FT-C00455,42,Female,Ibadan,Everyday,Premium,94,59.7,1m+,Web,Active
+FT-C00456,57,Male,Benin City,Everyday,Savings,51,39.2,Below 100k,USSD,Active
+FT-C00457,62,Female,Lagos,Premium,Savings,27,39.3,100k-249k,Mobile App,Active
+FT-C00458,18,Female,Port Harcourt,Everyday,Premium,86,64.4,100k-249k,Mobile App,Active
+FT-C00459,33,Male,Port Harcourt,Everyday,Savings,74,69.9,250k-499k,Mobile App,Active
+FT-C00460,56,Female,Kano,Everyday,Savings,61,85.2,100k-249k,Mobile App,Active
+FT-C00461,22,Male,Port Harcourt,Everyday,Savings,58,79.5,Below 100k,Mobile App,Active
+FT-C00462,39,Male,Port Harcourt,Student,Current,31,69.4,250k-499k,Mobile App,Active
+FT-C00463,46,Male,Abuja,Everyday,Savings,91,86.2,250k-499k,Web,Active
+FT-C00464,20,Female,Lagos,Premium,Savings,12,68.2,100k-249k,Web,Active
+FT-C00465,29,Male,Abuja,Everyday,Savings,46,44.8,250k-499k,Mobile App,Active
+FT-C00466,43,Male,Lagos,Student,Savings,31,40.8,500k-999k,Mobile App,Active
+FT-C00467,33,Male,Kaduna,Everyday,Premium,32,91.0,100k-249k,Mobile App,Active
+FT-C00468,54,Female,Kano,Student,Premium,32,27.6,100k-249k,Web,Active
+FT-C00469,39,Female,Kaduna,Everyday,Current,53,64.4,100k-249k,Mobile App,Active
+FT-C00470,46,Male,Lagos,Everyday,Current,61,100.0,500k-999k,Mobile App,Active
+FT-C00471,31,Female,Enugu,Premium,Current,46,76.3,500k-999k,USSD,Active
+FT-C00472,45,Male,Benin City,Everyday,Savings,85,64.2,100k-249k,Mobile App,Active
+FT-C00473,22,Male,Ibadan,Everyday,Current,74,37.7,100k-249k,Mobile App,Active
+FT-C00474,64,Male,Ibadan,Everyday,Savings,80,97.1,500k-999k,Web,Active
+FT-C00475,47,Male,Lagos,SME,Savings,7,89.8,1m+,Web,Active
+FT-C00476,63,Male,Benin City,Everyday,Current,4,80.3,250k-499k,Web,Active
+FT-C00477,22,Male,Port Harcourt,Student,Savings,91,68.0,1m+,Mobile App,Active
+FT-C00478,29,Male,Lagos,Everyday,Premium,52,78.3,250k-499k,Mobile App,Active
+FT-C00479,33,Male,Lagos,Everyday,Savings,89,65.3,500k-999k,Web,Active
+FT-C00480,43,Female,Kaduna,Everyday,Current,31,50.5,100k-249k,Mobile App,Active
+FT-C00481,43,Female,Benin City,SME,Savings,75,85.2,100k-249k,Web,Active
+FT-C00482,65,Male,Kaduna,Everyday,Current,84,67.1,Below 100k,USSD,Active
+FT-C00483,38,Female,Ibadan,Everyday,Current,36,77.4,500k-999k,USSD,Active
+FT-C00484,56,Female,Lagos,Everyday,Savings,54,65.8,1m+,Mobile App,Active
+FT-C00485,53,Female,Lagos,Everyday,Savings,54,76.3,250k-499k,Mobile App,Active
+FT-C00486,50,Male,Lagos,Everyday,Savings,17,67.7,100k-249k,Mobile App,Active
+FT-C00487,47,Male,Lagos,Premium,Savings,75,66.3,Below 100k,Web,Active
+FT-C00488,54,Male,Abuja,Everyday,Current,30,68.5,100k-249k,Mobile App,Active
+FT-C00489,40,Male,Lagos,Everyday,Premium,22,100.0,100k-249k,Mobile App,Active
+FT-C00490,27,Male,Abuja,Student,Savings,43,82.4,250k-499k,Mobile App,Active
+FT-C00491,22,Female,Kaduna,Everyday,Current,27,100.0,1m+,Mobile App,Active
+FT-C00492,53,Male,Abuja,Everyday,Premium,37,67.9,Below 100k,Mobile App,Active
+FT-C00493,51,Female,Enugu,Everyday,Savings,46,62.4,Below 100k,Mobile App,Active
+FT-C00494,48,Male,Ibadan,Premium,Current,35,48.7,250k-499k,Web,Active
+FT-C00495,27,Male,Lagos,Everyday,Current,4,96.9,100k-249k,Mobile App,Active
+FT-C00496,36,Female,Abuja,Premium,Savings,80,51.7,500k-999k,Mobile App,Active
+FT-C00497,49,Female,Lagos,Everyday,Savings,80,100.0,100k-249k,Web,Active
+FT-C00498,18,Female,Lagos,Premium,Savings,85,49.7,100k-249k,Web,Active
+FT-C00499,22,Female,Ibadan,Everyday,Premium,26,84.0,100k-249k,Mobile App,Active
+FT-C00500,62,Female,Lagos,Premium,Premium,19,39.4,Below 100k,Mobile App,Active
+FT-C00501,21,Male,Lagos,Student,Current,81,60.0,250k-499k,Web,Active
+FT-C00502,33,Male,Abuja,Premium,Savings,45,68.4,Below 100k,Mobile App,Active
+FT-C00503,41,Male,Kaduna,Everyday,Savings,26,57.2,100k-249k,Mobile App,Active
+FT-C00504,33,Male,Kano,Everyday,Savings,22,65.0,250k-499k,Mobile App,Active
+FT-C00505,19,Male,Kano,Everyday,Savings,58,65.0,Below 100k,Mobile App,Active
+FT-C00506,45,Male,Lagos,Everyday,Current,63,82.5,Below 100k,Mobile App,Active
+FT-C00507,49,Female,Kano,Everyday,Premium,28,30.4,250k-499k,USSD,Active
+FT-C00508,44,Male,Kano,Student,Premium,65,57.9,250k-499k,Web,Active
+FT-C00509,37,Female,Ibadan,Everyday,Current,44,90.6,1m+,Mobile App,Active
+FT-C00510,41,Prefer not to say,Kaduna,Everyday,Savings,43,78.1,Below 100k,Mobile App,Active
+FT-C00511,29,Male,Lagos,Premium,Savings,37,90.9,Below 100k,Mobile App,Active
+FT-C00512,52,Male,Kaduna,Premium,Savings,66,81.7,Below 100k,Mobile App,Active
+FT-C00513,50,Female,Enugu,Everyday,Current,17,48.5,100k-249k,Mobile App,Active
+FT-C00514,50,Male,Lagos,Student,Current,40,79.9,250k-499k,Web,Active
+FT-C00515,60,Male,Abuja,Everyday,Savings,38,69.8,500k-999k,USSD,Restricted
+FT-C00516,54,Female,Kaduna,Student,Savings,85,100.0,250k-499k,Mobile App,Active
+FT-C00517,29,Female,Lagos,Student,Savings,61,82.4,100k-249k,Web,Active
+FT-C00518,20,Male,Port Harcourt,Student,Savings,9,77.4,250k-499k,Mobile App,Active
+FT-C00519,18,Female,Kaduna,Premium,Savings,77,80.0,1m+,Mobile App,Active
+FT-C00520,50,Male,Port Harcourt,Everyday,Savings,75,76.4,100k-249k,Mobile App,Active
+FT-C00521,57,Female,Lagos,Everyday,Savings,61,76.0,250k-499k,Web,Active
+FT-C00522,27,Female,Port Harcourt,Premium,Premium,80,63.2,1m+,Web,Active
+FT-C00523,60,Male,Lagos,Everyday,Savings,16,77.6,500k-999k,Web,Active
+FT-C00524,61,Female,Port Harcourt,SME,Savings,2,85.1,500k-999k,Mobile App,Active
+FT-C00525,46,Male,Lagos,Everyday,Savings,72,87.1,100k-249k,Mobile App,Restricted
+FT-C00526,30,Female,Ibadan,Everyday,Savings,43,84.9,100k-249k,Mobile App,Active
+FT-C00527,29,Female,Port Harcourt,Everyday,Savings,42,95.1,Below 100k,Mobile App,Active
+FT-C00528,48,Male,Kano,Everyday,Savings,77,88.2,250k-499k,Mobile App,Active
+FT-C00529,63,Male,Ibadan,Premium,Savings,57,79.3,Below 100k,USSD,Active
+FT-C00530,19,Male,Port Harcourt,Student,Savings,81,47.4,500k-999k,Web,Active
+FT-C00531,52,Male,Ibadan,Student,Current,88,47.4,500k-999k,Mobile App,Active
+FT-C00532,40,Male,Lagos,Student,Savings,67,63.5,250k-499k,Mobile App,Active
+FT-C00533,34,Female,Port Harcourt,SME,Current,30,68.8,Below 100k,Mobile App,Dormant
+FT-C00534,43,Female,Lagos,Student,Savings,13,93.2,Below 100k,Web,Active
+FT-C00535,25,Male,Enugu,Everyday,Savings,19,18.0,500k-999k,Web,Active
+FT-C00536,46,Male,Lagos,Student,Savings,7,49.4,250k-499k,Web,Active
+FT-C00537,43,Male,Abuja,Everyday,Savings,9,64.5,250k-499k,Mobile App,Active
+FT-C00538,27,Female,Ibadan,Everyday,Premium,83,50.1,100k-249k,Mobile App,Active
+FT-C00539,43,Female,Abuja,Premium,Current,54,53.6,250k-499k,USSD,Active
+FT-C00540,51,Male,Lagos,Everyday,Premium,86,59.0,500k-999k,USSD,Active
+FT-C00541,58,Male,Port Harcourt,Everyday,Premium,82,51.0,250k-499k,Mobile App,Active
+FT-C00542,24,Male,Ibadan,Everyday,Current,61,54.1,250k-499k,Mobile App,Dormant
+FT-C00543,21,Male,Kano,Everyday,Savings,87,92.5,500k-999k,Mobile App,Active
+FT-C00544,62,Male,Abuja,SME,Savings,2,79.1,100k-249k,USSD,Active
+FT-C00545,28,Female,Port Harcourt,Everyday,Premium,50,81.8,Below 100k,Web,Active
+FT-C00546,46,Female,Abuja,Everyday,Current,75,67.4,250k-499k,Web,Active
+FT-C00547,53,Female,Ibadan,Everyday,Savings,31,86.2,Below 100k,Mobile App,Active
+FT-C00548,42,Female,Port Harcourt,Everyday,Current,33,83.3,500k-999k,Mobile App,Active
+FT-C00549,38,Male,Port Harcourt,SME,Savings,78,78.8,250k-499k,Mobile App,Active
+FT-C00550,53,Female,Lagos,Everyday,Savings,80,56.2,500k-999k,USSD,Dormant
+FT-C00551,27,Male,Lagos,Premium,Savings,11,60.0,250k-499k,Mobile App,Active
+FT-C00552,54,Female,Lagos,Student,Current,33,87.0,Below 100k,Web,Active
+FT-C00553,26,Female,Lagos,SME,Premium,7,58.7,100k-249k,Mobile App,Active
+FT-C00554,41,Female,Abuja,Premium,Savings,31,44.8,500k-999k,USSD,Active
+FT-C00555,52,Female,Ibadan,Student,Savings,48,58.4,Below 100k,Web,Active
+FT-C00556,52,Male,Lagos,Everyday,Savings,47,96.1,250k-499k,Mobile App,Active
+FT-C00557,65,Female,Kaduna,Everyday,Current,78,58.4,500k-999k,USSD,Active
+FT-C00558,53,Male,Lagos,Everyday,Savings,92,73.9,100k-249k,Mobile App,Active
+FT-C00559,35,Female,Kano,SME,Savings,53,56.9,100k-249k,Mobile App,Active
+FT-C00560,56,Female,Ibadan,Everyday,Savings,80,81.7,250k-499k,Mobile App,Dormant
+FT-C00561,49,Female,Abuja,Everyday,Savings,19,77.7,500k-999k,USSD,Dormant
+FT-C00562,41,Male,Lagos,Everyday,Savings,81,41.2,100k-249k,USSD,Dormant
+FT-C00563,40,Male,Ibadan,Everyday,Current,90,72.8,1m+,Mobile App,Active
+FT-C00564,49,Female,Abuja,Everyday,Savings,6,37.7,250k-499k,Web,Dormant
+FT-C00565,54,Female,Kaduna,SME,Current,49,58.0,1m+,Web,Restricted
+FT-C00566,29,Male,Port Harcourt,Everyday,Savings,73,67.8,Below 100k,Web,Dormant
+FT-C00567,30,Female,Kaduna,Premium,Savings,50,100.0,Below 100k,Mobile App,Active
+FT-C00568,40,Female,Lagos,Student,Savings,81,73.7,500k-999k,Mobile App,Active
+FT-C00569,42,Male,Kano,Everyday,Current,95,54.2,500k-999k,Web,Active
+FT-C00570,52,Male,Ibadan,Everyday,Premium,12,62.3,100k-249k,Mobile App,Active
+FT-C00571,58,Female,Kano,Everyday,Premium,23,84.6,250k-499k,Mobile App,Active
+FT-C00572,47,Male,Lagos,Everyday,Savings,54,54.4,500k-999k,Web,Active
+FT-C00573,34,Male,Ibadan,Premium,Savings,69,87.7,Below 100k,Mobile App,Restricted
+FT-C00574,37,Female,Port Harcourt,Everyday,Current,59,58.6,250k-499k,USSD,Active
+FT-C00575,65,Male,Kano,Everyday,Current,36,51.5,500k-999k,Mobile App,Active
+FT-C00576,42,Male,Lagos,Premium,Savings,3,59.2,100k-249k,USSD,Dormant
+FT-C00577,39,Female,Enugu,SME,Current,58,38.9,100k-249k,Mobile App,Restricted
+FT-C00578,30,Female,Lagos,Student,Savings,88,28.9,500k-999k,Mobile App,Active
+FT-C00579,36,Female,Benin City,Student,Savings,55,66.5,100k-249k,Mobile App,Active
+FT-C00580,53,Male,Enugu,Student,Savings,57,66.8,Below 100k,Web,Active
+FT-C00581,29,Female,Benin City,Everyday,Savings,17,72.6,1m+,Web,Active
+FT-C00582,58,Male,Port Harcourt,Student,Savings,39,66.4,250k-499k,Mobile App,Active
+FT-C00583,36,Male,Abuja,Everyday,Savings,90,100.0,500k-999k,Mobile App,Active
+FT-C00584,29,Female,Kaduna,Premium,Savings,68,71.0,500k-999k,Web,Active
+FT-C00585,26,Male,Lagos,Premium,Savings,55,43.2,Below 100k,Mobile App,Active
+FT-C00586,24,Female,Port Harcourt,Everyday,Savings,45,47.8,Below 100k,Web,Dormant
+FT-C00587,45,Male,Ibadan,Student,Current,76,68.0,100k-249k,Mobile App,Active
+FT-C00588,31,Male,Kano,SME,Savings,1,60.2,100k-249k,Mobile App,Active
+FT-C00589,48,Female,Lagos,Everyday,Savings,21,45.9,250k-499k,Web,Active
+FT-C00590,36,Female,Ibadan,Student,Savings,83,66.9,250k-499k,USSD,Active
+FT-C00591,64,Female,Benin City,Everyday,Premium,21,67.2,250k-499k,Web,Dormant
+FT-C00592,33,Female,Lagos,Premium,Savings,52,96.7,100k-249k,Mobile App,Active
+FT-C00593,22,Female,Enugu,Premium,Savings,82,51.5,100k-249k,Mobile App,Active
+FT-C00594,52,Female,Lagos,Premium,Savings,43,60.5,250k-499k,Web,Active
+FT-C00595,29,Prefer not to say,Abuja,SME,Current,52,96.7,250k-499k,Mobile App,Active
+FT-C00596,42,Female,Lagos,SME,Savings,67,73.9,Below 100k,USSD,Active
+FT-C00597,38,Female,Lagos,Student,Savings,44,51.4,250k-499k,Web,Active
+FT-C00598,53,Male,Enugu,Everyday,Savings,32,55.1,Below 100k,Mobile App,Active
+FT-C00599,40,Female,Abuja,SME,Savings,10,46.1,100k-249k,Mobile App,Active
+FT-C00600,33,Male,Abuja,Everyday,Current,64,69.4,250k-499k,Mobile App,Active
+FT-C00601,56,Male,Lagos,SME,Premium,79,86.6,Below 100k,Mobile App,Active
+FT-C00602,62,Male,Port Harcourt,Everyday,Current,69,97.4,250k-499k,Mobile App,Active
+FT-C00603,59,Female,Port Harcourt,Everyday,Current,68,41.2,100k-249k,Mobile App,Active
+FT-C00604,56,Female,Abuja,Student,Savings,28,83.6,Below 100k,Mobile App,Active
+FT-C00605,31,Female,Lagos,Everyday,Savings,53,71.0,100k-249k,Mobile App,Active
+FT-C00606,48,Male,Enugu,Everyday,Current,51,63.3,1m+,Mobile App,Active
+FT-C00607,22,Female,Abuja,Everyday,Savings,53,60.5,250k-499k,Mobile App,Active
+FT-C00608,52,Female,Port Harcourt,Everyday,Premium,4,33.4,1m+,Mobile App,Active
+FT-C00609,40,Prefer not to say,Lagos,Everyday,Savings,79,79.5,250k-499k,Web,Dormant
+FT-C00610,46,Female,Kano,Everyday,Savings,17,44.3,250k-499k,Mobile App,Active
+FT-C00611,60,Female,Abuja,Everyday,Current,67,54.5,100k-249k,Mobile App,Active
+FT-C00612,28,Female,Port Harcourt,Everyday,Current,74,75.5,100k-249k,Web,Dormant
+FT-C00613,35,Prefer not to say,Lagos,Student,Current,47,35.3,100k-249k,USSD,Active
+FT-C00614,64,Female,Kaduna,Everyday,Savings,56,44.2,100k-249k,Mobile App,Active
+FT-C00615,29,Male,Lagos,SME,Current,23,89.9,100k-249k,Mobile App,Active
+FT-C00616,26,Male,Kano,SME,Savings,18,70.2,100k-249k,Mobile App,Active
+FT-C00617,27,Female,Abuja,Everyday,Savings,1,56.1,100k-249k,Mobile App,Active
+FT-C00618,61,Male,Lagos,Student,Premium,35,70.3,100k-249k,USSD,Active
+FT-C00619,34,Female,Benin City,Student,Current,64,80.1,100k-249k,Web,Active
+FT-C00620,55,Female,Lagos,SME,Savings,58,88.2,250k-499k,Web,Active
+FT-C00621,24,Male,Enugu,Premium,Current,95,48.0,500k-999k,Mobile App,Restricted
+FT-C00622,63,Male,Enugu,Everyday,Savings,59,49.6,100k-249k,Web,Active
+FT-C00623,30,Male,Benin City,Premium,Savings,1,79.0,100k-249k,Mobile App,Active
+FT-C00624,57,Male,Lagos,Premium,Savings,3,79.5,100k-249k,Mobile App,Active
+FT-C00625,59,Female,Kano,Premium,Premium,67,43.8,500k-999k,Mobile App,Active
+FT-C00626,26,Female,Abuja,Everyday,Savings,37,50.2,Below 100k,Mobile App,Active
+FT-C00627,44,Female,Enugu,SME,Current,83,64.5,250k-499k,Mobile App,Dormant
+FT-C00628,19,Female,Ibadan,SME,Savings,29,68.4,250k-499k,Web,Active
+FT-C00629,22,Female,Benin City,Everyday,Current,89,68.9,Below 100k,Mobile App,Active
+FT-C00630,46,Female,Port Harcourt,Everyday,Savings,33,43.5,100k-249k,Mobile App,Active
+FT-C00631,54,Female,Port Harcourt,Everyday,Current,61,68.8,100k-249k,Mobile App,Active
+FT-C00632,55,Female,Lagos,Student,Savings,93,55.1,500k-999k,Mobile App,Active
+FT-C00633,36,Male,Kano,Student,Current,90,47.0,250k-499k,Web,Active
+FT-C00634,25,Male,Abuja,Premium,Premium,4,67.8,250k-499k,Web,Active
+FT-C00635,65,Female,Port Harcourt,Everyday,Current,14,66.0,250k-499k,Web,Dormant
+FT-C00636,62,Male,Kano,Premium,Savings,91,82.4,250k-499k,Mobile App,Active
+FT-C00637,18,Male,Port Harcourt,Everyday,Premium,33,52.5,250k-499k,Web,Active
+FT-C00638,39,Female,Lagos,Premium,Savings,22,72.2,Below 100k,USSD,Active
+FT-C00639,34,Male,Port Harcourt,Student,Current,48,39.8,100k-249k,Mobile App,Active
+FT-C00640,24,Male,Abuja,SME,Premium,3,63.1,100k-249k,Mobile App,Active
+FT-C00641,42,Male,Abuja,SME,Savings,87,76.3,250k-499k,USSD,Active
+FT-C00642,62,Female,Lagos,SME,Savings,85,77.9,Below 100k,Mobile App,Active
+FT-C00643,21,Male,Lagos,Everyday,Savings,23,78.0,250k-499k,Mobile App,Active
+FT-C00644,53,Female,Lagos,Premium,Savings,68,82.5,100k-249k,Mobile App,Active
+FT-C00645,23,Male,Kano,Student,Current,21,60.0,1m+,Mobile App,Active
+FT-C00646,48,Male,Lagos,SME,Savings,43,76.9,100k-249k,Mobile App,Active
+FT-C00647,36,Male,Abuja,Everyday,Savings,95,100.0,100k-249k,Mobile App,Active
+FT-C00648,61,Male,Enugu,Everyday,Savings,85,59.6,1m+,Web,Active
+FT-C00649,56,Male,Lagos,Everyday,Savings,26,92.8,100k-249k,Mobile App,Active
+FT-C00650,44,Female,Port Harcourt,Premium,Savings,41,83.8,1m+,Web,Active
+FT-C00651,27,Female,Kano,Everyday,Premium,38,63.2,Below 100k,Mobile App,Active
+FT-C00652,43,Male,Kaduna,Everyday,Savings,88,64.7,100k-249k,USSD,Active
+FT-C00653,36,Female,Kano,Everyday,Premium,11,70.1,250k-499k,USSD,Active
+FT-C00654,56,Female,Kano,Everyday,Savings,29,82.8,500k-999k,Web,Active
+FT-C00655,20,Female,Benin City,SME,Savings,60,75.2,100k-249k,USSD,Active
+FT-C00656,62,Female,Abuja,Everyday,Current,67,59.5,1m+,Web,Restricted
+FT-C00657,30,Male,Benin City,Student,Savings,65,30.5,250k-499k,USSD,Restricted
+FT-C00658,45,Male,Lagos,Premium,Savings,61,80.1,500k-999k,Mobile App,Active
+FT-C00659,37,Male,Enugu,SME,Savings,19,33.2,100k-249k,Mobile App,Active
+FT-C00660,45,Male,Abuja,Everyday,Savings,46,43.4,100k-249k,Web,Restricted
+FT-C00661,25,Female,Port Harcourt,SME,Savings,49,60.8,1m+,Mobile App,Active
+FT-C00662,58,Female,Lagos,Premium,Savings,22,46.1,1m+,Web,Active
+FT-C00663,56,Male,Kano,SME,Savings,78,73.7,250k-499k,USSD,Active
+FT-C00664,18,Female,Lagos,SME,Savings,57,62.7,Below 100k,Mobile App,Active
+FT-C00665,20,Male,Enugu,Everyday,Savings,14,82.1,Below 100k,Web,Active
+FT-C00666,30,Male,Benin City,Everyday,Savings,44,39.1,250k-499k,Mobile App,Active
+FT-C00667,45,Female,Lagos,Everyday,Savings,16,56.1,Below 100k,Mobile App,Active
+FT-C00668,42,Male,Benin City,Premium,Savings,77,68.1,100k-249k,Mobile App,Active
+FT-C00669,50,Male,Kano,Everyday,Premium,12,68.8,100k-249k,Mobile App,Active
+FT-C00670,55,Male,Ibadan,Everyday,Savings,55,80.5,250k-499k,Mobile App,Active
+FT-C00671,23,Female,Abuja,Premium,Current,51,51.5,Below 100k,Mobile App,Active
+FT-C00672,61,Female,Lagos,Everyday,Savings,39,59.6,250k-499k,Mobile App,Active
+FT-C00673,62,Male,Lagos,Everyday,Premium,33,77.1,250k-499k,Web,Active
+FT-C00674,49,Female,Lagos,Everyday,Savings,33,28.4,250k-499k,Web,Active
+FT-C00675,62,Female,Enugu,Everyday,Premium,29,74.9,100k-249k,Mobile App,Active
+FT-C00676,64,Male,Lagos,Everyday,Current,69,81.8,100k-249k,Mobile App,Dormant
+FT-C00677,38,Female,Benin City,Premium,Savings,70,44.0,250k-499k,USSD,Active
+FT-C00678,33,Male,Abuja,Everyday,Premium,31,62.3,500k-999k,Web,Active
+FT-C00679,38,Male,Port Harcourt,SME,Savings,80,94.9,250k-499k,Mobile App,Active
+FT-C00680,28,Male,Benin City,Premium,Savings,31,79.9,1m+,Mobile App,Active
+FT-C00681,54,Female,Enugu,Premium,Current,89,76.0,250k-499k,Web,Active
+FT-C00682,53,Male,Abuja,Everyday,Premium,46,85.8,500k-999k,Mobile App,Active
+FT-C00683,52,Female,Abuja,Student,Savings,77,100.0,Below 100k,Mobile App,Active
+FT-C00684,36,Female,Abuja,SME,Savings,52,68.3,100k-249k,Mobile App,Active
+FT-C00685,37,Male,Lagos,SME,Current,10,60.7,250k-499k,Mobile App,Active
+FT-C00686,35,Female,Lagos,Student,Current,88,85.8,100k-249k,Web,Active
+FT-C00687,64,Female,Abuja,Everyday,Premium,74,64.6,250k-499k,Mobile App,Active
+FT-C00688,58,Male,Abuja,Everyday,Current,41,51.3,100k-249k,Mobile App,Active
+FT-C00689,31,Female,Kano,Everyday,Savings,95,58.3,250k-499k,Mobile App,Active
+FT-C00690,32,Female,Abuja,SME,Premium,77,73.6,250k-499k,USSD,Active
+FT-C00691,48,Male,Abuja,Student,Savings,3,59.9,100k-249k,Web,Active
+FT-C00692,18,Male,Abuja,Student,Savings,59,61.3,1m+,Web,Active
+FT-C00693,20,Male,Kano,Everyday,Savings,52,49.5,100k-249k,Web,Dormant
+FT-C00694,33,Female,Enugu,SME,Savings,34,93.8,100k-249k,Mobile App,Active
+FT-C00695,40,Female,Port Harcourt,Everyday,Savings,49,61.8,100k-249k,USSD,Active
+FT-C00696,28,Female,Kano,Everyday,Current,28,55.2,500k-999k,Mobile App,Active
+FT-C00697,29,Female,Lagos,Everyday,Savings,83,57.1,250k-499k,Web,Active
+FT-C00698,27,Male,Port Harcourt,Premium,Savings,87,82.4,250k-499k,Mobile App,Active
+FT-C00699,49,Female,Abuja,Premium,Current,96,78.3,100k-249k,Mobile App,Active
+FT-C00700,33,Female,Abuja,SME,Savings,13,59.0,250k-499k,Mobile App,Active
+FT-C00701,25,Male,Kano,Everyday,Savings,69,68.6,100k-249k,Web,Active
+FT-C00702,55,Male,Enugu,Premium,Savings,67,73.0,500k-999k,Web,Active
+FT-C00703,29,Male,Lagos,Premium,Premium,61,55.3,500k-999k,Mobile App,Active
+FT-C00704,41,Female,Ibadan,Everyday,Savings,60,40.3,250k-499k,Mobile App,Active
+FT-C00705,45,Female,Port Harcourt,Student,Savings,71,77.3,500k-999k,USSD,Active
+FT-C00706,25,Female,Lagos,Student,Savings,24,56.3,250k-499k,Mobile App,Active
+FT-C00707,45,Female,Lagos,Student,Savings,63,75.9,250k-499k,Web,Active
+FT-C00708,53,Male,Lagos,SME,Savings,86,73.8,100k-249k,Mobile App,Active
+FT-C00709,43,Male,Lagos,Student,Savings,61,69.0,250k-499k,Mobile App,Active
+FT-C00710,25,Male,Lagos,Everyday,Savings,23,60.3,100k-249k,Mobile App,Active
+FT-C00711,45,Male,Lagos,Student,Premium,30,56.6,Below 100k,Mobile App,Active
+FT-C00712,45,Female,Lagos,Everyday,Savings,60,47.5,100k-249k,Mobile App,Active
+FT-C00713,54,Male,Kano,Everyday,Savings,18,56.9,250k-499k,Mobile App,Active
+FT-C00714,58,Female,Port Harcourt,Everyday,Savings,96,78.2,100k-249k,Mobile App,Restricted
+FT-C00715,53,Male,Kaduna,Student,Savings,56,93.2,250k-499k,Mobile App,Active
+FT-C00716,44,Male,Abuja,Student,Current,53,90.5,Below 100k,Mobile App,Dormant
+FT-C00717,34,Female,Kano,Everyday,Savings,7,70.6,100k-249k,Web,Active
+FT-C00718,26,Female,Enugu,Student,Savings,69,93.2,500k-999k,Mobile App,Active
+FT-C00719,50,Male,Ibadan,SME,Current,92,62.5,100k-249k,Mobile App,Active
+FT-C00720,37,Female,Abuja,Everyday,Savings,72,44.8,250k-499k,Mobile App,Active
+FT-C00721,30,Female,Kano,Everyday,Savings,79,100.0,250k-499k,Mobile App,Active
+FT-C00722,45,Female,Lagos,Student,Savings,52,77.6,1m+,Web,Active
+FT-C00723,65,Male,Lagos,Everyday,Savings,4,40.4,250k-499k,Mobile App,Active
+FT-C00724,46,Male,Port Harcourt,Premium,Savings,34,96.1,Below 100k,Web,Active
+FT-C00725,30,Male,Port Harcourt,Everyday,Savings,69,54.6,100k-249k,Mobile App,Active
+FT-C00726,63,Female,Lagos,Everyday,Savings,33,58.5,Below 100k,Mobile App,Active
+FT-C00727,52,Male,Kaduna,Student,Premium,69,86.4,1m+,Mobile App,Active
+FT-C00728,23,Female,Ibadan,Student,Savings,38,92.5,Below 100k,Web,Active
+FT-C00729,35,Male,Port Harcourt,Student,Savings,26,50.0,100k-249k,USSD,Active
+FT-C00730,22,Male,Kaduna,SME,Savings,1,94.5,100k-249k,Web,Active
+FT-C00731,64,Female,Abuja,Student,Savings,4,83.7,500k-999k,Web,Active
+FT-C00732,42,Female,Kaduna,Student,Savings,39,53.6,100k-249k,Mobile App,Active
+FT-C00733,19,Female,Port Harcourt,Everyday,Premium,54,63.6,1m+,USSD,Active
+FT-C00734,27,Female,Lagos,Premium,Current,90,95.3,Below 100k,Mobile App,Active
+FT-C00735,47,Female,Kano,Everyday,Premium,33,39.9,Below 100k,Mobile App,Active
+FT-C00736,62,Male,Ibadan,Student,Premium,33,92.9,100k-249k,Mobile App,Restricted
+FT-C00737,22,Male,Kano,Everyday,Savings,72,83.2,500k-999k,USSD,Active
+FT-C00738,50,Female,Kaduna,Premium,Savings,20,77.2,500k-999k,USSD,Active
+FT-C00739,18,Female,Kano,Everyday,Savings,16,70.4,Below 100k,USSD,Active
+FT-C00740,35,Female,Ibadan,Student,Savings,21,100.0,Below 100k,Web,Active
+FT-C00741,49,Male,Benin City,SME,Premium,45,100.0,500k-999k,Mobile App,Active
+FT-C00742,64,Female,Ibadan,Everyday,Savings,90,56.9,Below 100k,USSD,Active
+FT-C00743,28,Male,Abuja,SME,Premium,87,79.0,Below 100k,USSD,Active
+FT-C00744,38,Male,Enugu,Everyday,Savings,82,100.0,Below 100k,Mobile App,Active
+FT-C00745,43,Male,Lagos,Premium,Premium,62,53.9,Below 100k,Mobile App,Active
+FT-C00746,42,Male,Kano,SME,Premium,31,72.4,100k-249k,Web,Active
+FT-C00747,39,Female,Enugu,Everyday,Current,42,86.1,Below 100k,USSD,Active
+FT-C00748,44,Male,Kano,SME,Current,12,31.7,100k-249k,USSD,Active
+FT-C00749,30,Female,Ibadan,Everyday,Savings,65,82.9,500k-999k,USSD,Active
+FT-C00750,50,Female,Kano,Everyday,Current,73,48.4,100k-249k,USSD,Active
+FT-C00751,51,Male,Abuja,SME,Premium,3,71.5,250k-499k,USSD,Dormant
+FT-C00752,58,Male,Enugu,Everyday,Current,90,88.6,Below 100k,Web,Active
+FT-C00753,52,Male,Lagos,SME,Current,9,25.0,250k-499k,Web,Dormant
+FT-C00754,18,Female,Lagos,SME,Current,51,82.1,100k-249k,Mobile App,Active
+FT-C00755,38,Female,Lagos,Everyday,Current,16,100.0,500k-999k,Web,Active
+FT-C00756,65,Male,Port Harcourt,Premium,Savings,88,58.4,Below 100k,Mobile App,Active
+FT-C00757,23,Female,Port Harcourt,Everyday,Current,78,78.4,500k-999k,USSD,Active
+FT-C00758,45,Male,Benin City,Everyday,Savings,3,92.0,100k-249k,Mobile App,Active
+FT-C00759,34,Male,Abuja,Everyday,Savings,24,39.3,100k-249k,Mobile App,Active
+FT-C00760,22,Male,Abuja,Everyday,Savings,73,81.6,1m+,Mobile App,Active
+FT-C00761,48,Female,Lagos,Everyday,Savings,13,86.4,250k-499k,Web,Active
+FT-C00762,22,Female,Abuja,Everyday,Savings,2,79.5,100k-249k,Mobile App,Active
+FT-C00763,55,Female,Ibadan,SME,Savings,71,69.6,1m+,Mobile App,Active
+FT-C00764,20,Male,Lagos,Student,Savings,21,50.0,100k-249k,Mobile App,Active
+FT-C00765,40,Female,Lagos,Student,Savings,19,93.0,Below 100k,Mobile App,Active
+FT-C00766,54,Male,Lagos,Premium,Savings,89,68.6,1m+,Mobile App,Active
+FT-C00767,54,Female,Lagos,Student,Current,47,51.7,100k-249k,Mobile App,Active
+FT-C00768,27,Prefer not to say,Abuja,Everyday,Premium,22,62.3,500k-999k,Mobile App,Active
+FT-C00769,27,Female,Lagos,Student,Current,75,74.6,Below 100k,Mobile App,Active
+FT-C00770,36,Female,Kano,SME,Premium,33,39.9,500k-999k,Mobile App,Active
+FT-C00771,34,Female,Benin City,Everyday,Current,32,68.3,250k-499k,Mobile App,Active
+FT-C00772,38,Male,Port Harcourt,Student,Savings,64,60.5,1m+,USSD,Active
+FT-C00773,31,Male,Kaduna,SME,Current,85,92.0,250k-499k,Mobile App,Active
+FT-C00774,26,Male,Abuja,SME,Current,39,34.3,Below 100k,Mobile App,Dormant
+FT-C00775,63,Female,Port Harcourt,Student,Savings,84,84.9,250k-499k,Mobile App,Active
+FT-C00776,18,Female,Kaduna,Everyday,Savings,72,93.5,Below 100k,Mobile App,Active
+FT-C00777,62,Male,Lagos,Everyday,Current,42,34.9,500k-999k,Mobile App,Active
+FT-C00778,30,Female,Kaduna,Everyday,Savings,9,37.1,500k-999k,Mobile App,Active
+FT-C00779,21,Female,Lagos,Student,Current,25,100.0,250k-499k,Mobile App,Active
+FT-C00780,18,Prefer not to say,Abuja,Everyday,Savings,89,51.7,500k-999k,Mobile App,Active
+FT-C00781,57,Prefer not to say,Lagos,SME,Savings,2,100.0,Below 100k,Mobile App,Active
+FT-C00782,49,Male,Kano,Everyday,Savings,19,35.5,250k-499k,Web,Active
+FT-C00783,51,Male,Ibadan,Everyday,Savings,20,71.1,100k-249k,Mobile App,Active
+FT-C00784,45,Female,Kano,Premium,Savings,93,67.6,250k-499k,USSD,Active
+FT-C00785,48,Female,Abuja,Student,Current,70,64.3,Below 100k,Mobile App,Active
+FT-C00786,25,Male,Abuja,Everyday,Current,17,76.3,500k-999k,Web,Active
+FT-C00787,56,Male,Lagos,Everyday,Premium,89,77.4,Below 100k,Mobile App,Dormant
+FT-C00788,43,Female,Abuja,Premium,Savings,68,65.0,250k-499k,USSD,Active
+FT-C00789,51,Female,Enugu,Everyday,Current,94,49.7,Below 100k,Mobile App,Active
+FT-C00790,20,Female,Abuja,Everyday,Savings,84,86.9,500k-999k,Mobile App,Active
+FT-C00791,29,Male,Benin City,Student,Savings,3,79.3,Below 100k,Mobile App,Active
+FT-C00792,18,Male,Benin City,Premium,Savings,87,70.1,250k-499k,Mobile App,Active
+FT-C00793,61,Male,Abuja,Everyday,Savings,51,78.7,100k-249k,Web,Active
+FT-C00794,22,Female,Ibadan,Student,Savings,82,81.8,250k-499k,Web,Active
+FT-C00795,47,Prefer not to say,Lagos,SME,Savings,26,54.3,100k-249k,Mobile App,Active
+FT-C00796,47,Male,Lagos,Premium,Current,56,78.1,250k-499k,Mobile App,Active
+FT-C00797,34,Female,Lagos,Premium,Current,64,58.0,100k-249k,Mobile App,Active
+FT-C00798,65,Female,Port Harcourt,SME,Savings,8,82.4,500k-999k,Web,Active
+FT-C00799,64,Female,Abuja,SME,Savings,81,64.5,Below 100k,Mobile App,Dormant
+FT-C00800,40,Female,Port Harcourt,Student,Savings,95,79.0,100k-249k,Mobile App,Active
+FT-C00801,32,Male,Port Harcourt,Everyday,Savings,37,60.2,250k-499k,USSD,Active
+FT-C00802,54,Female,Abuja,Premium,Current,27,79.9,Below 100k,Mobile App,Active
+FT-C00803,38,Male,Ibadan,Student,Savings,45,50.4,100k-249k,USSD,Active
+FT-C00804,31,Female,Kano,Everyday,Current,4,68.7,1m+,Web,Active
+FT-C00805,19,Female,Lagos,Everyday,Premium,86,85.7,1m+,Mobile App,Dormant
+FT-C00806,28,Female,Lagos,Student,Savings,90,76.4,500k-999k,Mobile App,Active
+FT-C00807,56,Female,Kano,Premium,Premium,96,71.5,100k-249k,Web,Active
+FT-C00808,55,Male,Abuja,Everyday,Savings,88,100.0,100k-249k,Mobile App,Active
+FT-C00809,51,Male,Ibadan,Student,Savings,37,86.4,250k-499k,Mobile App,Active
+FT-C00810,55,Male,Abuja,Everyday,Savings,96,83.4,Below 100k,Mobile App,Active
+FT-C00811,51,Male,Abuja,Everyday,Savings,71,79.8,1m+,Web,Active
+FT-C00812,35,Female,Lagos,Student,Savings,33,82.1,100k-249k,Web,Active
+FT-C00813,47,Female,Lagos,Everyday,Savings,31,97.8,1m+,Mobile App,Active
+FT-C00814,32,Female,Ibadan,Everyday,Current,55,60.5,250k-499k,Mobile App,Active
+FT-C00815,44,Male,Abuja,SME,Premium,12,86.2,500k-999k,Web,Active
+FT-C00816,51,Female,Kano,Everyday,Current,11,74.4,Below 100k,USSD,Active
+FT-C00817,55,Female,Benin City,Everyday,Savings,88,61.1,500k-999k,Mobile App,Active
+FT-C00818,50,Male,Port Harcourt,SME,Current,72,66.2,100k-249k,Mobile App,Active
+FT-C00819,41,Female,Kano,Student,Current,32,71.9,250k-499k,USSD,Active
+FT-C00820,32,Female,Lagos,Student,Current,57,52.5,500k-999k,Web,Active
+FT-C00821,47,Female,Abuja,SME,Current,38,83.6,Below 100k,Mobile App,Active
+FT-C00822,59,Male,Kano,Everyday,Premium,60,66.1,100k-249k,USSD,Active
+FT-C00823,34,Male,Abuja,Student,Savings,86,69.5,250k-499k,Web,Dormant
+FT-C00824,22,Male,Port Harcourt,Premium,Current,19,92.4,100k-249k,Mobile App,Active
+FT-C00825,46,Female,Lagos,Student,Savings,84,70.3,250k-499k,Web,Active
+FT-C00826,21,Prefer not to say,Port Harcourt,Premium,Premium,56,95.9,100k-249k,Web,Active
+FT-C00827,27,Male,Enugu,Premium,Savings,14,58.6,100k-249k,USSD,Active
+FT-C00828,34,Female,Enugu,Premium,Savings,33,48.3,250k-499k,Mobile App,Active
+FT-C00829,27,Male,Kano,Premium,Savings,10,62.8,250k-499k,Mobile App,Active
+FT-C00830,34,Female,Kano,Student,Current,80,17.3,100k-249k,Web,Active
+FT-C00831,37,Male,Port Harcourt,Premium,Savings,64,84.3,500k-999k,Mobile App,Dormant
+FT-C00832,41,Male,Port Harcourt,Premium,Savings,64,49.3,500k-999k,Mobile App,Active
+FT-C00833,22,Female,Lagos,Everyday,Premium,62,56.9,250k-499k,USSD,Active
+FT-C00834,51,Prefer not to say,Abuja,Premium,Premium,68,80.9,100k-249k,Mobile App,Active
+FT-C00835,23,Male,Abuja,Student,Savings,91,70.1,100k-249k,Web,Dormant
+FT-C00836,19,Male,Kaduna,Student,Savings,92,60.1,250k-499k,USSD,Restricted
+FT-C00837,30,Female,Abuja,Student,Current,43,31.3,250k-499k,Mobile App,Active
+FT-C00838,60,Female,Port Harcourt,SME,Premium,80,91.4,100k-249k,USSD,Active
+FT-C00839,60,Female,Port Harcourt,Student,Savings,59,81.0,250k-499k,Web,Active
+FT-C00840,65,Male,Ibadan,Premium,Current,52,100.0,100k-249k,Mobile App,Active
+FT-C00841,28,Female,Kano,Student,Savings,19,57.3,Below 100k,Mobile App,Active
+FT-C00842,64,Male,Lagos,SME,Current,21,41.8,250k-499k,USSD,Dormant
+FT-C00843,40,Male,Port Harcourt,Premium,Current,22,85.9,250k-499k,Mobile App,Active
+FT-C00844,33,Female,Benin City,Student,Savings,9,64.6,100k-249k,Mobile App,Active
+FT-C00845,48,Male,Abuja,Student,Savings,9,79.3,250k-499k,Mobile App,Active
+FT-C00846,28,Female,Lagos,Premium,Premium,73,97.2,1m+,Mobile App,Active
+FT-C00847,33,Male,Ibadan,Everyday,Current,27,75.0,250k-499k,Mobile App,Active
+FT-C00848,25,Male,Benin City,Everyday,Savings,17,71.0,250k-499k,USSD,Active
+FT-C00849,21,Female,Lagos,SME,Current,44,72.1,Below 100k,USSD,Active
+FT-C00850,57,Female,Kano,Premium,Current,45,38.5,Below 100k,Mobile App,Active
+FT-C00851,21,Female,Benin City,Premium,Savings,8,87.9,100k-249k,Mobile App,Active
+FT-C00852,42,Male,Abuja,SME,Current,80,89.1,250k-499k,Web,Active
+FT-C00853,20,Male,Kaduna,Premium,Savings,18,77.6,500k-999k,Mobile App,Active
+FT-C00854,49,Male,Kano,Premium,Premium,33,40.7,100k-249k,Web,Active
+FT-C00855,20,Female,Kano,Student,Savings,1,65.8,100k-249k,USSD,Active
+FT-C00856,44,Female,Kano,Student,Savings,76,93.9,100k-249k,USSD,Active
+FT-C00857,46,Female,Lagos,Everyday,Savings,6,57.8,100k-249k,Mobile App,Active
+FT-C00858,49,Male,Lagos,Premium,Current,41,89.3,1m+,Mobile App,Active
+FT-C00859,36,Male,Abuja,Premium,Current,55,69.0,250k-499k,Mobile App,Active
+FT-C00860,38,Female,Lagos,Everyday,Premium,5,80.8,Below 100k,Mobile App,Active
+FT-C00861,22,Female,Abuja,Premium,Current,59,60.6,250k-499k,Mobile App,Active
+FT-C00862,35,Male,Enugu,Everyday,Savings,80,69.5,250k-499k,USSD,Dormant
+FT-C00863,45,Male,Benin City,Everyday,Premium,18,75.9,250k-499k,USSD,Active
+FT-C00864,59,Male,Ibadan,Everyday,Savings,49,48.5,Below 100k,USSD,Active
+FT-C00865,39,Male,Benin City,Everyday,Current,82,72.9,100k-249k,USSD,Active
+FT-C00866,38,Female,Kano,Premium,Savings,65,19.6,Below 100k,Mobile App,Dormant
+FT-C00867,23,Female,Abuja,SME,Current,83,57.2,500k-999k,Web,Active
+FT-C00868,18,Male,Lagos,Student,Current,54,77.8,250k-499k,Mobile App,Active
+FT-C00869,22,Male,Port Harcourt,Everyday,Current,61,88.2,250k-499k,Mobile App,Active
+FT-C00870,58,Female,Kano,Everyday,Savings,8,76.5,100k-249k,Mobile App,Active
+FT-C00871,29,Male,Abuja,Everyday,Savings,3,43.0,100k-249k,Web,Active
+FT-C00872,43,Male,Ibadan,Premium,Savings,25,86.6,Below 100k,Web,Active
+FT-C00873,63,Male,Lagos,Everyday,Current,69,47.5,1m+,Mobile App,Active
+FT-C00874,51,Male,Kano,Premium,Savings,55,79.1,100k-249k,Mobile App,Active
+FT-C00875,31,Female,Benin City,Everyday,Premium,40,48.1,Below 100k,Mobile App,Active
+FT-C00876,43,Male,Kano,SME,Savings,83,54.1,1m+,Mobile App,Active
+FT-C00877,62,Male,Kaduna,Everyday,Savings,82,50.8,250k-499k,Mobile App,Active
+FT-C00878,44,Male,Benin City,Everyday,Current,50,70.5,500k-999k,Web,Active
+FT-C00879,26,Male,Enugu,Student,Savings,95,64.5,Below 100k,Web,Active
+FT-C00880,43,Male,Kaduna,Everyday,Premium,33,77.2,250k-499k,Mobile App,Active
+FT-C00881,64,Female,Benin City,Everyday,Current,18,67.7,100k-249k,Web,Active
+FT-C00882,39,Male,Ibadan,Premium,Savings,57,40.7,500k-999k,Mobile App,Active
+FT-C00883,64,Male,Lagos,Premium,Savings,16,73.0,Below 100k,USSD,Active
+FT-C00884,47,Male,Abuja,Student,Savings,80,36.3,100k-249k,Mobile App,Dormant
+FT-C00885,60,Male,Port Harcourt,Everyday,Savings,38,52.1,500k-999k,Web,Restricted
+FT-C00886,65,Male,Lagos,Everyday,Current,41,61.4,250k-499k,USSD,Active
+FT-C00887,34,Female,Lagos,Everyday,Savings,7,60.2,250k-499k,USSD,Active
+FT-C00888,43,Male,Kaduna,Everyday,Savings,78,38.3,Below 100k,Mobile App,Active
+FT-C00889,53,Female,Enugu,SME,Savings,53,92.7,Below 100k,Web,Active
+FT-C00890,18,Female,Benin City,Student,Savings,63,97.7,250k-499k,Mobile App,Active
+FT-C00891,25,Male,Abuja,Everyday,Savings,89,100.0,250k-499k,Mobile App,Active
+FT-C00892,52,Male,Lagos,Premium,Premium,32,88.7,1m+,Mobile App,Active
+FT-C00893,32,Female,Lagos,Everyday,Current,38,60.9,250k-499k,USSD,Dormant
+FT-C00894,64,Female,Lagos,SME,Current,22,60.6,250k-499k,USSD,Active
+FT-C00895,39,Male,Lagos,Everyday,Current,16,59.6,500k-999k,Mobile App,Active
+FT-C00896,31,Female,Lagos,Everyday,Savings,52,100.0,Below 100k,Mobile App,Active
+FT-C00897,43,Female,Enugu,Premium,Premium,29,65.9,100k-249k,USSD,Active
+FT-C00898,45,Female,Kano,Premium,Savings,16,90.8,100k-249k,Mobile App,Active
+FT-C00899,40,Female,Lagos,Premium,Savings,76,89.4,Below 100k,Mobile App,Active
+FT-C00900,31,Female,Lagos,Everyday,Savings,17,71.4,500k-999k,Mobile App,Active
+FT-C00901,41,Female,Port Harcourt,Everyday,Savings,64,41.9,250k-499k,Web,Active
+FT-C00902,19,Female,Lagos,Premium,Current,91,66.3,250k-499k,Mobile App,Active
+FT-C00903,62,Male,Kaduna,Everyday,Savings,89,70.6,100k-249k,Web,Active
+FT-C00904,43,Male,Abuja,SME,Current,13,91.0,250k-499k,Mobile App,Active
+FT-C00905,31,Male,Abuja,Everyday,Savings,72,68.4,Below 100k,Mobile App,Dormant
+FT-C00906,24,Female,Abuja,Premium,Savings,56,46.2,250k-499k,Mobile App,Active
+FT-C00907,20,Female,Lagos,Student,Current,5,85.8,100k-249k,Mobile App,Active
+FT-C00908,64,Male,Ibadan,Everyday,Savings,12,63.9,500k-999k,Mobile App,Active
+FT-C00909,40,Female,Kano,Premium,Savings,41,22.2,100k-249k,Mobile App,Active
+FT-C00910,63,Male,Ibadan,Student,Savings,3,73.8,100k-249k,Web,Active
+FT-C00911,60,Male,Lagos,Everyday,Current,33,77.0,250k-499k,Mobile App,Active
+FT-C00912,64,Male,Port Harcourt,SME,Current,86,52.8,500k-999k,Web,Active
+FT-C00913,62,Female,Port Harcourt,Premium,Savings,50,64.5,250k-499k,USSD,Active
+FT-C00914,35,Female,Enugu,Everyday,Premium,56,79.8,250k-499k,Web,Active
+FT-C00915,55,Male,Abuja,Everyday,Premium,9,74.0,1m+,USSD,Active
+FT-C00916,52,Female,Abuja,Everyday,Current,82,39.9,1m+,Mobile App,Active
+FT-C00917,32,Male,Ibadan,Student,Current,50,90.6,500k-999k,Mobile App,Active
+FT-C00918,42,Male,Ibadan,Student,Savings,29,98.7,500k-999k,USSD,Active
+FT-C00919,54,Prefer not to say,Abuja,Student,Current,39,58.8,100k-249k,USSD,Active
+FT-C00920,45,Female,Abuja,SME,Savings,91,33.6,500k-999k,USSD,Active
+FT-C00921,27,Male,Port Harcourt,Student,Savings,45,81.9,100k-249k,Web,Active
+FT-C00922,56,Male,Enugu,Premium,Premium,17,55.9,1m+,Web,Active
+FT-C00923,34,Female,Abuja,Everyday,Current,56,77.6,Below 100k,Mobile App,Active
+FT-C00924,56,Female,Kaduna,Premium,Savings,46,100.0,100k-249k,Web,Active
+FT-C00925,39,Male,Port Harcourt,Everyday,Savings,67,40.2,250k-499k,Mobile App,Active
+FT-C00926,43,Female,Kaduna,Student,Current,69,53.7,100k-249k,Mobile App,Active
+FT-C00927,61,Female,Benin City,Everyday,Savings,14,64.5,100k-249k,Mobile App,Active
+FT-C00928,42,Female,Abuja,Everyday,Savings,67,91.3,250k-499k,Mobile App,Active
+FT-C00929,34,Male,Enugu,Everyday,Savings,23,100.0,500k-999k,Mobile App,Active
+FT-C00930,30,Male,Lagos,Everyday,Savings,94,72.4,250k-499k,Web,Active
+FT-C00931,37,Male,Enugu,Premium,Current,61,38.6,100k-249k,USSD,Active
+FT-C00932,42,Female,Ibadan,Premium,Savings,23,61.8,500k-999k,Web,Active
+FT-C00933,21,Female,Lagos,Premium,Current,27,54.1,100k-249k,Mobile App,Active
+FT-C00934,27,Male,Ibadan,Premium,Savings,54,81.0,Below 100k,USSD,Active
+FT-C00935,20,Male,Kaduna,Student,Current,10,74.8,250k-499k,Mobile App,Active
+FT-C00936,58,Female,Lagos,Everyday,Premium,89,49.2,500k-999k,Web,Active
+FT-C00937,62,Male,Port Harcourt,Everyday,Current,77,53.0,250k-499k,Mobile App,Active
+FT-C00938,35,Prefer not to say,Kano,Premium,Premium,16,61.5,250k-499k,Mobile App,Active
+FT-C00939,64,Male,Benin City,Premium,Premium,41,63.7,100k-249k,Mobile App,Active
+FT-C00940,53,Male,Abuja,Everyday,Savings,55,67.2,250k-499k,Web,Active
+FT-C00941,64,Male,Lagos,Everyday,Current,61,68.9,Below 100k,Mobile App,Active
+FT-C00942,39,Female,Lagos,Everyday,Premium,86,90.2,1m+,Mobile App,Active
+FT-C00943,51,Male,Port Harcourt,Premium,Savings,81,60.9,500k-999k,Mobile App,Active
+FT-C00944,64,Prefer not to say,Abuja,Everyday,Savings,87,58.2,250k-499k,Mobile App,Active
+FT-C00945,25,Female,Kaduna,Premium,Premium,49,43.9,250k-499k,Web,Active
+FT-C00946,57,Male,Lagos,Student,Current,73,64.0,500k-999k,Mobile App,Active
+FT-C00947,61,Male,Ibadan,Everyday,Savings,52,72.6,250k-499k,Mobile App,Active
+FT-C00948,36,Male,Lagos,SME,Savings,2,37.0,100k-249k,Mobile App,Active
+FT-C00949,59,Male,Lagos,Premium,Current,96,61.8,Below 100k,Mobile App,Active
+FT-C00950,58,Male,Abuja,Premium,Savings,50,88.9,250k-499k,Mobile App,Active
+FT-C00951,54,Male,Abuja,Student,Current,86,79.7,1m+,Web,Active
+FT-C00952,23,Female,Ibadan,Student,Current,43,74.7,Below 100k,Mobile App,Active
+FT-C00953,43,Male,Enugu,Premium,Current,77,79.2,100k-249k,Mobile App,Active
+FT-C00954,51,Female,Ibadan,Everyday,Savings,8,57.7,100k-249k,Mobile App,Active
+FT-C00955,62,Female,Kaduna,Everyday,Current,59,55.3,500k-999k,Mobile App,Active
+FT-C00956,23,Female,Enugu,Everyday,Current,65,90.9,100k-249k,Mobile App,Active
+FT-C00957,54,Male,Port Harcourt,Everyday,Current,81,82.9,100k-249k,Mobile App,Active
+FT-C00958,50,Female,Benin City,Everyday,Savings,12,54.6,250k-499k,Mobile App,Active
+FT-C00959,39,Male,Ibadan,Everyday,Savings,4,34.2,250k-499k,Mobile App,Active
+FT-C00960,38,Male,Lagos,Everyday,Premium,77,54.9,Below 100k,USSD,Active
+FT-C00961,23,Male,Kano,Student,Savings,95,77.8,Below 100k,Web,Active
+FT-C00962,23,Female,Lagos,SME,Savings,41,56.2,250k-499k,Web,Dormant
+FT-C00963,65,Male,Port Harcourt,SME,Savings,7,73.9,250k-499k,Mobile App,Active
+FT-C00964,21,Male,Kano,Premium,Current,87,93.6,1m+,Web,Active
+FT-C00965,47,Male,Lagos,Student,Savings,88,66.3,250k-499k,USSD,Active
+FT-C00966,28,Female,Lagos,SME,Savings,69,72.2,Below 100k,Web,Active
+FT-C00967,47,Female,Enugu,Everyday,Savings,69,80.3,250k-499k,Mobile App,Active
+FT-C00968,48,Female,Ibadan,Everyday,Current,81,48.5,100k-249k,Mobile App,Active
+FT-C00969,41,Female,Lagos,SME,Savings,30,54.1,Below 100k,Mobile App,Dormant
+FT-C00970,26,Female,Ibadan,Premium,Savings,73,81.1,1m+,Mobile App,Active
+FT-C00971,20,Male,Port Harcourt,Premium,Savings,6,68.7,500k-999k,Mobile App,Active
+FT-C00972,48,Female,Port Harcourt,Everyday,Premium,89,70.2,100k-249k,USSD,Active
+FT-C00973,57,Female,Kaduna,Everyday,Savings,19,68.6,100k-249k,Web,Active
+FT-C00974,54,Female,Ibadan,SME,Savings,80,85.6,Below 100k,Mobile App,Active
+FT-C00975,53,Female,Abuja,Premium,Savings,85,75.8,100k-249k,Mobile App,Active
+FT-C00976,41,Female,Benin City,Everyday,Premium,66,76.1,250k-499k,Mobile App,Active
+FT-C00977,48,Female,Enugu,Everyday,Current,10,90.0,100k-249k,Mobile App,Active
+FT-C00978,23,Female,Lagos,Premium,Premium,16,96.9,1m+,Mobile App,Active
+FT-C00979,19,Male,Lagos,Premium,Current,37,100.0,Below 100k,Mobile App,Active
+FT-C00980,37,Prefer not to say,Lagos,Everyday,Savings,79,57.6,250k-499k,Mobile App,Active
+FT-C00981,45,Female,Ibadan,SME,Current,77,100.0,500k-999k,USSD,Active
+FT-C00982,28,Female,Ibadan,Everyday,Savings,77,48.3,250k-499k,Mobile App,Dormant
+FT-C00983,21,Male,Ibadan,Everyday,Savings,32,100.0,Below 100k,Mobile App,Active
+FT-C00984,32,Female,Kaduna,Student,Savings,47,56.6,100k-249k,Mobile App,Active
+FT-C00985,23,Female,Kano,Everyday,Savings,72,66.8,100k-249k,Mobile App,Dormant
+FT-C00986,47,Male,Lagos,Student,Premium,43,68.3,1m+,Mobile App,Active
+FT-C00987,55,Female,Abuja,Student,Savings,82,52.4,1m+,Mobile App,Active
+FT-C00988,19,Male,Abuja,Student,Premium,36,69.6,1m+,Mobile App,Active
+FT-C00989,32,Male,Abuja,Everyday,Savings,26,53.3,500k-999k,Mobile App,Active
+FT-C00990,28,Female,Ibadan,Everyday,Savings,10,45.8,100k-249k,Web,Dormant
+FT-C00991,25,Female,Enugu,Everyday,Premium,31,67.3,500k-999k,Mobile App,Active
+FT-C00992,43,Male,Lagos,Premium,Current,29,96.6,1m+,Mobile App,Active
+FT-C00993,62,Female,Port Harcourt,Student,Current,5,63.4,100k-249k,Mobile App,Active
+FT-C00994,61,Female,Kano,Student,Savings,77,84.9,100k-249k,Web,Active
+FT-C00995,22,Male,Abuja,Student,Savings,1,52.8,250k-499k,Mobile App,Active
+FT-C00996,23,Male,Lagos,SME,Current,87,44.9,100k-249k,Mobile App,Active
+FT-C00997,43,Female,Abuja,Student,Current,3,76.2,Below 100k,Web,Active
+FT-C00998,21,Male,Lagos,Everyday,Savings,67,99.6,1m+,Mobile App,Active
+FT-C00999,36,Female,Kaduna,Everyday,Premium,71,71.8,1m+,Mobile App,Dormant
+FT-C01000,37,Male,Lagos,Student,Current,35,82.9,Below 100k,Mobile App,Active
+FT-C01001,50,Male,Abuja,Everyday,Premium,15,94.9,100k-249k,Web,Active
+FT-C01002,37,Male,Port Harcourt,Everyday,Current,67,67.3,500k-999k,USSD,Active
+FT-C01003,29,Male,Kaduna,Premium,Current,93,65.3,250k-499k,USSD,Active
+FT-C01004,64,Prefer not to say,Lagos,Student,Savings,30,76.5,100k-249k,USSD,Active
+FT-C01005,18,Female,Lagos,Everyday,Savings,82,79.7,500k-999k,Web,Active
+FT-C01006,43,Male,Lagos,Student,Premium,75,42.8,500k-999k,Web,Dormant
+FT-C01007,31,Female,Lagos,Student,Savings,43,73.3,1m+,Web,Active
+FT-C01008,55,Female,Lagos,Premium,Savings,60,68.0,100k-249k,Mobile App,Active
+FT-C01009,54,Female,Ibadan,Everyday,Savings,40,53.8,Below 100k,Mobile App,Active
+FT-C01010,28,Male,Lagos,Everyday,Savings,65,66.7,1m+,Mobile App,Active
+FT-C01011,53,Male,Lagos,Student,Premium,29,47.0,Below 100k,Mobile App,Active
+FT-C01012,30,Female,Benin City,Student,Premium,74,40.8,250k-499k,Web,Active
+FT-C01013,60,Female,Abuja,SME,Savings,92,69.2,Below 100k,Mobile App,Active
+FT-C01014,20,Male,Abuja,Premium,Savings,95,84.2,100k-249k,Mobile App,Active
+FT-C01015,50,Female,Lagos,Everyday,Current,19,61.7,100k-249k,Mobile App,Active
+FT-C01016,23,Female,Kaduna,Everyday,Current,3,50.7,Below 100k,USSD,Active
+FT-C01017,27,Male,Lagos,Student,Premium,36,53.5,1m+,Web,Active
+FT-C01018,22,Male,Enugu,Everyday,Savings,43,77.9,Below 100k,Mobile App,Active
+FT-C01019,40,Prefer not to say,Kano,Everyday,Savings,15,98.0,500k-999k,Mobile App,Active
+FT-C01020,27,Female,Lagos,Premium,Savings,41,81.9,500k-999k,Mobile App,Active
+FT-C01021,61,Female,Kaduna,Everyday,Premium,90,91.4,100k-249k,Mobile App,Active
+FT-C01022,19,Male,Lagos,Everyday,Current,80,49.1,250k-499k,Mobile App,Active
+FT-C01023,30,Male,Lagos,Everyday,Current,36,66.7,100k-249k,Web,Active
+FT-C01024,57,Male,Benin City,Everyday,Savings,84,86.3,500k-999k,Mobile App,Active
+FT-C01025,19,Male,Kano,Everyday,Current,77,42.8,250k-499k,Mobile App,Active
+FT-C01026,37,Female,Ibadan,Student,Current,33,56.1,100k-249k,Mobile App,Active
+FT-C01027,18,Male,Lagos,Student,Savings,5,85.0,100k-249k,Mobile App,Active
+FT-C01028,54,Female,Abuja,Everyday,Savings,78,72.7,250k-499k,Mobile App,Active
+FT-C01029,26,Female,Kano,Student,Savings,91,50.6,500k-999k,Mobile App,Active
+FT-C01030,34,Male,Lagos,Everyday,Savings,87,38.6,Below 100k,Mobile App,Active
+FT-C01031,26,Female,Lagos,Premium,Savings,14,92.1,250k-499k,Web,Active
+FT-C01032,28,Female,Lagos,SME,Savings,68,31.0,100k-249k,Mobile App,Active
+FT-C01033,32,Male,Lagos,Student,Savings,83,79.4,500k-999k,Mobile App,Active
+FT-C01034,41,Female,Enugu,Student,Savings,47,58.4,Below 100k,Mobile App,Active
+FT-C01035,55,Male,Abuja,Everyday,Savings,54,86.8,250k-499k,Web,Active
+FT-C01036,52,Female,Kaduna,Everyday,Premium,4,49.2,Below 100k,Mobile App,Active
+FT-C01037,47,Male,Abuja,SME,Savings,94,100.0,250k-499k,Web,Active
+FT-C01038,48,Female,Kano,Everyday,Current,83,75.2,500k-999k,USSD,Active
+FT-C01039,22,Female,Lagos,Everyday,Savings,95,78.2,500k-999k,Mobile App,Active
+FT-C01040,61,Prefer not to say,Abuja,Student,Current,95,54.1,500k-999k,Web,Active
+FT-C01041,31,Male,Lagos,Student,Savings,9,65.6,250k-499k,Web,Active
+FT-C01042,28,Male,Abuja,SME,Current,53,66.1,500k-999k,Mobile App,Active
+FT-C01043,26,Female,Port Harcourt,Everyday,Savings,77,100.0,250k-499k,Web,Dormant
+FT-C01044,51,Male,Kaduna,SME,Current,78,75.2,1m+,Mobile App,Active
+FT-C01045,29,Male,Ibadan,Everyday,Savings,60,77.8,250k-499k,Mobile App,Active
+FT-C01046,52,Male,Lagos,Everyday,Current,46,77.6,250k-499k,Web,Active
+FT-C01047,52,Male,Lagos,Premium,Savings,54,79.3,100k-249k,Web,Active
+FT-C01048,18,Female,Lagos,Everyday,Savings,74,43.0,250k-499k,USSD,Active
+FT-C01049,57,Female,Port Harcourt,Everyday,Savings,95,100.0,Below 100k,Mobile App,Active
+FT-C01050,39,Male,Kano,Student,Current,37,52.2,500k-999k,Mobile App,Dormant
+FT-C01051,46,Female,Kaduna,Everyday,Premium,23,67.3,250k-499k,Mobile App,Active
+FT-C01052,25,Female,Lagos,Everyday,Current,27,95.6,1m+,Mobile App,Active
+FT-C01053,28,Male,Port Harcourt,Everyday,Savings,70,100.0,Below 100k,Mobile App,Restricted
+FT-C01054,58,Male,Abuja,Everyday,Savings,90,82.5,100k-249k,Mobile App,Dormant
+FT-C01055,54,Male,Ibadan,Premium,Premium,66,58.9,500k-999k,Mobile App,Active
+FT-C01056,31,Male,Port Harcourt,Student,Savings,61,70.3,100k-249k,Mobile App,Active
+FT-C01057,47,Male,Ibadan,Student,Current,77,71.0,250k-499k,Mobile App,Active
+FT-C01058,52,Female,Ibadan,Everyday,Premium,51,71.6,500k-999k,USSD,Active
+FT-C01059,38,Female,Lagos,SME,Premium,50,45.9,250k-499k,Web,Active
+FT-C01060,54,Female,Benin City,Everyday,Savings,19,90.7,100k-249k,Mobile App,Active
+FT-C01061,22,Female,Lagos,Everyday,Savings,1,70.4,500k-999k,USSD,Dormant
+FT-C01062,36,Male,Ibadan,Student,Savings,40,55.0,Below 100k,Web,Active
+FT-C01063,31,Female,Abuja,Everyday,Current,32,59.0,500k-999k,USSD,Active
+FT-C01064,43,Female,Port Harcourt,SME,Savings,22,72.9,Below 100k,Mobile App,Active
+FT-C01065,21,Female,Enugu,Premium,Savings,93,42.7,250k-499k,Mobile App,Active
+FT-C01066,42,Female,Enugu,Student,Savings,66,83.8,Below 100k,USSD,Active
+FT-C01067,62,Female,Benin City,Everyday,Savings,40,72.2,250k-499k,Mobile App,Active
+FT-C01068,59,Female,Port Harcourt,Everyday,Current,38,96.2,Below 100k,USSD,Active
+FT-C01069,42,Female,Kano,Everyday,Current,48,69.4,500k-999k,Web,Active
+FT-C01070,35,Female,Port Harcourt,Student,Savings,55,48.5,250k-499k,USSD,Active
+FT-C01071,57,Female,Enugu,Premium,Savings,75,46.4,Below 100k,Mobile App,Active
+FT-C01072,25,Male,Abuja,SME,Premium,81,61.0,250k-499k,Mobile App,Active
+FT-C01073,56,Female,Kaduna,Everyday,Savings,55,62.9,250k-499k,Mobile App,Active
+FT-C01074,57,Female,Kaduna,Everyday,Current,51,57.8,100k-249k,USSD,Active
+FT-C01075,31,Male,Kano,Everyday,Premium,60,70.3,Below 100k,Mobile App,Active
+FT-C01076,49,Female,Lagos,Premium,Savings,8,57.3,100k-249k,Mobile App,Active
+FT-C01077,55,Male,Lagos,SME,Savings,86,72.6,Below 100k,Mobile App,Active
+FT-C01078,50,Male,Benin City,Everyday,Premium,68,58.6,Below 100k,Mobile App,Active
+FT-C01079,40,Female,Lagos,Premium,Savings,75,79.4,100k-249k,Mobile App,Active
+FT-C01080,32,Male,Benin City,Everyday,Savings,72,62.4,250k-499k,Mobile App,Active
+FT-C01081,50,Female,Port Harcourt,Premium,Savings,9,90.4,250k-499k,Web,Active
+FT-C01082,42,Male,Abuja,SME,Savings,90,79.7,Below 100k,Mobile App,Active
+FT-C01083,34,Female,Enugu,Everyday,Current,2,71.5,1m+,USSD,Active
+FT-C01084,50,Male,Ibadan,Everyday,Premium,80,64.3,500k-999k,Web,Active
+FT-C01085,64,Female,Port Harcourt,SME,Current,95,40.7,100k-249k,Mobile App,Active
+FT-C01086,19,Male,Port Harcourt,SME,Savings,70,93.4,Below 100k,Web,Active
+FT-C01087,31,Male,Abuja,Premium,Savings,85,55.7,1m+,Mobile App,Active
+FT-C01088,57,Female,Kano,Premium,Current,90,69.6,250k-499k,Mobile App,Active
+FT-C01089,57,Female,Lagos,Everyday,Savings,59,74.2,100k-249k,Web,Dormant
+FT-C01090,56,Male,Kaduna,Premium,Current,19,64.7,250k-499k,Mobile App,Active
+FT-C01091,23,Male,Enugu,SME,Savings,28,92.4,500k-999k,Mobile App,Active
+FT-C01092,23,Female,Lagos,Student,Current,72,46.0,Below 100k,Mobile App,Active
+FT-C01093,20,Male,Kano,Everyday,Savings,14,99.2,500k-999k,Web,Active
+FT-C01094,24,Male,Port Harcourt,Everyday,Savings,24,80.1,500k-999k,Mobile App,Active
+FT-C01095,25,Male,Lagos,Everyday,Savings,44,63.6,250k-499k,Mobile App,Active
+FT-C01096,59,Female,Kaduna,Everyday,Savings,56,63.8,500k-999k,Mobile App,Active
+FT-C01097,32,Male,Lagos,Everyday,Savings,90,28.1,Below 100k,USSD,Active
+FT-C01098,64,Female,Lagos,Everyday,Current,95,52.7,250k-499k,Mobile App,Active
+FT-C01099,46,Prefer not to say,Port Harcourt,Everyday,Current,51,61.6,100k-249k,Web,Active
+FT-C01100,50,Male,Port Harcourt,Everyday,Current,32,71.2,100k-249k,Mobile App,Active
+FT-C01101,47,Female,Port Harcourt,Premium,Premium,50,90.7,100k-249k,Web,Active
+FT-C01102,56,Male,Kano,Everyday,Savings,41,100.0,100k-249k,Mobile App,Active
+FT-C01103,44,Female,Ibadan,Everyday,Savings,66,72.9,Below 100k,Web,Active
+FT-C01104,53,Prefer not to say,Ibadan,Everyday,Savings,25,71.7,100k-249k,Mobile App,Active
+FT-C01105,46,Prefer not to say,Lagos,Everyday,Current,61,59.2,100k-249k,Mobile App,Active
+FT-C01106,55,Male,Abuja,Premium,Savings,66,37.1,250k-499k,Web,Active
+FT-C01107,50,Female,Lagos,Everyday,Current,42,57.1,Below 100k,Web,Active
+FT-C01108,54,Male,Lagos,Student,Savings,65,64.3,250k-499k,Web,Active
+FT-C01109,44,Female,Port Harcourt,SME,Premium,36,85.6,100k-249k,USSD,Active
+FT-C01110,50,Female,Lagos,Student,Premium,76,77.4,Below 100k,Mobile App,Active
+FT-C01111,21,Male,Lagos,Premium,Savings,9,72.0,100k-249k,USSD,Active
+FT-C01112,39,Female,Lagos,SME,Savings,36,57.5,100k-249k,Mobile App,Active
+FT-C01113,19,Female,Kaduna,Student,Current,92,32.3,250k-499k,Web,Active
+FT-C01114,27,Prefer not to say,Kaduna,Everyday,Savings,38,33.4,100k-249k,Mobile App,Active
+FT-C01115,22,Female,Ibadan,Everyday,Savings,33,38.1,1m+,Mobile App,Active
+FT-C01116,27,Female,Enugu,SME,Current,42,62.7,1m+,Mobile App,Active
+FT-C01117,50,Male,Kano,Everyday,Savings,61,85.9,100k-249k,Mobile App,Active
+FT-C01118,55,Female,Port Harcourt,Everyday,Current,46,85.4,500k-999k,Mobile App,Active
+FT-C01119,30,Male,Lagos,Student,Current,86,82.3,Below 100k,Mobile App,Active
+FT-C01120,48,Prefer not to say,Kano,Student,Savings,89,58.7,250k-499k,Mobile App,Active
+FT-C01121,64,Male,Kano,Everyday,Savings,61,88.6,500k-999k,Mobile App,Active
+FT-C01122,53,Male,Ibadan,Premium,Savings,18,51.2,100k-249k,Mobile App,Active
+FT-C01123,62,Female,Kano,Everyday,Current,70,83.4,Below 100k,Mobile App,Active
+FT-C01124,41,Female,Port Harcourt,Student,Savings,82,37.9,Below 100k,Mobile App,Active
+FT-C01125,32,Male,Kano,Everyday,Premium,80,46.8,100k-249k,Mobile App,Active
+FT-C01126,46,Male,Kaduna,Everyday,Savings,15,97.7,250k-499k,Web,Dormant
+FT-C01127,25,Male,Abuja,SME,Savings,48,64.3,100k-249k,USSD,Active
+FT-C01128,22,Female,Kano,Premium,Savings,72,55.7,100k-249k,Mobile App,Active
+FT-C01129,46,Female,Abuja,Student,Savings,13,87.8,250k-499k,Web,Active
+FT-C01130,64,Female,Ibadan,Everyday,Savings,43,89.9,500k-999k,Web,Active
+FT-C01131,21,Male,Kano,Everyday,Savings,60,60.2,Below 100k,Mobile App,Active
+FT-C01132,29,Female,Lagos,Premium,Savings,57,73.0,500k-999k,Web,Active
+FT-C01133,62,Male,Ibadan,Everyday,Savings,71,70.5,250k-499k,Mobile App,Active
+FT-C01134,19,Male,Lagos,Everyday,Savings,17,17.1,500k-999k,Mobile App,Active
+FT-C01135,44,Female,Ibadan,Everyday,Current,50,42.9,500k-999k,Mobile App,Active
+FT-C01136,48,Male,Abuja,Student,Savings,32,85.0,250k-499k,Mobile App,Active
+FT-C01137,53,Female,Kano,SME,Savings,22,53.0,100k-249k,Web,Active
+FT-C01138,53,Male,Lagos,SME,Current,55,77.5,250k-499k,Mobile App,Active
+FT-C01139,43,Male,Ibadan,Everyday,Savings,57,72.7,1m+,Mobile App,Active
+FT-C01140,60,Male,Lagos,Everyday,Current,13,89.9,250k-499k,Mobile App,Active
+FT-C01141,44,Male,Benin City,Everyday,Savings,47,43.5,Below 100k,Web,Dormant
+FT-C01142,22,Female,Enugu,SME,Savings,87,75.1,Below 100k,Web,Active
+FT-C01143,37,Female,Kaduna,Everyday,Premium,62,66.8,1m+,Web,Active
+FT-C01144,28,Male,Benin City,SME,Savings,54,53.8,Below 100k,Mobile App,Active
+FT-C01145,27,Female,Kano,Everyday,Current,29,53.7,Below 100k,Mobile App,Active
+FT-C01146,57,Female,Lagos,SME,Savings,22,72.1,100k-249k,Mobile App,Active
+FT-C01147,55,Female,Lagos,Student,Current,65,79.3,1m+,Mobile App,Active
+FT-C01148,23,Male,Abuja,Student,Premium,29,69.1,100k-249k,Mobile App,Active
+FT-C01149,25,Female,Kano,Everyday,Savings,48,69.7,100k-249k,Mobile App,Active
+FT-C01150,40,Male,Enugu,Everyday,Current,5,59.0,250k-499k,Mobile App,Active
+FT-C01151,64,Prefer not to say,Lagos,Everyday,Savings,35,60.2,Below 100k,USSD,Active
+FT-C01152,43,Female,Enugu,Everyday,Current,74,53.7,500k-999k,Web,Active
+FT-C01153,63,Female,Ibadan,Everyday,Savings,83,58.7,250k-499k,Mobile App,Active
+FT-C01154,60,Female,Ibadan,Premium,Premium,71,78.7,250k-499k,Mobile App,Active
+FT-C01155,29,Male,Lagos,Everyday,Savings,46,80.7,500k-999k,Mobile App,Active
+FT-C01156,43,Female,Lagos,Premium,Savings,35,45.0,1m+,Web,Active
+FT-C01157,30,Female,Port Harcourt,Premium,Premium,45,51.9,100k-249k,Web,Dormant
+FT-C01158,57,Female,Ibadan,Everyday,Current,13,55.2,Below 100k,USSD,Active
+FT-C01159,35,Male,Lagos,SME,Savings,10,66.8,500k-999k,Mobile App,Active
+FT-C01160,42,Female,Port Harcourt,Everyday,Savings,66,37.7,100k-249k,Web,Active
+FT-C01161,50,Male,Benin City,Everyday,Savings,70,52.2,1m+,Mobile App,Active
+FT-C01162,64,Male,Benin City,Premium,Savings,72,43.1,1m+,USSD,Active
+FT-C01163,57,Female,Enugu,Student,Savings,25,75.2,Below 100k,Web,Active
+FT-C01164,60,Male,Abuja,Everyday,Current,44,67.5,1m+,Web,Active
+FT-C01165,29,Female,Lagos,Everyday,Savings,60,59.7,100k-249k,Mobile App,Active
+FT-C01166,61,Male,Kano,Premium,Current,47,48.9,250k-499k,Web,Active
+FT-C01167,53,Male,Abuja,Everyday,Current,40,60.0,Below 100k,Mobile App,Active
+FT-C01168,65,Male,Lagos,Premium,Savings,7,57.8,500k-999k,Mobile App,Dormant
+FT-C01169,21,Female,Lagos,SME,Savings,46,97.4,250k-499k,Mobile App,Active
+FT-C01170,22,Female,Abuja,SME,Savings,23,85.9,250k-499k,Mobile App,Active
+FT-C01171,54,Female,Lagos,Everyday,Savings,83,55.6,500k-999k,Mobile App,Active
+FT-C01172,25,Female,Lagos,Everyday,Current,46,71.0,250k-499k,Mobile App,Active
+FT-C01173,59,Female,Lagos,Everyday,Savings,86,85.0,100k-249k,Mobile App,Active
+FT-C01174,45,Female,Lagos,Everyday,Current,13,55.6,500k-999k,Mobile App,Active
+FT-C01175,48,Female,Ibadan,Everyday,Savings,21,42.5,500k-999k,Mobile App,Active
+FT-C01176,26,Female,Port Harcourt,Everyday,Savings,1,35.7,1m+,Mobile App,Active
+FT-C01177,46,Male,Ibadan,SME,Savings,19,90.9,1m+,Mobile App,Active
+FT-C01178,31,Female,Lagos,SME,Savings,60,64.6,100k-249k,Mobile App,Active
+FT-C01179,57,Female,Lagos,Everyday,Savings,33,73.2,100k-249k,Mobile App,Active
+FT-C01180,58,Female,Ibadan,Everyday,Savings,4,57.7,100k-249k,Web,Active
+FT-C01181,39,Female,Port Harcourt,Everyday,Premium,3,45.2,250k-499k,Mobile App,Active
+FT-C01182,28,Male,Port Harcourt,Everyday,Current,91,48.5,100k-249k,Web,Active
+FT-C01183,40,Female,Abuja,Premium,Savings,52,43.9,500k-999k,Mobile App,Active
+FT-C01184,18,Male,Enugu,Premium,Savings,28,83.3,Below 100k,USSD,Active
+FT-C01185,63,Prefer not to say,Lagos,SME,Savings,70,94.9,Below 100k,Mobile App,Active
+FT-C01186,54,Male,Abuja,Student,Savings,70,68.7,100k-249k,Mobile App,Active
+FT-C01187,38,Male,Ibadan,Premium,Savings,55,40.7,Below 100k,Mobile App,Active
+FT-C01188,43,Male,Port Harcourt,Premium,Savings,57,76.9,250k-499k,Mobile App,Active
+FT-C01189,63,Prefer not to say,Abuja,Everyday,Savings,87,90.8,Below 100k,Web,Active
+FT-C01190,53,Male,Abuja,Premium,Savings,16,85.5,Below 100k,Mobile App,Active
+FT-C01191,40,Male,Benin City,Premium,Savings,24,67.5,Below 100k,Mobile App,Dormant
+FT-C01192,18,Male,Lagos,Everyday,Savings,69,63.8,500k-999k,USSD,Active
+FT-C01193,57,Male,Lagos,Everyday,Current,41,67.3,500k-999k,Mobile App,Dormant
+FT-C01194,32,Male,Lagos,Everyday,Savings,77,90.1,Below 100k,Mobile App,Active
+FT-C01195,38,Female,Benin City,SME,Savings,47,81.7,500k-999k,Mobile App,Active
+FT-C01196,64,Female,Lagos,Everyday,Savings,76,61.1,100k-249k,Mobile App,Active
+FT-C01197,26,Female,Kaduna,Everyday,Premium,69,60.6,100k-249k,USSD,Active
+FT-C01198,26,Female,Port Harcourt,Everyday,Premium,31,59.3,250k-499k,Web,Active
+FT-C01199,27,Female,Kaduna,Student,Current,92,48.8,Below 100k,Web,Active
+FT-C01200,43,Female,Kaduna,Everyday,Savings,92,92.3,500k-999k,USSD,Active
+FT-C01201,58,Male,Abuja,SME,Savings,30,53.8,Below 100k,Mobile App,Active
+FT-C01202,52,Female,Lagos,SME,Current,18,76.8,1m+,Mobile App,Active
+FT-C01203,42,Male,Lagos,Premium,Savings,44,56.1,Below 100k,Mobile App,Active
+FT-C01204,43,Female,Lagos,Student,Savings,27,59.4,250k-499k,Web,Active
+FT-C01205,28,Female,Kano,Everyday,Premium,26,66.0,500k-999k,USSD,Active
+FT-C01206,55,Male,Lagos,Everyday,Savings,60,77.8,Below 100k,Mobile App,Active
+FT-C01207,19,Male,Abuja,Student,Savings,18,63.3,250k-499k,Mobile App,Active
+FT-C01208,24,Female,Abuja,Everyday,Savings,89,47.5,100k-249k,USSD,Active
+FT-C01209,35,Male,Enugu,Everyday,Savings,56,68.3,250k-499k,Mobile App,Dormant
+FT-C01210,44,Male,Lagos,Premium,Savings,31,54.2,100k-249k,USSD,Active
+FT-C01211,51,Female,Lagos,Everyday,Current,59,95.8,Below 100k,Mobile App,Active
+FT-C01212,44,Female,Lagos,SME,Current,2,63.3,250k-499k,Mobile App,Active
+FT-C01213,34,Prefer not to say,Enugu,Everyday,Savings,39,56.0,100k-249k,Mobile App,Active
+FT-C01214,60,Male,Ibadan,Student,Premium,61,100.0,250k-499k,Mobile App,Active
+FT-C01215,61,Male,Lagos,Premium,Savings,63,81.3,100k-249k,Mobile App,Dormant
+FT-C01216,41,Male,Lagos,Student,Savings,96,51.9,100k-249k,Mobile App,Active
+FT-C01217,42,Female,Lagos,Everyday,Current,18,53.8,250k-499k,USSD,Dormant
+FT-C01218,24,Female,Lagos,Premium,Current,17,76.5,250k-499k,Web,Active
+FT-C01219,23,Female,Kaduna,SME,Current,39,68.8,100k-249k,Web,Active
+FT-C01220,41,Male,Kano,Premium,Premium,71,84.0,100k-249k,Mobile App,Active
+FT-C01221,50,Male,Abuja,Everyday,Current,54,56.1,100k-249k,USSD,Active
+FT-C01222,46,Male,Enugu,Premium,Premium,94,80.6,Below 100k,Mobile App,Active
+FT-C01223,60,Female,Lagos,Student,Savings,76,27.7,100k-249k,Mobile App,Restricted
+FT-C01224,39,Female,Kano,Everyday,Current,35,65.2,100k-249k,Mobile App,Active
+FT-C01225,43,Male,Benin City,SME,Premium,11,56.9,250k-499k,Mobile App,Dormant
+FT-C01226,45,Male,Abuja,Everyday,Current,61,59.8,250k-499k,USSD,Active
+FT-C01227,38,Male,Kano,Premium,Savings,44,66.1,100k-249k,Mobile App,Active
+FT-C01228,24,Female,Lagos,Student,Savings,68,88.5,100k-249k,Mobile App,Active
+FT-C01229,34,Male,Lagos,Student,Savings,25,47.2,100k-249k,Web,Active
+FT-C01230,37,Female,Lagos,SME,Savings,48,28.6,250k-499k,Mobile App,Active
+FT-C01231,58,Male,Abuja,SME,Premium,32,49.3,1m+,Web,Dormant
+FT-C01232,37,Female,Kano,Everyday,Savings,84,86.4,250k-499k,Mobile App,Active
+FT-C01233,39,Male,Kaduna,Everyday,Savings,95,38.4,500k-999k,Web,Active
+FT-C01234,45,Female,Ibadan,Everyday,Premium,4,57.7,500k-999k,Mobile App,Active
+FT-C01235,57,Male,Enugu,Student,Savings,38,83.1,100k-249k,USSD,Active
+FT-C01236,24,Female,Benin City,SME,Savings,63,66.9,Below 100k,Mobile App,Active
+FT-C01237,18,Female,Lagos,Everyday,Savings,47,88.3,250k-499k,Web,Active
+FT-C01238,49,Female,Abuja,Everyday,Current,1,31.4,100k-249k,Mobile App,Active
+FT-C01239,30,Female,Lagos,Everyday,Savings,3,62.2,250k-499k,Mobile App,Active
+FT-C01240,47,Female,Ibadan,Student,Premium,86,92.1,500k-999k,Mobile App,Active
+FT-C01241,40,Male,Kaduna,Everyday,Savings,62,47.7,500k-999k,Mobile App,Active
+FT-C01242,36,Female,Lagos,Everyday,Savings,64,86.6,100k-249k,Mobile App,Active
+FT-C01243,49,Male,Kano,Premium,Savings,17,63.8,250k-499k,Web,Active
+FT-C01244,47,Male,Ibadan,Student,Current,78,75.8,250k-499k,Mobile App,Active
+FT-C01245,46,Male,Port Harcourt,Premium,Savings,62,90.8,500k-999k,Web,Active
+FT-C01246,62,Female,Abuja,Premium,Savings,35,75.7,500k-999k,Mobile App,Dormant
+FT-C01247,46,Female,Abuja,Everyday,Savings,13,57.4,1m+,Mobile App,Active
+FT-C01248,47,Male,Lagos,Premium,Current,35,78.1,Below 100k,Web,Active
+FT-C01249,33,Prefer not to say,Lagos,Student,Savings,43,56.1,100k-249k,Web,Active
+FT-C01250,57,Female,Lagos,SME,Current,2,72.9,100k-249k,Mobile App,Active
+FT-C01251,36,Female,Port Harcourt,Everyday,Current,56,45.5,Below 100k,Mobile App,Active
+FT-C01252,35,Female,Lagos,Everyday,Savings,77,68.5,1m+,Mobile App,Active
+FT-C01253,18,Prefer not to say,Enugu,Everyday,Savings,51,89.4,1m+,Mobile App,Active
+FT-C01254,31,Female,Port Harcourt,Everyday,Savings,54,62.6,100k-249k,Mobile App,Dormant
+FT-C01255,64,Female,Ibadan,Student,Savings,16,87.7,Below 100k,Web,Active
+FT-C01256,19,Male,Abuja,Everyday,Savings,18,100.0,100k-249k,Mobile App,Active
+FT-C01257,45,Female,Port Harcourt,Everyday,Savings,7,67.5,500k-999k,Mobile App,Active
+FT-C01258,47,Female,Kaduna,Everyday,Savings,45,79.1,100k-249k,USSD,Active
+FT-C01259,55,Male,Lagos,Everyday,Savings,36,76.6,Below 100k,Web,Active
+FT-C01260,21,Male,Lagos,Everyday,Savings,41,72.1,Below 100k,Mobile App,Active
+FT-C01261,18,Female,Kano,Everyday,Savings,94,82.2,100k-249k,Mobile App,Active
+FT-C01262,25,Female,Lagos,Everyday,Current,42,63.5,1m+,Mobile App,Active
+FT-C01263,46,Female,Lagos,Student,Premium,7,56.1,100k-249k,Web,Active
+FT-C01264,56,Female,Abuja,Premium,Premium,15,40.5,100k-249k,Mobile App,Active
+FT-C01265,20,Male,Lagos,Everyday,Savings,60,61.8,Below 100k,Mobile App,Active
+FT-C01266,49,Female,Port Harcourt,SME,Savings,40,84.2,250k-499k,Mobile App,Restricted
+FT-C01267,27,Female,Lagos,Premium,Savings,83,51.1,250k-499k,Mobile App,Active
+FT-C01268,27,Female,Enugu,Student,Savings,37,72.4,100k-249k,Mobile App,Active
+FT-C01269,36,Male,Kano,Everyday,Savings,66,65.8,100k-249k,Web,Active
+FT-C01270,63,Male,Ibadan,Everyday,Current,55,56.8,500k-999k,Mobile App,Active
+FT-C01271,51,Male,Ibadan,Everyday,Savings,77,34.6,Below 100k,Mobile App,Active
+FT-C01272,50,Female,Enugu,Everyday,Savings,95,92.5,250k-499k,Mobile App,Active
+FT-C01273,40,Male,Lagos,Everyday,Premium,80,77.3,100k-249k,Mobile App,Active
+FT-C01274,45,Male,Enugu,SME,Savings,56,100.0,100k-249k,Mobile App,Active
+FT-C01275,49,Female,Kano,Everyday,Savings,44,87.4,250k-499k,Mobile App,Active
+FT-C01276,24,Female,Kano,Everyday,Savings,57,92.1,500k-999k,Web,Active
+FT-C01277,46,Female,Port Harcourt,Premium,Savings,6,36.5,250k-499k,USSD,Active
+FT-C01278,25,Female,Lagos,Everyday,Current,92,36.2,Below 100k,USSD,Active
+FT-C01279,18,Female,Abuja,Premium,Savings,32,68.8,250k-499k,Mobile App,Active
+FT-C01280,20,Female,Benin City,Premium,Savings,74,47.3,250k-499k,Web,Active
+FT-C01281,41,Female,Lagos,Student,Current,18,55.7,250k-499k,USSD,Active
+FT-C01282,40,Male,Kano,SME,Current,68,100.0,250k-499k,Mobile App,Active
+FT-C01283,25,Female,Lagos,Everyday,Premium,73,89.4,Below 100k,Mobile App,Active
+FT-C01284,64,Male,Lagos,Premium,Current,7,51.2,250k-499k,Mobile App,Active
+FT-C01285,54,Male,Lagos,SME,Savings,8,25.4,250k-499k,Mobile App,Dormant
+FT-C01286,20,Male,Lagos,Student,Savings,64,49.6,100k-249k,Web,Active
+FT-C01287,50,Male,Port Harcourt,Premium,Savings,7,58.0,250k-499k,Mobile App,Active
+FT-C01288,45,Female,Lagos,SME,Savings,41,62.2,100k-249k,Mobile App,Active
+FT-C01289,64,Male,Kaduna,Everyday,Current,40,45.0,100k-249k,Mobile App,Active
+FT-C01290,25,Female,Port Harcourt,SME,Current,3,88.3,1m+,Mobile App,Active
+FT-C01291,51,Female,Lagos,Everyday,Savings,17,55.2,100k-249k,Mobile App,Active
+FT-C01292,52,Male,Ibadan,Premium,Savings,66,79.7,100k-249k,Mobile App,Active
+FT-C01293,49,Female,Enugu,SME,Savings,79,69.0,250k-499k,Mobile App,Active
+FT-C01294,41,Female,Kano,Everyday,Premium,93,84.9,1m+,Web,Active
+FT-C01295,31,Male,Lagos,Premium,Savings,52,63.7,1m+,Web,Active
+FT-C01296,49,Male,Enugu,Everyday,Current,22,51.4,250k-499k,Web,Active
+FT-C01297,63,Male,Benin City,SME,Current,4,57.2,Below 100k,Web,Dormant
+FT-C01298,60,Female,Lagos,Student,Premium,6,57.5,500k-999k,Web,Active
+FT-C01299,33,Male,Lagos,Student,Current,38,100.0,250k-499k,Web,Active
+FT-C01300,21,Female,Port Harcourt,Premium,Current,26,69.4,100k-249k,Web,Active
+FT-C01301,54,Male,Lagos,Student,Savings,11,68.1,500k-999k,Web,Active
+FT-C01302,38,Male,Benin City,Everyday,Savings,90,83.9,100k-249k,Mobile App,Active
+FT-C01303,31,Male,Abuja,Everyday,Savings,17,68.0,Below 100k,Mobile App,Active
+FT-C01304,48,Male,Enugu,Student,Savings,88,88.2,500k-999k,Web,Active
+FT-C01305,65,Female,Port Harcourt,Everyday,Premium,92,61.3,250k-499k,Mobile App,Active
+FT-C01306,35,Male,Lagos,Everyday,Savings,31,59.5,100k-249k,Mobile App,Active
+FT-C01307,24,Male,Lagos,Everyday,Premium,77,50.4,100k-249k,Mobile App,Active
+FT-C01308,27,Female,Port Harcourt,Everyday,Savings,35,100.0,250k-499k,Mobile App,Active
+FT-C01309,24,Male,Kano,SME,Savings,16,66.7,100k-249k,USSD,Active
+FT-C01310,50,Female,Kano,Premium,Premium,79,46.9,100k-249k,Mobile App,Active
+FT-C01311,40,Male,Lagos,Student,Savings,18,71.5,250k-499k,Mobile App,Active
+FT-C01312,38,Male,Lagos,Everyday,Savings,62,56.3,500k-999k,Mobile App,Active
+FT-C01313,36,Male,Lagos,Everyday,Savings,27,61.0,250k-499k,Web,Active
+FT-C01314,65,Female,Ibadan,Everyday,Current,35,73.6,500k-999k,Mobile App,Active
+FT-C01315,36,Male,Lagos,Student,Savings,45,95.4,500k-999k,Mobile App,Active
+FT-C01316,53,Male,Abuja,Premium,Savings,35,69.8,250k-499k,Web,Active
+FT-C01317,46,Male,Ibadan,SME,Savings,28,55.2,100k-249k,Mobile App,Active
+FT-C01318,35,Female,Kaduna,Student,Current,9,58.9,500k-999k,Mobile App,Active
+FT-C01319,19,Female,Lagos,Premium,Current,76,79.8,100k-249k,Mobile App,Active
+FT-C01320,18,Male,Lagos,Premium,Savings,15,32.7,Below 100k,Web,Active
+FT-C01321,64,Female,Ibadan,SME,Savings,21,49.2,100k-249k,Mobile App,Active
+FT-C01322,22,Male,Ibadan,Student,Current,52,71.8,500k-999k,Mobile App,Active
+FT-C01323,37,Male,Lagos,Everyday,Savings,35,37.3,Below 100k,Mobile App,Active
+FT-C01324,28,Male,Enugu,Premium,Savings,51,62.4,Below 100k,Mobile App,Dormant
+FT-C01325,59,Male,Benin City,Student,Savings,83,59.4,250k-499k,Web,Active
+FT-C01326,19,Male,Lagos,Student,Premium,55,83.8,500k-999k,Mobile App,Active
+FT-C01327,20,Female,Lagos,Everyday,Savings,87,63.5,250k-499k,Mobile App,Active
+FT-C01328,40,Female,Port Harcourt,SME,Savings,77,89.4,100k-249k,Mobile App,Active
+FT-C01329,29,Female,Kano,SME,Current,44,69.4,Below 100k,Web,Active
+FT-C01330,37,Female,Lagos,Everyday,Current,65,100.0,250k-499k,Web,Active
+FT-C01331,22,Male,Ibadan,SME,Savings,93,43.0,Below 100k,Mobile App,Dormant
+FT-C01332,54,Male,Ibadan,Everyday,Savings,88,97.1,250k-499k,Web,Active
+FT-C01333,55,Male,Lagos,Everyday,Current,80,60.6,100k-249k,Mobile App,Active
+FT-C01334,47,Male,Ibadan,Everyday,Premium,25,94.5,500k-999k,USSD,Active
+FT-C01335,26,Prefer not to say,Kaduna,Everyday,Current,87,89.3,250k-499k,Mobile App,Active
+FT-C01336,51,Male,Lagos,SME,Savings,92,16.7,100k-249k,Mobile App,Active
+FT-C01337,61,Male,Lagos,Everyday,Savings,47,76.6,500k-999k,Mobile App,Active
+FT-C01338,52,Male,Abuja,Everyday,Premium,80,86.0,100k-249k,Mobile App,Active
+FT-C01339,39,Female,Enugu,Everyday,Current,56,91.9,100k-249k,Web,Active
+FT-C01340,61,Female,Kaduna,Everyday,Savings,38,46.8,500k-999k,Mobile App,Active
+FT-C01341,41,Female,Abuja,Everyday,Savings,11,78.6,100k-249k,Mobile App,Active
+FT-C01342,34,Male,Kano,Student,Current,67,71.5,100k-249k,Mobile App,Active
+FT-C01343,27,Male,Port Harcourt,Everyday,Savings,15,75.8,100k-249k,Mobile App,Active
+FT-C01344,47,Female,Port Harcourt,SME,Savings,1,86.0,Below 100k,Mobile App,Active
+FT-C01345,63,Female,Lagos,Student,Savings,7,88.8,Below 100k,Mobile App,Active
+FT-C01346,40,Male,Lagos,Everyday,Savings,1,56.2,250k-499k,Web,Active
+FT-C01347,49,Female,Lagos,SME,Savings,49,72.8,250k-499k,Web,Active
+FT-C01348,34,Female,Port Harcourt,Everyday,Current,96,68.7,100k-249k,Mobile App,Active
+FT-C01349,34,Male,Lagos,Everyday,Savings,73,63.7,100k-249k,Mobile App,Active
+FT-C01350,31,Female,Enugu,Everyday,Savings,29,65.4,1m+,USSD,Active
+FT-C01351,26,Female,Lagos,Everyday,Savings,26,71.5,1m+,Mobile App,Active
+FT-C01352,57,Male,Lagos,Premium,Savings,87,57.2,250k-499k,Mobile App,Active
+FT-C01353,19,Male,Port Harcourt,Student,Savings,45,83.9,500k-999k,Web,Active
+FT-C01354,62,Male,Kano,Everyday,Savings,93,90.8,500k-999k,Mobile App,Active
+FT-C01355,42,Female,Lagos,Student,Current,71,53.2,100k-249k,Mobile App,Active
+FT-C01356,56,Female,Lagos,Everyday,Savings,12,91.7,Below 100k,Mobile App,Active
+FT-C01357,26,Female,Kaduna,Student,Savings,95,53.3,Below 100k,Mobile App,Active
+FT-C01358,39,Male,Lagos,Everyday,Savings,32,84.2,500k-999k,USSD,Active
+FT-C01359,60,Male,Lagos,Everyday,Savings,20,91.7,500k-999k,Mobile App,Active
+FT-C01360,63,Female,Benin City,Everyday,Premium,51,66.3,250k-499k,USSD,Dormant
+FT-C01361,21,Male,Lagos,Everyday,Savings,81,53.4,Below 100k,Mobile App,Active
+FT-C01362,43,Female,Abuja,Premium,Premium,36,57.4,250k-499k,Mobile App,Active
+FT-C01363,46,Female,Abuja,SME,Savings,67,74.5,500k-999k,Mobile App,Active
+FT-C01364,62,Female,Lagos,Everyday,Current,1,100.0,500k-999k,Mobile App,Active
+FT-C01365,51,Female,Lagos,Student,Savings,27,37.5,Below 100k,Mobile App,Dormant
+FT-C01366,40,Male,Lagos,Premium,Current,40,69.8,250k-499k,Mobile App,Active
+FT-C01367,54,Male,Lagos,SME,Savings,84,66.4,Below 100k,USSD,Active
+FT-C01368,28,Female,Lagos,Everyday,Savings,14,59.8,250k-499k,USSD,Active
+FT-C01369,23,Male,Kano,Everyday,Current,69,66.5,250k-499k,Mobile App,Active
+FT-C01370,35,Female,Abuja,SME,Current,87,58.2,Below 100k,Mobile App,Active
+FT-C01371,38,Male,Abuja,Premium,Savings,79,90.4,500k-999k,Web,Active
+FT-C01372,59,Male,Enugu,Everyday,Savings,6,92.2,Below 100k,Mobile App,Active
+FT-C01373,53,Female,Ibadan,Everyday,Savings,33,69.6,500k-999k,Mobile App,Active
+FT-C01374,58,Male,Lagos,Everyday,Current,55,65.5,100k-249k,USSD,Active
+FT-C01375,55,Female,Kaduna,Premium,Savings,19,59.1,250k-499k,Mobile App,Active
+FT-C01376,51,Female,Lagos,Student,Savings,77,69.6,1m+,Web,Active
+FT-C01377,34,Female,Lagos,Everyday,Current,29,100.0,100k-249k,Mobile App,Active
+FT-C01378,54,Male,Kano,Premium,Premium,61,66.1,250k-499k,Mobile App,Active
+FT-C01379,42,Male,Port Harcourt,Premium,Current,70,52.9,250k-499k,Mobile App,Active
+FT-C01380,55,Female,Abuja,Premium,Current,79,60.8,Below 100k,Web,Active
+FT-C01381,29,Male,Lagos,Student,Current,80,81.6,250k-499k,USSD,Active
+FT-C01382,40,Male,Port Harcourt,Student,Savings,24,55.1,500k-999k,Mobile App,Active
+FT-C01383,59,Male,Lagos,Everyday,Savings,23,67.4,1m+,Mobile App,Active
+FT-C01384,39,Male,Enugu,SME,Current,10,76.5,500k-999k,Mobile App,Active
+FT-C01385,38,Male,Lagos,Everyday,Savings,54,56.4,250k-499k,USSD,Restricted
+FT-C01386,44,Female,Enugu,Everyday,Premium,41,36.2,250k-499k,USSD,Active
+FT-C01387,48,Female,Port Harcourt,Everyday,Savings,49,48.7,500k-999k,Web,Active
+FT-C01388,23,Prefer not to say,Benin City,Everyday,Savings,17,52.5,250k-499k,Mobile App,Active
+FT-C01389,44,Female,Kano,Everyday,Premium,56,63.9,Below 100k,USSD,Active
+FT-C01390,57,Prefer not to say,Ibadan,Everyday,Current,45,68.8,100k-249k,Mobile App,Active
+FT-C01391,51,Male,Lagos,Student,Savings,30,82.8,500k-999k,Mobile App,Active
+FT-C01392,29,Female,Lagos,Everyday,Current,44,45.9,250k-499k,Mobile App,Active
+FT-C01393,62,Female,Lagos,Student,Current,74,80.2,250k-499k,Mobile App,Active
+FT-C01394,24,Female,Benin City,Everyday,Savings,55,61.3,100k-249k,Web,Active
+FT-C01395,27,Male,Benin City,SME,Savings,19,35.9,1m+,Web,Active
+FT-C01396,62,Female,Abuja,Student,Current,29,68.2,100k-249k,Mobile App,Active
+FT-C01397,34,Female,Lagos,Everyday,Premium,2,91.7,250k-499k,Mobile App,Active
+FT-C01398,43,Female,Abuja,Student,Savings,36,83.9,Below 100k,Mobile App,Active
+FT-C01399,38,Female,Ibadan,Premium,Premium,19,66.6,Below 100k,Mobile App,Active
+FT-C01400,45,Male,Abuja,Student,Premium,7,88.3,500k-999k,Mobile App,Active
+FT-C01401,63,Female,Kano,Premium,Savings,26,71.5,1m+,Mobile App,Active
+FT-C01402,19,Male,Kaduna,Premium,Current,79,85.7,100k-249k,Web,Active
+FT-C01403,60,Female,Lagos,Student,Savings,38,38.1,Below 100k,USSD,Active
+FT-C01404,18,Female,Abuja,Everyday,Savings,3,45.5,100k-249k,USSD,Active
+FT-C01405,53,Female,Abuja,Everyday,Current,80,81.1,Below 100k,USSD,Active
+FT-C01406,43,Female,Lagos,SME,Premium,66,95.7,100k-249k,Web,Active
+FT-C01407,46,Prefer not to say,Lagos,Everyday,Current,95,75.5,500k-999k,Mobile App,Dormant
+FT-C01408,38,Male,Lagos,Premium,Savings,92,59.0,1m+,USSD,Active
+FT-C01409,28,Female,Enugu,Everyday,Savings,71,52.7,Below 100k,Mobile App,Active
+FT-C01410,57,Male,Abuja,Premium,Savings,94,62.3,250k-499k,Web,Active
+FT-C01411,28,Female,Port Harcourt,SME,Savings,43,89.8,100k-249k,Mobile App,Active
+FT-C01412,53,Female,Enugu,Everyday,Savings,62,61.8,Below 100k,Web,Active
+FT-C01413,56,Prefer not to say,Kano,Everyday,Savings,71,86.9,100k-249k,Mobile App,Dormant
+FT-C01414,57,Male,Lagos,Student,Savings,93,79.7,250k-499k,Mobile App,Dormant
+FT-C01415,52,Prefer not to say,Port Harcourt,Student,Current,24,98.9,Below 100k,Mobile App,Active
+FT-C01416,51,Female,Abuja,Everyday,Savings,39,71.6,100k-249k,Mobile App,Active
+FT-C01417,64,Male,Benin City,Everyday,Savings,68,67.1,Below 100k,USSD,Active
+FT-C01418,41,Female,Kano,SME,Savings,93,87.8,100k-249k,Mobile App,Active
+FT-C01419,39,Female,Ibadan,Student,Savings,44,51.2,100k-249k,Mobile App,Active
+FT-C01420,22,Male,Abuja,Everyday,Savings,5,60.0,500k-999k,USSD,Active
+FT-C01421,50,Female,Benin City,Everyday,Savings,55,37.8,250k-499k,Web,Active
+FT-C01422,53,Male,Lagos,Premium,Premium,93,45.4,500k-999k,Mobile App,Active
+FT-C01423,64,Male,Lagos,Everyday,Savings,30,100.0,100k-249k,Mobile App,Active
+FT-C01424,37,Female,Lagos,Everyday,Current,29,80.5,100k-249k,Mobile App,Active
+FT-C01425,36,Male,Lagos,SME,Premium,26,43.3,100k-249k,USSD,Active
+FT-C01426,52,Male,Lagos,Everyday,Current,83,89.5,Below 100k,Web,Active
+FT-C01427,60,Female,Benin City,Student,Savings,26,55.3,250k-499k,USSD,Active
+FT-C01428,34,Male,Kaduna,Everyday,Premium,37,79.5,100k-249k,Mobile App,Active
+FT-C01429,62,Male,Lagos,Student,Savings,91,79.3,100k-249k,Mobile App,Dormant
+FT-C01430,60,Female,Lagos,Student,Savings,94,98.0,250k-499k,Mobile App,Dormant
+FT-C01431,51,Male,Lagos,Everyday,Premium,53,58.3,100k-249k,Web,Active
+FT-C01432,26,Prefer not to say,Lagos,Premium,Current,30,54.7,1m+,Mobile App,Active
+FT-C01433,43,Female,Lagos,Everyday,Savings,3,19.6,100k-249k,Mobile App,Active
+FT-C01434,19,Male,Enugu,SME,Savings,43,65.8,250k-499k,Mobile App,Active
+FT-C01435,26,Female,Lagos,SME,Savings,7,81.1,100k-249k,Mobile App,Active
+FT-C01436,26,Male,Abuja,Everyday,Savings,49,83.5,1m+,Web,Active
+FT-C01437,57,Male,Lagos,Everyday,Savings,73,90.5,100k-249k,Mobile App,Active
+FT-C01438,34,Female,Benin City,Everyday,Premium,41,73.2,250k-499k,Mobile App,Active
+FT-C01439,18,Female,Kano,Student,Premium,77,77.1,Below 100k,Mobile App,Active
+FT-C01440,42,Male,Kaduna,Everyday,Premium,79,69.2,500k-999k,USSD,Active
+FT-C01441,60,Female,Kano,Everyday,Savings,54,80.7,100k-249k,Mobile App,Restricted
+FT-C01442,57,Male,Lagos,Everyday,Current,69,51.2,100k-249k,Mobile App,Active
+FT-C01443,59,Female,Lagos,Everyday,Premium,93,42.6,500k-999k,Mobile App,Active
+FT-C01444,42,Male,Ibadan,Student,Premium,91,53.1,1m+,Mobile App,Active
+FT-C01445,56,Male,Abuja,Everyday,Savings,27,71.8,100k-249k,USSD,Active
+FT-C01446,52,Male,Port Harcourt,Premium,Savings,8,44.6,500k-999k,Mobile App,Active
+FT-C01447,20,Female,Lagos,Everyday,Savings,32,56.6,Below 100k,USSD,Active
+FT-C01448,54,Male,Lagos,Everyday,Savings,84,57.2,500k-999k,Mobile App,Active
+FT-C01449,61,Male,Port Harcourt,Premium,Current,64,82.1,250k-499k,USSD,Active
+FT-C01450,61,Female,Port Harcourt,SME,Current,10,79.9,250k-499k,Web,Active
+FT-C01451,47,Female,Kano,Student,Savings,13,69.3,500k-999k,Mobile App,Active
+FT-C01452,55,Female,Lagos,Everyday,Savings,63,76.1,500k-999k,Web,Active
+FT-C01453,51,Male,Port Harcourt,Everyday,Savings,93,76.5,100k-249k,Mobile App,Active
+FT-C01454,29,Male,Lagos,SME,Savings,35,61.5,500k-999k,Mobile App,Active
+FT-C01455,36,Female,Lagos,Everyday,Savings,61,58.2,Below 100k,Mobile App,Active
+FT-C01456,54,Male,Abuja,Everyday,Current,54,95.7,500k-999k,Mobile App,Active
+FT-C01457,61,Female,Lagos,SME,Savings,8,23.2,250k-499k,Web,Active
+FT-C01458,34,Female,Lagos,Student,Current,29,54.7,Below 100k,Mobile App,Active
+FT-C01459,27,Male,Lagos,SME,Savings,95,64.3,250k-499k,Web,Active
+FT-C01460,64,Male,Lagos,SME,Savings,41,78.1,250k-499k,Mobile App,Active
+FT-C01461,29,Male,Lagos,SME,Savings,30,88.4,250k-499k,Mobile App,Active
+FT-C01462,33,Female,Lagos,Everyday,Premium,86,100.0,100k-249k,USSD,Active
+FT-C01463,41,Male,Lagos,Everyday,Savings,21,66.3,100k-249k,Web,Active
+FT-C01464,36,Male,Lagos,Premium,Current,76,67.6,500k-999k,Web,Active
+FT-C01465,25,Female,Ibadan,Premium,Savings,11,74.5,100k-249k,Web,Active
+FT-C01466,48,Male,Lagos,Everyday,Premium,2,58.4,100k-249k,USSD,Active
+FT-C01467,38,Male,Lagos,Everyday,Current,50,46.7,250k-499k,Mobile App,Active
+FT-C01468,34,Male,Lagos,Everyday,Savings,41,66.3,Below 100k,Mobile App,Active
+FT-C01469,40,Female,Ibadan,Premium,Current,66,81.4,250k-499k,Mobile App,Active
+FT-C01470,54,Male,Enugu,Everyday,Savings,3,63.6,250k-499k,Mobile App,Active
+FT-C01471,33,Male,Kano,Everyday,Premium,80,75.4,250k-499k,Mobile App,Active
+FT-C01472,23,Female,Kano,Premium,Savings,51,34.4,100k-249k,Mobile App,Active
+FT-C01473,25,Male,Abuja,Student,Savings,68,68.3,100k-249k,Mobile App,Active
+FT-C01474,42,Male,Ibadan,Everyday,Current,87,60.7,100k-249k,USSD,Active
+FT-C01475,35,Female,Port Harcourt,Premium,Current,84,45.0,500k-999k,Web,Active
+FT-C01476,42,Female,Lagos,Student,Savings,25,79.8,Below 100k,Mobile App,Active
+FT-C01477,29,Male,Lagos,Everyday,Current,30,100.0,1m+,Mobile App,Active
+FT-C01478,32,Male,Lagos,Everyday,Savings,82,85.8,250k-499k,Mobile App,Active
+FT-C01479,43,Male,Enugu,Everyday,Savings,11,87.0,500k-999k,Mobile App,Active
+FT-C01480,58,Female,Port Harcourt,Everyday,Current,93,80.8,100k-249k,Web,Active
+FT-C01481,62,Prefer not to say,Kano,SME,Savings,17,79.6,100k-249k,Mobile App,Active
+FT-C01482,43,Female,Abuja,Everyday,Savings,26,35.6,500k-999k,Mobile App,Active
+FT-C01483,64,Female,Abuja,Premium,Current,23,65.7,Below 100k,USSD,Active
+FT-C01484,49,Male,Lagos,Everyday,Savings,56,77.2,Below 100k,Web,Active
+FT-C01485,27,Female,Lagos,Everyday,Current,52,77.6,100k-249k,Web,Active
+FT-C01486,33,Female,Benin City,Premium,Savings,48,90.9,1m+,Web,Active
+FT-C01487,24,Female,Port Harcourt,Everyday,Savings,20,49.4,250k-499k,Mobile App,Active
+FT-C01488,34,Female,Lagos,Everyday,Savings,2,78.9,250k-499k,Mobile App,Active
+FT-C01489,40,Female,Benin City,Everyday,Current,88,48.8,250k-499k,Web,Restricted
+FT-C01490,43,Prefer not to say,Lagos,Everyday,Current,31,64.2,100k-249k,Web,Active
+FT-C01491,38,Female,Kaduna,Premium,Savings,27,66.9,500k-999k,Mobile App,Restricted
+FT-C01492,39,Male,Abuja,Everyday,Savings,2,83.5,100k-249k,Mobile App,Active
+FT-C01493,24,Male,Lagos,SME,Premium,78,81.4,500k-999k,Mobile App,Active
+FT-C01494,31,Male,Lagos,Premium,Savings,4,70.2,100k-249k,Mobile App,Active
+FT-C01495,32,Female,Lagos,Everyday,Premium,13,29.3,100k-249k,Mobile App,Active
+FT-C01496,24,Male,Lagos,Everyday,Savings,35,76.0,250k-499k,Mobile App,Active
+FT-C01497,26,Male,Ibadan,Premium,Current,72,63.2,100k-249k,Mobile App,Active
+FT-C01498,65,Male,Enugu,Student,Savings,66,93.1,250k-499k,Mobile App,Active
+FT-C01499,25,Male,Benin City,Everyday,Premium,6,88.8,100k-249k,Mobile App,Active
+FT-C01500,40,Male,Lagos,Student,Current,31,51.1,100k-249k,Web,Active
